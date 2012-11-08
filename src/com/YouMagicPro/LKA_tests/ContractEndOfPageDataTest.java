@@ -8,11 +8,8 @@ import org.testng.annotations.Test;
 	public class ContractEndOfPageDataTest  extends TestBase{
 
     	@Test
-    	public void contractEndOfPageDataTest() {
-    	waitContractPageToLoad();
-    		
-    		WebDriverWait wait = new WebDriverWait(driver, 10);
-    		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bContent__innerHeader")));//ожидание загрузки страницы
+    	public void contractEndOfPageDataTest_C15062() {
+    		waitContractPageToLoad();
     		
     		driver.findElement(By.xpath("//div[5]/div[2]/span/a")).click(); //Нажатие "Оформить"
     		
@@ -24,21 +21,6 @@ import org.testng.annotations.Test;
     		assertEquals(driver.findElement(By.xpath("//td[2]/div/strong")).getText(), "ОАО «МТТ»");//Выбор оператора связи
     		assertEquals(driver.findElement(By.xpath("//tr[2]/td[2]/div/strong")).getText(), "Простой");//Тарифный план
     		assertEquals(driver.findElement(By.xpath("//tr[3]/td[2]/div/strong")).getText(), "Авансовая");//Форма расчетов
-    		
-
     	}
-    	
-    	private void waitContractPageToLoad()
-	    {
-	    	driver.get("http://umagicpro-pp.rnd.mtt/");//открытие портала
-	    	
-	    	driver.findElement(By.xpath("//span")).click();//нажатие на кнопку "Вход"
-	    	driver.switchTo().frame("iframe_autor");
-	    	driver.findElement(By.id("edit-name-1")).sendKeys("100126");//ввод логина пароля
-	    	driver.findElement(By.id("edit-pass-1")).sendKeys("1234");		
-	    	driver.findElement(By.id("edit-submit-1")).click();//нажатие на кнопку "Вход"
-	    	
-	    	WebDriverWait wait = new WebDriverWait(driver, 10);
-	    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bContent__innerHeader")));//ожидание загрузки страницы
-	    }
+ 
 }

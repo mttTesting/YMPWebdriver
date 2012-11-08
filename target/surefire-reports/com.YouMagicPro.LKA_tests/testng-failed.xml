@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.YouMagicPro.LKA_tests]">
+  <test name="com.YouMagicPro.LKA_tests(failed)">
+    <classes>
+      <class name="com.YouMagicPro.LKA_tests.ContractBikTest">
+        <methods>
+          <include name="contractBikTest"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractBikTest -->
+      <class name="com.YouMagicPro.LKA_tests.OrderToAdressTest">
+        <methods>
+          <include name="expenseStructureTest"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.OrderToAdressTest -->
+      <class name="com.YouMagicPro.LKA_tests.OrderDeliveryOfContractTest">
+        <methods>
+          <include name="expenseStructureTest"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.OrderDeliveryOfContractTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest">
+        <methods>
+          <include name="contractEndOfPageDataTest"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractCheckDocumentTest">
+        <methods>
+          <include name="closeSession"/>
+          <include name="contractCheckDocumentTest"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractCheckDocumentTest -->
+      <class name="com.YouMagicPro.LKA_tests.OrderByEmailTest">
+        <methods>
+          <include name="closeSession"/>
+          <include name="expenseStructureTest"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.OrderByEmailTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractKppTest">
+        <methods>
+          <include name="closeSession"/>
+          <include name="contractKppTest"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractKppTest -->
+      <class name="com.YouMagicPro.LKA_tests.BuyingAdditionalNumberTest">
+        <methods>
+          <include name="expenseStructureTest"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.BuyingAdditionalNumberTest -->
+      <class name="com.YouMagicPro.LKA_tests.OrderByPickUpTest">
+        <methods>
+          <include name="closeSession"/>
+          <include name="expenseStructureTest"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.OrderByPickUpTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractCorAccountTest">
+        <methods>
+          <include name="closeSession"/>
+          <include name="contractCorAccountTest"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractCorAccountTest -->
+      <class name="com.YouMagicPro.LKA_tests.GroupsTest">
+        <methods>
+          <include name="groupsTest"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.GroupsTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractFillBankAccountTest">
+        <methods>
+          <include name="contractFillBankAccountTest"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractFillBankAccountTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractOgrnTest">
+        <methods>
+          <include name="contractFillBankAccountTest"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractOgrnTest -->
+      <class name="com.YouMagicPro.LKA_tests.DiscSpaceTest">
+        <methods>
+          <include name="expenseStructureTest"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.DiscSpaceTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractInnTest">
+        <methods>
+          <include name="closeSession"/>
+          <include name="contractInnTest"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractInnTest -->
+      <class name="com.YouMagicPro.LKA_tests.Buing804NumberTest">
+        <methods>
+          <include name="expenseStructureTest"/>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.Buing804NumberTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractFillInDataTest">
+        <methods>
+          <include name="closeSession"/>
+          <include name="fillInContractDataTest"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractFillInDataTest -->
+      <class name="com.YouMagicPro.LKA_tests.ExpenseStructureTest">
+        <methods>
+          <include name="closeSession"/>
+          <include name="expenseStructureTest"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ExpenseStructureTest -->
+      <class name="com.YouMagicPro.LKA_tests.ExampleTest">
+        <methods>
+          <include name="exampleTest"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ExampleTest -->
+      <class name="com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="expenseStructureTest"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberTest -->
+    </classes>
+  </test> <!-- com.YouMagicPro.LKA_tests(failed) -->
+</suite> <!-- Failed suite [com.YouMagicPro.LKA_tests] -->

@@ -33,15 +33,4 @@ public class OrderByEmailTest  extends TestBase{
 		assertEquals(driver.findElement(By.xpath("//td[3]/div/div[2]/div/div/div")).getText(), "Ѕаланс");//проверка, закрылось ли окно
 		
 	}
-	private void waitAdminPageToLoad()
-    {
-    	driver.get("http://umagicpro-pp.rnd.mtt/");//открытие портала
-    	driver.findElement(By.xpath("//span")).click();//нажатие на кнопку "¬ход"
-    	driver.switchTo().frame("iframe_autor");
-    	driver.findElement(By.id("edit-name-1")).sendKeys("100174");//ввод логина парол€
-    	driver.findElement(By.id("edit-pass-1")).sendKeys("1234");		
-    	driver.findElement(By.id("edit-submit-1")).click();//нажатие на кнопку "¬ход"
-    	WebDriverWait wait = new WebDriverWait(driver, 10);
-    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bContent__innerHeader")));//ожидание загрузки страницы
-    }
 }

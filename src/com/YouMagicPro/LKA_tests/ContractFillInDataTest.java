@@ -12,13 +12,6 @@ public class ContractFillInDataTest  extends TestBase{
     	public void fillInContractDataTest() {  		
     		waitContractPageToLoad();
     		
-    		WebDriverWait wait = new WebDriverWait(driver, 10);
-    		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bContent__innerHeader")));//ожидание загрузки страницы
-    		
-    		driver.findElement(By.xpath("//div[5]/div[2]/span/a")).click();
-    		
-    		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bContent__innerHeader")));//ожидание загрузки страницы
-    		
     		driver.findElement(By.id("edit-buisness-form-company")).sendKeys("1234");//заполнение данными
     		driver.findElement(By.id("edit-bank-details-inn")).sendKeys("1234123411");
     		driver.findElement(By.id("edit-buisness-form-contact-man-wrapper-contact-man-base-value")).sendKeys("1234");
@@ -34,18 +27,9 @@ public class ContractFillInDataTest  extends TestBase{
     		driver.findElement(By.id("edit-bank-details-bik")).sendKeys("123456789");
     		
     		driver.findElement(By.id("edit-submit")).click();//нажатие на кнопку "Сохранить"
+    		
+    		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bDocWrap > h1")));//ожидание загрузки страницы
+    		assertEquals(driver.findElement(By.cssSelector("div.bDocWrap > h1")).getText(), "ДОГОВОР ОБ ОКАЗАНИИ УСЛУГ СВЯЗИ № 100126");
     	}
-    	private void waitContractPageToLoad()
-	    {
-	    	driver.get("http://umagicpro-pp.rnd.mtt/");//открытие портала
-	    	
-	    	driver.findElement(By.xpath("//span")).click();//нажатие на кнопку "Вход"
-	    	driver.switchTo().frame("iframe_autor");
-	    	driver.findElement(By.id("edit-name-1")).sendKeys("100126");//ввод логина пароля
-	    	driver.findElement(By.id("edit-pass-1")).sendKeys("1234");		
-	    	driver.findElement(By.id("edit-submit-1")).click();//нажатие на кнопку "Вход"
-	    	
-	    	WebDriverWait wait = new WebDriverWait(driver, 10);
-	    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bContent__innerHeader")));//ожидание загрузки страницы
-	    }
+
 }

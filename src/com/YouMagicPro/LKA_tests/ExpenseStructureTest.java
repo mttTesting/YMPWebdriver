@@ -18,16 +18,4 @@ public class ExpenseStructureTest extends TestBase{
 		assertEquals(driver.findElement(By.xpath("//form/div/div/div/div")).getText(), "Выбор номера");//проверяем переход по ссылке выбора доп. номера
 
 		}
-	private void waitAdminPageToLoad()
-    {
-    	driver.get("http://umagicpro-pp.rnd.mtt/");//открытие портала
-    	driver.findElement(By.xpath("//span")).click();//нажатие на кнопку "Вход"
-    	driver.switchTo().frame("iframe_autor");
-    	driver.findElement(By.id("edit-name-1")).sendKeys("100126");//ввод логина пароля
-    	driver.findElement(By.id("edit-pass-1")).sendKeys("1234");		
-    	driver.findElement(By.id("edit-submit-1")).click();//нажатие на кнопку "Вход"
-    	WebDriverWait wait = new WebDriverWait(driver, 10);
-    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bContent__innerHeader")));//ожидание загрузки страницы
-    }
-	
 }
