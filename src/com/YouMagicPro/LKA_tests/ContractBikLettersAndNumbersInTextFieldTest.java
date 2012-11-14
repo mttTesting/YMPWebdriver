@@ -7,6 +7,6 @@ public class ContractBikLettersAndNumbersInTextFieldTest   extends TestBase{
 	public void contractBikTest_C15025() {
 	waitContractPageToLoad();
 	
-	sendKeysAndAssert("asdfgh121212", "БИК может содержать только цифры.");//Ввод букв и цифр в поле ввода БИК
+	sendKeysAndAssert_bik("asdfgh121212", "БИК может содержать только цифры.");//Ввод букв и цифр в поле ввода БИК
 	}
 }

@@ -11,7 +11,6 @@ public class BuyingAdditionalNumberChooseNumberCategories extends TestBase{
 		waitAdminPageToLoad();
 		
 		driver.findElement(By.xpath("//tr[2]/td[3]/span/a")).click();//нажатие "изменить"
-		WebDriverWait wait = new WebDriverWait(driver, 10);
     	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.content_body_header")));//ожидание загрузки страницы
 		//проверка наличия категорий номеров
 		driver.findElement(By.xpath("//li[3]/a")).isDisplayed();

@@ -27,7 +27,7 @@ public class ContractInnChooseFormTest  extends TestBase{
 	private void sendKeysAndAssert(String keys, String errorString, String xPathDropdownList)
 	{
 		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bContent__innerHeader")));//ожидание загрузки страницы
-		driver.findElement(By.id("edit-bank-details-inn")).click();// без клика и очистки поле не заполняется
+		//driver.findElement(By.id("edit-bank-details-inn")).click();// без клика и очистки поле не заполняется
 		driver.findElement(By.id("edit-bank-details-inn")).clear();
 		driver.findElement(By.id("edit-bank-details-inn")).sendKeys(keys);	//Вводим keys в поле ввода ИНН
 		driver.findElement(By.xpath("//span/span/span")).click();

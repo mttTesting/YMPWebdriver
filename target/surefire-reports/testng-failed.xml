@@ -3,128 +3,384 @@
 <suite verbose="0" name="Failed suite [com.YouMagicPro.LKA_tests]">
   <test name="com.YouMagicPro.LKA_tests(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKA_tests.ContractBikTest">
+      <class name="com.YouMagicPro.LKA_tests.ContractBankAccountTenInTextFieldTest">
         <methods>
-          <include name="contractBikTest"/>
+          <include name="startWebDriver"/>
           <include name="closeSession"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractBikTest -->
-      <class name="com.YouMagicPro.LKA_tests.OrderToAdressTest">
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractBankAccountTenInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.OrderByPickUpCancelButtonTest">
         <methods>
-          <include name="expenseStructureTest"/>
+          <include name="startWebDriver"/>
           <include name="closeSession"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.OrderToAdressTest -->
-      <class name="com.YouMagicPro.LKA_tests.OrderDeliveryOfContractTest">
+      </class> <!-- com.YouMagicPro.LKA_tests.OrderByPickUpCancelButtonTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractBikLettersAndNumbersInTextFieldTest">
         <methods>
-          <include name="expenseStructureTest"/>
+          <include name="startWebDriver"/>
           <include name="closeSession"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.OrderDeliveryOfContractTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractBikLettersAndNumbersInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.OrderByPickUpChangeNameTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.OrderByPickUpChangeNameTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractOgrnLettersAndNumbersInTextFieldTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractOgrnLettersAndNumbersInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.OrderToAdressNoTextFieldFilledTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.OrderToAdressNoTextFieldFilledTest -->
+      <class name="com.YouMagicPro.LKA_tests.OrderToAdressCancelButtonClickTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.OrderToAdressCancelButtonClickTest -->
+      <class name="com.YouMagicPro.LKA_tests.OrderToAdressChangePhoneTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.OrderToAdressChangePhoneTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractBikSymbolsInTextFieldTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractBikSymbolsInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.OrderByPickUpOrderWithoutDocTypeCheckedTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.OrderByPickUpOrderWithoutDocTypeCheckedTest -->
+      <class name="com.YouMagicPro.LKA_tests.OrderByEmailChangeEmailTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.OrderByEmailChangeEmailTest -->
+      <class name="com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumberCategories">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumberCategories -->
+      <class name="com.YouMagicPro.LKA_tests.ContractCorAccountSymbolsInTextFieldTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="contractCorAccountSymbolsInTextFieldTest_C15003"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractCorAccountSymbolsInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractBikLettersInTextFieldTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractBikLettersInTextFieldTest -->
       <class name="com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest">
         <methods>
-          <include name="contractEndOfPageDataTest"/>
+          <include name="startWebDriver"/>
           <include name="closeSession"/>
         </methods>
       </class> <!-- com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest -->
-      <class name="com.YouMagicPro.LKA_tests.ContractCheckDocumentTest">
+      <class name="com.YouMagicPro.LKA_tests.ContractInnLettersInTextFieldTest">
         <methods>
-          <include name="closeSession"/>
-          <include name="contractCheckDocumentTest"/>
-        </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractCheckDocumentTest -->
-      <class name="com.YouMagicPro.LKA_tests.OrderByEmailTest">
-        <methods>
-          <include name="closeSession"/>
-          <include name="expenseStructureTest"/>
-        </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.OrderByEmailTest -->
-      <class name="com.YouMagicPro.LKA_tests.ContractKppTest">
-        <methods>
-          <include name="closeSession"/>
-          <include name="contractKppTest"/>
-        </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractKppTest -->
-      <class name="com.YouMagicPro.LKA_tests.BuyingAdditionalNumberTest">
-        <methods>
-          <include name="expenseStructureTest"/>
+          <include name="startWebDriver"/>
           <include name="closeSession"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.BuyingAdditionalNumberTest -->
-      <class name="com.YouMagicPro.LKA_tests.OrderByPickUpTest">
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractInnLettersInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractKpp6NumbersInTextFieldTest">
         <methods>
-          <include name="closeSession"/>
-          <include name="expenseStructureTest"/>
-        </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.OrderByPickUpTest -->
-      <class name="com.YouMagicPro.LKA_tests.ContractCorAccountTest">
-        <methods>
-          <include name="closeSession"/>
-          <include name="contractCorAccountTest"/>
-        </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractCorAccountTest -->
-      <class name="com.YouMagicPro.LKA_tests.GroupsTest">
-        <methods>
-          <include name="groupsTest"/>
+          <include name="startWebDriver"/>
           <include name="closeSession"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.GroupsTest -->
-      <class name="com.YouMagicPro.LKA_tests.ContractFillBankAccountTest">
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractKpp6NumbersInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.OrderDeliveryOfContractDropdownListTest">
         <methods>
-          <include name="contractFillBankAccountTest"/>
+          <include name="startWebDriver"/>
           <include name="closeSession"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractFillBankAccountTest -->
-      <class name="com.YouMagicPro.LKA_tests.ContractOgrnTest">
+      </class> <!-- com.YouMagicPro.LKA_tests.OrderDeliveryOfContractDropdownListTest -->
+      <class name="com.YouMagicPro.LKA_tests.Buying804NumberCategoriesOfNumbers">
         <methods>
-          <include name="contractFillBankAccountTest"/>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+          <include name="buying804NumberCategoriesOfNumbers_C25622"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.Buying804NumberCategoriesOfNumbers -->
+      <class name="com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseCityFromList">
+        <methods>
+          <include name="startWebDriver"/>
           <include name="closeSession"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractOgrnTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseCityFromList -->
+      <class name="com.YouMagicPro.LKA_tests.ContractKppSymbolsTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractKppSymbolsTest -->
+      <class name="com.YouMagicPro.LKA_tests.OrderByPickUpChangePhoneTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.OrderByPickUpChangePhoneTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractBankAccountSymbolsInTextFieldTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractBankAccountSymbolsInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractCorAccountLettersInTextFieldTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="contractCorAccountLettersInTextFieldTest_C15001"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractCorAccountLettersInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractOgrnSymbolsTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractOgrnSymbolsTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractBankAccountLettersInTextFieldTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractBankAccountLettersInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.OrderDeliveryOfContractCancelButtonTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.OrderDeliveryOfContractCancelButtonTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractCorAccount19NumbersTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractCorAccount19NumbersTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractKppOneNumberInTextFieldTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractKppOneNumberInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.GroupsThreeInNumberTest">
+        <methods>
+          <include name="groupsThreeInNumberTest_C15189"/>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.GroupsThreeInNumberTest -->
+      <class name="com.YouMagicPro.LKA_tests.Buying804NumberCostOfNumberTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.Buying804NumberCostOfNumberTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractCorAccountLettersAndNumbersTextFieldTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractCorAccountLettersAndNumbersTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.ExpenseStructureChooseAdditionalNumbersTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ExpenseStructureChooseAdditionalNumbersTest -->
+      <class name="com.YouMagicPro.LKA_tests.OrderToAdressChangeNameTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.OrderToAdressChangeNameTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractCorAccountOneInTextFieldTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractCorAccountOneInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.OrderByEmailOrderWithoutDocTypeCheckedTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.OrderByEmailOrderWithoutDocTypeCheckedTest -->
+      <class name="com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumbersFromList">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumbersFromList -->
+      <class name="com.YouMagicPro.LKA_tests.ExpenseStructureRentalFeeTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ExpenseStructureRentalFeeTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractInnOneInTextFieldTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="contractInnOneInTextFieldTest_C15028"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractInnOneInTextFieldTest -->
       <class name="com.YouMagicPro.LKA_tests.DiscSpaceTest">
         <methods>
-          <include name="expenseStructureTest"/>
+          <include name="startWebDriver"/>
           <include name="closeSession"/>
         </methods>
       </class> <!-- com.YouMagicPro.LKA_tests.DiscSpaceTest -->
-      <class name="com.YouMagicPro.LKA_tests.ContractInnTest">
+      <class name="com.YouMagicPro.LKA_tests.ContractBik1inTextFieldTest">
         <methods>
-          <include name="closeSession"/>
-          <include name="contractInnTest"/>
-        </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractInnTest -->
-      <class name="com.YouMagicPro.LKA_tests.Buing804NumberTest">
-        <methods>
-          <include name="expenseStructureTest"/>
           <include name="startWebDriver"/>
           <include name="closeSession"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.Buing804NumberTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractBik1inTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractKppLettersAndNumbersTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractKppLettersAndNumbersTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractCheckDocumentTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractCheckDocumentTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractBankAccountLettersAndNumbersTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractBankAccountLettersAndNumbersTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractCorAccountTenInTextFieldTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractCorAccountTenInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractInnChooseFormTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractInnChooseFormTest -->
+      <class name="com.YouMagicPro.LKA_tests.ExpenseStructureInternalNumbersFeeTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ExpenseStructureInternalNumbersFeeTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractKppLettersTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractKppLettersTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractInn6NumbersInTextFieldTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractInn6NumbersInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.GroupsOneInNumberTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+          <include name="groupsTest"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.GroupsOneInNumberTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractOgrnOneNumberInTextFieldTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractOgrnOneNumberInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberCheckCost">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberCheckCost -->
+      <class name="com.YouMagicPro.LKA_tests.OrderByEmailCancelButtonTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.OrderByEmailCancelButtonTest -->
       <class name="com.YouMagicPro.LKA_tests.ContractFillInDataTest">
         <methods>
+          <include name="startWebDriver"/>
           <include name="closeSession"/>
-          <include name="fillInContractDataTest"/>
         </methods>
       </class> <!-- com.YouMagicPro.LKA_tests.ContractFillInDataTest -->
-      <class name="com.YouMagicPro.LKA_tests.ExpenseStructureTest">
-        <methods>
-          <include name="closeSession"/>
-          <include name="expenseStructureTest"/>
-        </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.ExpenseStructureTest -->
-      <class name="com.YouMagicPro.LKA_tests.ExampleTest">
-        <methods>
-          <include name="exampleTest"/>
-          <include name="closeSession"/>
-        </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.ExampleTest -->
-      <class name="com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberTest">
+      <class name="com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberTextFieldTest">
         <methods>
           <include name="startWebDriver"/>
-          <include name="expenseStructureTest"/>
           <include name="closeSession"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractInnSymbolsInTextFieldTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractInnSymbolsInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractOgrnLettersInTextFieldTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractOgrnLettersInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.ExpenseStructureAdditionalNumbersFeeTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ExpenseStructureAdditionalNumbersFeeTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractOgrn6NumbersInTextFieldTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractOgrn6NumbersInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.OrderByEmailChangeNameTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.OrderByEmailChangeNameTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractBankAccountOneInTextFieldTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractBankAccountOneInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.ExpenseStructureChooseIntNumbersPageTest">
+        <methods>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.YouMagicPro.LKA_tests.ExpenseStructureChooseIntNumbersPageTest -->
     </classes>
   </test> <!-- com.YouMagicPro.LKA_tests(failed) -->
 </suite> <!-- Failed suite [com.YouMagicPro.LKA_tests] -->

@@ -10,7 +10,7 @@ public class ContractBankAccountSymbolsInTextFieldTest extends TestBase{
 	public void contractBankAccountSymbolsInTextFieldTest_C14997() {
 		waitContractPageToLoad();
 
-		sendKeysAndAssert("!;:?*()_+=@#$%^&", "Номер банковского счета может содержать только цифры.");//Ввод симвволов поле ввода банковского счета
+		sendKeysAndAssert_bankAccount("!;:?*()_+=@#$%^&", "Номер банковского счета может содержать только цифры.");//Ввод симвволов поле ввода банковского счета
 	}
 
 }

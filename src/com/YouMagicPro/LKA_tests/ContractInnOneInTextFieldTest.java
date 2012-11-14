@@ -7,6 +7,6 @@ public class ContractInnOneInTextFieldTest  extends TestBase{
 	public void contractInnOneInTextFieldTest_C15028() {
 	waitContractPageToLoad();
 	
-	sendKeysAndAssert("1","ИНН должен состоять из 10 или 12 символов.");
+	sendKeysAndAssert_inn("1","ИНН должен состоять из 10 или 12 символов.");
 	}
 }

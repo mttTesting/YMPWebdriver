@@ -10,11 +10,15 @@ public class ContractCorAccount19NumbersTest extends TestBase{
 	public void contractCorAccount19NumbersTest_C15005() {
 	waitContractPageToLoad();
 	
+	
+	
+	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bContent__innerHeader")));//ожидание загрузки страницы
 	driver.findElement(By.id("edit-bank-details-kor-account")).click();// без клика и очистки поле не заполняется
 	driver.findElement(By.id("edit-bank-details-kor-account")).clear();
-	driver.findElement(By.id("edit-bank-details-kor-account")).sendKeys("1234567890123456789");	//Ввод в поле ввода Кор. счета
+	driver.findElement(By.id("edit-bank-details-kor-account")).sendKeys("1234567890123456789");	//Вводим keys в поле ввода ИНН
 	driver.findElement(By.id("edit-submit")).click();
 	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bDocWrap > h1")));//ожидание загрузки страницы
-	assertEquals(driver.findElement(By.cssSelector("div.bDocWrap > h1")).getText(), "ДОГОВОР ОБ ОКАЗАНИИ УСЛУГ СВЯЗИ № 100126");
+	assertEquals(driver.findElement(By.cssSelector("div.section-title")).getText(), "Проверьте правильность заполнения договора и подпишите");
+	
 	}
 }

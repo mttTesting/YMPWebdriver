@@ -1,6 +1,7 @@
 package com.YouMagicPro.LKA_tests;
 
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 import java.util.logging.FileHandler;
 import java.util.logging.Formatter;
 import java.util.logging.Handler;
@@ -26,28 +27,16 @@ import org.testng.annotations.BeforeTest;
 		public static Wait wait;
 	 
 		@SuppressWarnings("deprecation")
-		@BeforeTest(alwaysRun = true)
-		
+		@BeforeClass(alwaysRun = true)
 		
 	    protected void startWebDriver() throws SecurityException, IOException {
-
-
+			
 			System.setProperty("webdriver.chrome.driver", "C:\\GitWorkspace\\chromedriver.exe");
 	    	driver = new ChromeDriver();
 	    	wait = new WebDriverWait(driver, 120);
-	    	
-	    	Logger logger = Logger.getLogger(RemoteWebDriver.class.getName());
-	    	String logFileName = "C:\\GitWorkspace\\YMPWebdriver\\logs.txt";
-	    	Handler handler = new FileHandler(logFileName, true);
-	    	SimpleFormatter newFormatter = new SimpleFormatter();
-	    	handler.setLevel(Level.ALL);
-	    	handler.setFormatter(newFormatter);
-	    	logger.addHandler(handler);
-	    	driver.setLogLevel(Level.ALL);
-
 	    }
 	 
-	    @AfterTest(alwaysRun = true)
+	    @AfterClass(alwaysRun = true)
 	    protected void closeSession() {
 		    driver.close();
 	    }
@@ -55,7 +44,7 @@ import org.testng.annotations.BeforeTest;
 	    public static void assertEquals(Object actual, Object expected) {
 	    	Assert.assertEquals(actual, expected);
 	    }
-	    public static void sendKeysAndAssert(String keys, String errorString)
+	    public static void sendKeysAndAssert_bik(String keys, String errorString)
 		{
 			driver.findElement(By.id("edit-bank-details-bik")).click();// без клика и очистки поле не заполняется
 			driver.findElement(By.id("edit-bank-details-bik")).clear();
@@ -64,16 +53,74 @@ import org.testng.annotations.BeforeTest;
 			wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.messages.error")));//ожидание загрузки страницы
 			assertEquals(driver.findElement(By.cssSelector("div.messages.error")).getText(), errorString);
 		}
+	    public static void sendKeysAndAssert_bankAccount(String keys, String errorString)
+		{
+			driver.findElement(By.id("edit-bank-details-bank-account")).click();// без клика и очистки поле не заполняется
+			driver.findElement(By.id("edit-bank-details-bank-account")).clear();
+			driver.findElement(By.id("edit-bank-details-bank-account")).sendKeys(keys);	//Ввод в поле ввода БИК
+			driver.findElement(By.id("edit-submit")).click();
+			wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.messages.error")));//ожидание загрузки страницы
+			assertEquals(driver.findElement(By.cssSelector("div.messages.error")).getText(), errorString);
+		}
+	    public static void sendKeysAndAssert_cor(String keys, String errorString)
+	    {
+	    	driver.findElement(By.id("edit-bank-details-kor-account")).click();// без клика и очистки поле не заполняется
+	    	driver.findElement(By.id("edit-bank-details-kor-account")).clear();
+	    	driver.findElement(By.id("edit-bank-details-kor-account")).sendKeys(keys);	//Ввод в поле ввода Кор. счета
+	    	driver.findElement(By.id("edit-submit")).click();
+			wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.messages.error")));//ожидание загрузки страницы
+			assertEquals(driver.findElement(By.cssSelector("div.messages.error")).getText(), errorString);
+	    }
+	    public static void sendKeysAndAssert_kpp(String keys, String errorString)
+	    {
+	    	driver.findElement(By.id("edit-bank-details-kpp")).click();// без клика и очистки поле не заполняется
+	    	driver.findElement(By.id("edit-bank-details-kpp")).clear();
+	    	driver.findElement(By.id("edit-bank-details-kpp")).sendKeys(keys);	//Ввод в поле ввода Кор. счета
+	    	driver.findElement(By.id("edit-submit")).click();
+			wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.messages.error")));//ожидание загрузки страницы
+			assertEquals(driver.findElement(By.cssSelector("div.messages.error")).getText(), errorString);
+	    }
+	    public static void sendKeysAndAssert_ogrn(String keys, String errorString)
+	    {
+	    	driver.findElement(By.id("edit-bank-details-ogrn")).click();// без клика и очистки поле не заполняется
+	    	driver.findElement(By.id("edit-bank-details-ogrn")).clear();
+	    	driver.findElement(By.id("edit-bank-details-ogrn")).sendKeys(keys);	//Ввод в поле ввода Кор. счета
+	    	driver.findElement(By.id("edit-submit")).click();
+			wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.messages.error")));//ожидание загрузки страницы
+			assertEquals(driver.findElement(By.cssSelector("div.messages.error")).getText(), errorString);
+	    }
+	    public static void sendKeysAndAssert_inn(String keys, String errorString)
+	    {
+	    	driver.findElement(By.id("edit-bank-details-inn")).click();// без клика и очистки поле не заполняется
+	    	driver.findElement(By.id("edit-bank-details-inn")).clear();
+	    	driver.findElement(By.id("edit-bank-details-inn")).sendKeys(keys);	//Ввод в поле ввода Кор. счета
+	    	driver.findElement(By.id("edit-submit")).click();
+			wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.messages.error")));//ожидание загрузки страницы
+			assertEquals(driver.findElement(By.cssSelector("div.messages.error")).getText(), errorString);
+	    }
 	    public static void waitAdminPageToLoad()
+	    {
+	    	driver.get("http://account.umagicpro-pp.rnd.mtt/user/login/");
+	    	
+	    	driver.findElement(By.id("edit-name-1")).sendKeys("100126");//ввод логина пароля
+	    	driver.findElement(By.id("edit-pass-1")).sendKeys("1234");		
+	    	driver.findElement(By.id("edit-submit-1")).click();//нажатие на кнопку "Вход"
+	    	
+	    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
+	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
+	    	driver.findElement(By.xpath("//td[2]/div/span")).click();
+	    }
+	    public static void waitAdminPageToLoadSecondAccount()
 	    {
 	    	driver.get("http://umagicpro-pp.rnd.mtt/");//открытие портала
 	    	driver.findElement(By.xpath("//span")).click();//нажатие на кнопку "Вход"
 	    	driver.switchTo().frame("iframe_autor");
-	    	driver.findElement(By.id("edit-name-1")).sendKeys("100126");//ввод логина пароля
+	    	driver.findElement(By.id("edit-name-1")).sendKeys("100177");//ввод логина пароля
 	    	driver.findElement(By.id("edit-pass-1")).sendKeys("1234");		
 	    	driver.findElement(By.id("edit-submit-1")).click();//нажатие на кнопку "Вход"
-	    	WebDriverWait wait = new WebDriverWait(driver, 10);
-	    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bContent__innerHeader")));//ожидание загрузки страницы
+	    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
+	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
+	    	//driver.findElement(By.xpath("//td[2]/div/span")).click();
 	    }
 	    public static void  waitContractPageToLoad()
 	    {
@@ -85,10 +132,9 @@ import org.testng.annotations.BeforeTest;
 	    	driver.findElement(By.id("edit-pass-1")).sendKeys("1234");		
 	    	driver.findElement(By.id("edit-submit-1")).click();//нажатие на кнопку "Вход"
 	    	
-	    	WebDriverWait wait = new WebDriverWait(driver, 10);
-	    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bContent__innerHeader")));//ожидание загрузки страницы
+	    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
 	    	
-	    	driver.findElement(By.xpath("//div[4]/a")).click();
+	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
 	    	driver.findElement(By.xpath("//td[2]/div/span")).click();
 	    	
 	    	driver.findElement(By.xpath("//div[5]/div[2]/span/a")).click(); //Нажатие "Оформить"

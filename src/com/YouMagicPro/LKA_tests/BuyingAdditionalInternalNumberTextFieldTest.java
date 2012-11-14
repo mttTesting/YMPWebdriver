@@ -12,7 +12,5 @@ public class BuyingAdditionalInternalNumberTextFieldTest  extends TestBase{
 		driver.findElement(By.xpath("//tr[3]/td[3]/span/a")).click();
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//form/div/div/div/div")));//ожидание загрузки страницы
 		driver.findElement(By.id("edit-add-count-employee")).sendKeys("1234");//проверка ввода в поле кол-ва дополнительных номеров
-		driver.findElement(By.xpath("//div[3]/div/div/div/a")).click();//нажатие кнопки отмены
-		driver.findElement(By.xpath("//span[3]/a")).click(); //нажатие "выйти"
-	}
+	}		
 }

@@ -10,7 +10,7 @@ public class ContractBankAccountLettersInTextFieldTest extends TestBase{
 	public void contractBankAccountLettersInTextFieldTest_C14995() {
 		waitContractPageToLoad();
 		
-		sendKeysAndAssert("abcdefgh", "Номер банковского счета может содержать только цифры.");//Ввод букв в поле ввода банковского счета
+		sendKeysAndAssert_bankAccount("abcdefgh", "Номер банковского счета может содержать только цифры.");//Ввод букв в поле ввода банковского счета
 	}
 
 }

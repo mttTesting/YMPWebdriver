@@ -7,6 +7,6 @@ public class ContractCorAccountLettersAndNumbersTextFieldTest  extends TestBase{
 	public void contractCorAccountTenInTextFieldTest_C15000() {
 	waitContractPageToLoad();
 	
-	sendKeysAndAssert("1234sd7sdsd", "Корр.счет может содержать только цифры.");//Ввод 10ти цифр в поле ввода Кор. счета
+	sendKeysAndAssert_cor("1234sd7sdsd", "Корр.счет может содержать только цифры.");//Ввод 10ти цифр в поле ввода Кор. счета
 	}
 }

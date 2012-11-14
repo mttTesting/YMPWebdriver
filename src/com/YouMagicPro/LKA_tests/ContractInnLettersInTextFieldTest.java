@@ -7,6 +7,8 @@ public class ContractInnLettersInTextFieldTest  extends TestBase{
 	public void contractInnLettersInTextFieldTest_C15030() {
 	waitContractPageToLoad();
 	
-	sendKeysAndAssert("sdsdsdcf","ИНН должен состоять из 10 или 12 символов.");
+	sendKeysAndAssert_inn("sdsdsdcf","ИНН может содержать только цифры.");
 	}
+
 }
+

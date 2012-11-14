@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKA_tests.ContractBikTest">
+      <class name="com.YouMagicPro.LKA_tests.VoiceMenuAddTest">
         <methods>
           <include name="startWebDriver"/>
+          <include name="voiceMenuAddTest_C15292"/>
           <include name="closeSession"/>
-          <include name="contractBikTest_C15022_27"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractBikTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.VoiceMenuAddTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

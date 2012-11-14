@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35613" started-at="2012-11-08T06:56:59Z" finished-at="2012-11-08T06:57:35Z">
+  <suite name="Default suite" duration-ms="89927" started-at="2012-11-14T07:12:06Z" finished-at="2012-11-14T07:13:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35613" started-at="2012-11-08T06:56:59Z" finished-at="2012-11-08T06:57:35Z">
-      <class name="com.YouMagicPro.LKA_tests.ContractBikTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBikTest@33c063ff]" name="startWebDriver" is-config="true" duration-ms="1625" started-at="2012-11-08T10:56:59Z" finished-at="2012-11-08T10:57:01Z">
+    <test name="Default test" duration-ms="89927" started-at="2012-11-14T07:12:06Z" finished-at="2012-11-14T07:13:36Z">
+      <class name="com.YouMagicPro.LKA_tests.VoiceMailEmptyNameTextFieldTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.VoiceMailEmptyNameTextFieldTest@5b293ce7]" name="startWebDriver" is-config="true" duration-ms="1778" started-at="2012-11-14T11:12:06Z" finished-at="2012-11-14T11:12:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractBikTest_C15022_27()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBikTest@33c063ff]" name="contractBikTest_C15022_27" duration-ms="33977" started-at="2012-11-08T10:57:01Z" finished-at="2012-11-08T10:57:35Z">
+        <test-method status="PASS" signature="voiceMailEmptyNameTextFieldTest_C19851()[pri:0, instance:com.YouMagicPro.LKA_tests.VoiceMailEmptyNameTextFieldTest@5b293ce7]" name="voiceMailEmptyNameTextFieldTest_C19851" duration-ms="88138" started-at="2012-11-14T11:12:08Z" finished-at="2012-11-14T11:13:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- contractBikTest_C15022_27 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBikTest@33c063ff]" name="closeSession" is-config="true" duration-ms="3" started-at="2012-11-08T10:57:35Z" finished-at="2012-11-08T10:57:35Z">
+        </test-method> <!-- voiceMailEmptyNameTextFieldTest_C19851 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.VoiceMailEmptyNameTextFieldTest@5b293ce7]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-14T11:13:36Z" finished-at="2012-11-14T11:13:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractBikTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.VoiceMailEmptyNameTextFieldTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

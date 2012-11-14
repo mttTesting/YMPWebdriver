@@ -10,7 +10,6 @@ public class ContractBikSymbolsInTextFieldTest  extends TestBase{
 	public void contractBikSymbolsInTextFieldTest_C15026() {
 	waitContractPageToLoad();
 	
-	sendKeysAndAssert("!;:?*()_+=@#$%^&", "БИК может содержать только цифры.");//Ввод букв и цифр в поле ввода БИК
-
+	sendKeysAndAssert_bik("!;:?*()_+=@#$%^&", "БИК может содержать только цифры.");//Ввод букв и цифр в поле ввода БИК
 	}
 }

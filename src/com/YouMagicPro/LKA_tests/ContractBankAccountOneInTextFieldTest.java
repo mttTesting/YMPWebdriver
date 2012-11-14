@@ -10,7 +10,7 @@ public class ContractBankAccountOneInTextFieldTest extends TestBase{
 	public void contractBankAccountOneInTextFieldTest_C14993() {
 		waitContractPageToLoad();
 	
-		sendKeysAndAssert("1", "ƒлина номера банковского счета должна быть равна 20 цифрам.");//¬вод единицы в поле ввода банковского счета
+		sendKeysAndAssert_bankAccount("1", "ƒлина номера банковского счета должна быть равна 20 цифрам.");//¬вод единицы в поле ввода банковского счета
 	}
 
 }

@@ -7,15 +7,10 @@ import org.testng.annotations.Test;
 
 public class ContractKpp6NumbersInTextFieldTest extends TestBase{
 	@Test
-	public void contractKppTest_C15048_C15052() {
+	public void contractKppTest_C15049() {
 	waitContractPageToLoad();
 
-	sendKeysAndAssert("1","Количество цифр в КПП должно быть 9.");//вводим 1 в поле ввода КПП
-	sendKeysAndAssert("123456","Количество цифр в КПП должно быть 9.");//вводим 1 в поле ввода КПП
-	sendKeysAndAssert("asdfghjklq","КПП может содержать только цифры.");//вводим буквы в поле ввода КПП
-	sendKeysAndAssert("as123454jklq","КПП может содержать только цифры.");//вводим буквы и цифры в поле ввода КПП
-	sendKeysAndAssert("!;:?*()_+=@#$%^&","КПП может содержать только цифры.");//вводим символы и цифры в поле ввода КПП
-	
+	sendKeysAndAssert_kpp("123456","Количество цифр в КПП должно быть 9.");//вводим 1 в поле ввода КПП
 	}
 
 }

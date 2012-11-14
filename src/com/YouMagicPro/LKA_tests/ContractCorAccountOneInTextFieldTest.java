@@ -7,6 +7,6 @@ public class ContractCorAccountOneInTextFieldTest  extends TestBase{
 	public void contractCorAccountOneInTextFieldTest_C14499() {
 	waitContractPageToLoad();
 	
-	sendKeysAndAssert("1", "Количество цифр в Корр.счет должно быть 19-20.");//Ввод единицы в поле ввода Кор. счета
+	sendKeysAndAssert_cor("1", "Количество цифр в Корр.счет должно быть 19-20.");//Ввод единицы в поле ввода Кор. счета
 	}
 }

@@ -7,6 +7,6 @@ public class ContractCorAccountSymbolsInTextFieldTest extends TestBase{
 	public void contractCorAccountSymbolsInTextFieldTest_C15003() {
 	waitContractPageToLoad();
 	
-	sendKeysAndAssert("!;:?*()_+=@#$%^&", "Корр.счет может содержать только цифры.");//Ввод символов в поле ввода Кор. счета
+	sendKeysAndAssert_cor("!;:?*()_+=@#$%^&", "Корр.счет может содержать только цифры.");//Ввод символов в поле ввода Кор. счета
 	}
 }
