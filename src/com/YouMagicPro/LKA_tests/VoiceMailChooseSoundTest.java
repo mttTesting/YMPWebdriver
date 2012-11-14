@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class VoiceMailChooseSoundTest extends TestBase {
 	@Test
-	public void voiceMailEmptyNameTextFieldTest_C19851() {
+	public void voiceMailChooseSoundTest_C15294() {
 	waitAdminPageToLoad();
 	
 	driver.findElement(By.xpath("//div[2]/div/div/div/span/a")).click();//нажимаем "настройки"
@@ -24,10 +24,20 @@ public class VoiceMailChooseSoundTest extends TestBase {
 	driver.findElement(By.xpath("//div[3]/div/a/span")).click();
 	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div/label")));
 	
+	driver.findElement(By.id("edit-ivr-name")).sendKeys("М1");
+	driver.findElement(By.xpath("//span/span/span")).click();
+	driver.findElement(By.xpath("//span/ul/li[2]")).click();
+	driver.findElement(By.xpath("//span/span/span")).click();
+	driver.findElement(By.xpath("//li[3]")).click();
+	driver.findElement(By.xpath("//span/span/span")).click();
+	driver.findElement(By.xpath("//li[4]")).click();
+	driver.findElement(By.xpath("//span/span/span")).click();
+	driver.findElement(By.xpath("//li[5]")).click();
 	driver.findElement(By.id("edit-submit")).click();
-	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div/div/div[2]/div/div/div/div")));
+	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[3]/div/div/span")));
 	
 	
-	assertEquals(driver.findElement(By.xpath("//div/div/div[2]/div/div/div/div")).getText(), "Название меню обязательно для заполнения.");
+	assertEquals(driver.findElement(By.xpath("//div[3]/div/div/span")).getText(), "М1");
+
 	}
 }
