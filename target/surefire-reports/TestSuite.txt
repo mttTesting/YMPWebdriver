@@ -1,0 +1,96 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 72, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 1,546.246 sec <<< FAILURE!
+voiceFillNAmeTextFieldTest_C15293(com.YouMagicPro.LKA_tests.VoiceMenuFillNAmeTextFieldTest)  Time elapsed: 17.998 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: Element is not clickable at point (932.5, 402). Other element would receive the click: <div id="modalBackdrop" style="z-index: 1000; position: absolute; left: 0px; margin: 0px; background-color: rgb(255, 255, 255); opacity: 0.5; top: 0px; height: 1210px; width: 1037px; background-position: initial initial; background-repeat: initial initial;"></div> (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 35 milliseconds
+Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
+Driver info: driver.version: RemoteWebDriver
+Session ID: 66af44d1f76fea3d33fdcb5376fba0c2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:246)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.YouMagicPro.LKA_tests.VoiceMenuFillNAmeTextFieldTest.voiceFillNAmeTextFieldTest_C15293(VoiceMenuFillNAmeTextFieldTest.java:27)
+
+contractKppTest_C15048(com.YouMagicPro.LKA_tests.ContractKppOneNumberInTextFieldTest)  Time elapsed: 20.459 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: Element is not clickable at point (868.5, 44). Other element would receive the click: <div class="sl_head">...</div> (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 72 milliseconds
+Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
+Driver info: driver.version: RemoteWebDriver
+Session ID: aad18504f841e796c87ef33b5539159b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:246)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.YouMagicPro.LKA_tests.TestBase.waitContractPageToLoad(TestBase.java:137)
+	at com.YouMagicPro.LKA_tests.ContractKppOneNumberInTextFieldTest.contractKppTest_C15048(ContractKppOneNumberInTextFieldTest.java:11)
+
+expenseStructureRentalFeeTest_C15096(com.YouMagicPro.LKA_tests.ExpenseStructureRentalFeeTest)  Time elapsed: 9.554 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: Element is not clickable at point (555, 381). Other element would receive the click: <img id="1" class="slideimage" src="/sites/all/modules/contrib/umagicpro_instructions/images/home.png" data-title="Благодарим вас за выбор YouMagic.Pro!"> (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
+Driver info: driver.version: RemoteWebDriver
+Session ID: a5b31ae88c69dfad0eadef8c5a7d3dc4
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:246)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.YouMagicPro.LKA_tests.TestBase.waitAdminPageToLoad(TestBase.java:111)
+	at com.YouMagicPro.LKA_tests.ExpenseStructureRentalFeeTest.expenseStructureRentalFeeTest_C15096(ExpenseStructureRentalFeeTest.java:11)
+
+orderToAdressChangeNameTest_C25672(com.YouMagicPro.LKA_tests.OrderToAdressChangeNameTest)  Time elapsed: 14.704 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: Element is not clickable at point (84.5, 642) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41 milliseconds
+Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
+Driver info: driver.version: RemoteWebDriver
+Session ID: 38c3b9e3e92f77d48de79d18987a97de
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:246)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.YouMagicPro.LKA_tests.OrderToAdressChangeNameTest.orderToAdressChangeNameTest_C25672(OrderToAdressChangeNameTest.java:13)
+
+orderToAdressChangePhoneTest_C25677(com.YouMagicPro.LKA_tests.OrderToAdressChangePhoneTest)  Time elapsed: 14.832 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: Element is not clickable at point (84.5, 642) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 43 milliseconds
+Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
+Driver info: driver.version: RemoteWebDriver
+Session ID: 7de5c21014e03f656a0bb36707040247
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:246)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.YouMagicPro.LKA_tests.OrderToAdressChangePhoneTest.orderToAdressChangePhoneTest_C25677(OrderToAdressChangePhoneTest.java:13)
+

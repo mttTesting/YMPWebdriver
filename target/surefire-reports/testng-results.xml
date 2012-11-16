@@ -1,376 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="6" total="62" passed="56">
+<testng-results skipped="0" failed="5" total="72" passed="67">
   <reporter-output>
   </reporter-output>
-  <suite name="com.YouMagicPro.LKA_tests" duration-ms="4180511" started-at="2012-11-13T11:05:37Z" finished-at="2012-11-13T12:15:18Z">
+  <suite name="com.LKA_tests" duration-ms="1544006" started-at="2012-11-15T10:30:28Z" finished-at="2012-11-15T10:56:12Z">
     <groups>
     </groups>
-    <test name="com.YouMagicPro.LKA_tests" duration-ms="4180511" started-at="2012-11-13T11:05:37Z" finished-at="2012-11-13T12:15:18Z">
-      <class name="com.YouMagicPro.LKA_tests.ExpenseStructureChooseIntNumbersPageTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureChooseIntNumbersPageTest@100a384]" name="startWebDriver" is-config="true" duration-ms="659" started-at="2012-11-13T16:09:23Z" finished-at="2012-11-13T16:09:23Z">
+    <test name="com.LKA_tests" duration-ms="1544006" started-at="2012-11-15T10:30:28Z" finished-at="2012-11-15T10:56:12Z">
+      <class name="com.YouMagicPro.LKA_tests.EmployeesCheckInfoTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesCheckInfoTest@96a0733]" name="startWebDriver" is-config="true" duration-ms="1175" started-at="2012-11-15T14:48:14Z" finished-at="2012-11-15T14:48:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="expenseStructureChooseIntNumbersPageTest_C15102()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureChooseIntNumbersPageTest@100a384]" name="expenseStructureChooseIntNumbersPageTest_C15102" duration-ms="16959" started-at="2012-11-13T16:09:23Z" finished-at="2012-11-13T16:09:40Z">
+        <test-method status="PASS" signature="employeesCheckInfoTest_C15252()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesCheckInfoTest@96a0733]" name="employeesCheckInfoTest_C15252" duration-ms="14756" started-at="2012-11-15T14:48:15Z" finished-at="2012-11-15T14:48:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- expenseStructureChooseIntNumbersPageTest_C15102 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureChooseIntNumbersPageTest@100a384]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-13T16:09:40Z" finished-at="2012-11-13T16:09:40Z">
+        </test-method> <!-- employeesCheckInfoTest_C15252 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesCheckInfoTest@96a0733]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:48:30Z" finished-at="2012-11-15T14:48:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ExpenseStructureChooseIntNumbersPageTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.EmployeesCheckInfoTest -->
       <class name="com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumberCategories">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumberCategories@5e9423f7]" name="startWebDriver" is-config="true" duration-ms="1164" started-at="2012-11-13T15:10:11Z" finished-at="2012-11-13T15:10:13Z">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumberCategories@642966f5]" name="startWebDriver" is-config="true" duration-ms="1313" started-at="2012-11-15T14:33:24Z" finished-at="2012-11-15T14:33:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="BuyingAdditionalNumberChooseNumberCategories_C15105()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumberCategories@5e9423f7]" name="BuyingAdditionalNumberChooseNumberCategories_C15105" duration-ms="38623" started-at="2012-11-13T15:10:13Z" finished-at="2012-11-13T15:10:51Z">
+        <test-method status="PASS" signature="BuyingAdditionalNumberChooseNumberCategories_C15105()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumberCategories@642966f5]" name="BuyingAdditionalNumberChooseNumberCategories_C15105" duration-ms="16365" started-at="2012-11-15T14:33:25Z" finished-at="2012-11-15T14:33:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BuyingAdditionalNumberChooseNumberCategories_C15105 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumberCategories@5e9423f7]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T15:10:51Z" finished-at="2012-11-13T15:10:51Z">
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumberCategories@642966f5]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:33:42Z" finished-at="2012-11-15T14:33:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
       </class> <!-- com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumberCategories -->
-      <class name="com.YouMagicPro.LKA_tests.ContractOgrnSymbolsTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrnSymbolsTest@48dd7c33]" name="startWebDriver" is-config="true" duration-ms="1179" started-at="2012-11-13T16:08:26Z" finished-at="2012-11-13T16:08:27Z">
+      <class name="com.YouMagicPro.LKA_tests.ExpenseStructureChooseIntNumbersPageTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureChooseIntNumbersPageTest@799ec4b6]" name="startWebDriver" is-config="true" duration-ms="1165" started-at="2012-11-15T14:50:14Z" finished-at="2012-11-15T14:50:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractFillBankAccountTest()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrnSymbolsTest@48dd7c33]" name="contractFillBankAccountTest" duration-ms="22597" started-at="2012-11-13T16:08:27Z" finished-at="2012-11-13T16:08:50Z">
+        <test-method status="PASS" signature="expenseStructureChooseIntNumbersPageTest_C15102()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureChooseIntNumbersPageTest@799ec4b6]" name="expenseStructureChooseIntNumbersPageTest_C15102" duration-ms="15977" started-at="2012-11-15T14:50:16Z" finished-at="2012-11-15T14:50:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expenseStructureChooseIntNumbersPageTest_C15102 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureChooseIntNumbersPageTest@799ec4b6]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-15T14:50:32Z" finished-at="2012-11-15T14:50:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ExpenseStructureChooseIntNumbersPageTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractOgrnSymbolsTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrnSymbolsTest@333903d0]" name="startWebDriver" is-config="true" duration-ms="1161" started-at="2012-11-15T14:47:20Z" finished-at="2012-11-15T14:47:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="contractFillBankAccountTest()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrnSymbolsTest@333903d0]" name="contractFillBankAccountTest" duration-ms="20181" started-at="2012-11-15T14:47:21Z" finished-at="2012-11-15T14:47:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contractFillBankAccountTest -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrnSymbolsTest@48dd7c33]" name="closeSession" is-config="true" duration-ms="3" started-at="2012-11-13T16:08:50Z" finished-at="2012-11-13T16:08:50Z">
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrnSymbolsTest@333903d0]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:47:42Z" finished-at="2012-11-15T14:47:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
       </class> <!-- com.YouMagicPro.LKA_tests.ContractOgrnSymbolsTest -->
-      <class name="com.YouMagicPro.LKA_tests.ContractKppOneNumberInTextFieldTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKppOneNumberInTextFieldTest@55a330c3]" name="startWebDriver" is-config="true" duration-ms="1174" started-at="2012-11-13T16:06:05Z" finished-at="2012-11-13T16:06:06Z">
+      <class name="com.YouMagicPro.LKA_tests.SupportPhoneTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.SupportPhoneTest@7038ce7b]" name="startWebDriver" is-config="true" duration-ms="1607" started-at="2012-11-15T14:55:58Z" finished-at="2012-11-15T14:56:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractKppTest_C15048()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKppOneNumberInTextFieldTest@55a330c3]" name="contractKppTest_C15048" duration-ms="24492" started-at="2012-11-13T16:06:06Z" finished-at="2012-11-13T16:06:31Z">
+        <test-method status="PASS" signature="SupportPhoneTest_C25679()[pri:0, instance:com.YouMagicPro.LKA_tests.SupportPhoneTest@7038ce7b]" name="SupportPhoneTest_C25679" duration-ms="12236" started-at="2012-11-15T14:56:00Z" finished-at="2012-11-15T14:56:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- contractKppTest_C15048 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKppOneNumberInTextFieldTest@55a330c3]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T16:06:31Z" finished-at="2012-11-13T16:06:31Z">
+        </test-method> <!-- SupportPhoneTest_C25679 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.SupportPhoneTest@7038ce7b]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-15T14:56:12Z" finished-at="2012-11-15T14:56:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractKppOneNumberInTextFieldTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.SupportPhoneTest -->
       <class name="com.YouMagicPro.LKA_tests.ContractCorAccountLettersAndNumbersTextFieldTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountLettersAndNumbersTextFieldTest@7831a0d1]" name="startWebDriver" is-config="true" duration-ms="1216" started-at="2012-11-13T15:21:43Z" finished-at="2012-11-13T15:21:44Z">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountLettersAndNumbersTextFieldTest@1121964c]" name="startWebDriver" is-config="true" duration-ms="1201" started-at="2012-11-15T14:38:34Z" finished-at="2012-11-15T14:38:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractCorAccountTenInTextFieldTest_C15000()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountLettersAndNumbersTextFieldTest@7831a0d1]" name="contractCorAccountTenInTextFieldTest_C15000" duration-ms="530565" started-at="2012-11-13T15:21:44Z" finished-at="2012-11-13T15:30:35Z">
+        <test-method status="PASS" signature="contractCorAccountTenInTextFieldTest_C15000()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountLettersAndNumbersTextFieldTest@1121964c]" name="contractCorAccountTenInTextFieldTest_C15000" duration-ms="20833" started-at="2012-11-15T14:38:35Z" finished-at="2012-11-15T14:38:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contractCorAccountTenInTextFieldTest_C15000 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountLettersAndNumbersTextFieldTest@7831a0d1]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-13T15:30:35Z" finished-at="2012-11-13T15:30:35Z">
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountLettersAndNumbersTextFieldTest@1121964c]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:38:56Z" finished-at="2012-11-15T14:38:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
       </class> <!-- com.YouMagicPro.LKA_tests.ContractCorAccountLettersAndNumbersTextFieldTest -->
-      <class name="com.YouMagicPro.LKA_tests.ContractBankAccountLettersAndNumbersTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountLettersAndNumbersTest@6b6622e6]" name="startWebDriver" is-config="true" duration-ms="1186" started-at="2012-11-13T15:11:13Z" finished-at="2012-11-13T15:11:14Z">
+      <class name="com.YouMagicPro.LKA_tests.ContractKppOneNumberInTextFieldTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKppOneNumberInTextFieldTest@73e1518e]" name="startWebDriver" is-config="true" duration-ms="1492" started-at="2012-11-15T14:45:00Z" finished-at="2012-11-15T14:45:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractBankAccountLettersAndNumbersTest_C14496()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountLettersAndNumbersTest@6b6622e6]" name="contractBankAccountLettersAndNumbersTest_C14496" duration-ms="93709" started-at="2012-11-13T15:11:14Z" finished-at="2012-11-13T15:12:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contractBankAccountLettersAndNumbersTest_C14496 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountLettersAndNumbersTest@6b6622e6]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T15:12:48Z" finished-at="2012-11-13T15:12:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractBankAccountLettersAndNumbersTest -->
-      <class name="com.YouMagicPro.LKA_tests.ContractInnChooseFormTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInnChooseFormTest@2c96d430]" name="startWebDriver" is-config="true" duration-ms="1192" started-at="2012-11-13T15:43:00Z" finished-at="2012-11-13T15:43:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractInnChooseForm_C15047()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInnChooseFormTest@2c96d430]" name="contractInnChooseForm_C15047" duration-ms="203506" started-at="2012-11-13T15:43:01Z" finished-at="2012-11-13T15:46:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contractInnChooseForm_C15047 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInnChooseFormTest@2c96d430]" name="closeSession" is-config="true" duration-ms="3" started-at="2012-11-13T15:46:25Z" finished-at="2012-11-13T15:46:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractInnChooseFormTest -->
-      <class name="com.YouMagicPro.LKA_tests.ContractCheckDocumentTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCheckDocumentTest@634a988]" name="startWebDriver" is-config="true" duration-ms="1205" started-at="2012-11-13T15:19:15Z" finished-at="2012-11-13T15:19:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractCheckDocumentTest_C14986()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCheckDocumentTest@634a988]" name="contractCheckDocumentTest_C14986" duration-ms="18742" started-at="2012-11-13T15:19:16Z" finished-at="2012-11-13T15:19:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contractCheckDocumentTest_C14986 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCheckDocumentTest@634a988]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-13T15:19:34Z" finished-at="2012-11-13T15:19:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractCheckDocumentTest -->
-      <class name="com.YouMagicPro.LKA_tests.ContractKpp6NumbersInTextFieldTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKpp6NumbersInTextFieldTest@1d9a43d7]" name="startWebDriver" is-config="true" duration-ms="1167" started-at="2012-11-13T16:04:48Z" finished-at="2012-11-13T16:04:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractKppTest_C15049()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKpp6NumbersInTextFieldTest@1d9a43d7]" name="contractKppTest_C15049" duration-ms="29627" started-at="2012-11-13T16:04:49Z" finished-at="2012-11-13T16:05:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contractKppTest_C15049 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKpp6NumbersInTextFieldTest@1d9a43d7]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T16:05:19Z" finished-at="2012-11-13T16:05:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractKpp6NumbersInTextFieldTest -->
-      <class name="com.YouMagicPro.LKA_tests.OrderDeliveryOfContractCancelButtonTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderDeliveryOfContractCancelButtonTest@52dd1d62]" name="startWebDriver" is-config="true" duration-ms="1592" started-at="2012-11-13T16:13:16Z" finished-at="2012-11-13T16:13:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="expenseStructureTest()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderDeliveryOfContractCancelButtonTest@52dd1d62]" name="expenseStructureTest" duration-ms="16437" started-at="2012-11-13T16:13:18Z" finished-at="2012-11-13T16:13:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- expenseStructureTest -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderDeliveryOfContractCancelButtonTest@52dd1d62]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T16:13:34Z" finished-at="2012-11-13T16:13:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.OrderDeliveryOfContractCancelButtonTest -->
-      <class name="com.YouMagicPro.LKA_tests.ExpenseStructureInternalNumbersFeeTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureInternalNumbersFeeTest@6244b22e]" name="startWebDriver" is-config="true" duration-ms="1167" started-at="2012-11-13T16:09:40Z" finished-at="2012-11-13T16:09:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="expenseStructureInternalNumbersFeeTest_C15101()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureInternalNumbersFeeTest@6244b22e]" name="expenseStructureInternalNumbersFeeTest_C15101" duration-ms="8965" started-at="2012-11-13T16:09:41Z" finished-at="2012-11-13T16:09:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- expenseStructureInternalNumbersFeeTest_C15101 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureInternalNumbersFeeTest@6244b22e]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-13T16:09:50Z" finished-at="2012-11-13T16:09:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ExpenseStructureInternalNumbersFeeTest -->
-      <class name="com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberCheckCost">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberCheckCost@7038ce7b]" name="startWebDriver" is-config="true" duration-ms="721" started-at="2012-11-13T15:07:38Z" finished-at="2012-11-13T15:07:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="buyingAdditionalInternalNumberCheckCost_C15113()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberCheckCost@7038ce7b]" name="buyingAdditionalInternalNumberCheckCost_C15113" duration-ms="65251" started-at="2012-11-13T15:07:39Z" finished-at="2012-11-13T15:08:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- buyingAdditionalInternalNumberCheckCost_C15113 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberCheckCost@7038ce7b]" name="closeSession" is-config="true" duration-ms="3" started-at="2012-11-13T15:08:44Z" finished-at="2012-11-13T15:08:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberCheckCost -->
-      <class name="com.YouMagicPro.LKA_tests.ContractFillInDataTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractFillInDataTest@5dd72c40]" name="startWebDriver" is-config="true" duration-ms="1189" started-at="2012-11-13T15:41:02Z" finished-at="2012-11-13T15:41:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="fillInContractDataTest()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractFillInDataTest@5dd72c40]" name="fillInContractDataTest" duration-ms="79665" started-at="2012-11-13T15:41:03Z" finished-at="2012-11-13T15:42:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fillInContractDataTest -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractFillInDataTest@5dd72c40]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T15:42:22Z" finished-at="2012-11-13T15:42:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractFillInDataTest -->
-      <class name="com.YouMagicPro.LKA_tests.ContractOgrnLettersAndNumbersInTextFieldTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrnLettersAndNumbersInTextFieldTest@4415d52e]" name="startWebDriver" is-config="true" duration-ms="2052" started-at="2012-11-13T16:07:17Z" finished-at="2012-11-13T16:07:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractOgrnLettersAndNumbersInTextFieldTest_C15057()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrnLettersAndNumbersInTextFieldTest@4415d52e]" name="contractOgrnLettersAndNumbersInTextFieldTest_C15057" duration-ms="22506" started-at="2012-11-13T16:07:19Z" finished-at="2012-11-13T16:07:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contractOgrnLettersAndNumbersInTextFieldTest_C15057 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrnLettersAndNumbersInTextFieldTest@4415d52e]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T16:07:42Z" finished-at="2012-11-13T16:07:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractOgrnLettersAndNumbersInTextFieldTest -->
-      <class name="com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseCityFromList">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseCityFromList@726722a6]" name="startWebDriver" is-config="true" duration-ms="1165" started-at="2012-11-13T15:09:39Z" finished-at="2012-11-13T15:09:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="buyingAdditionalNumberChooseCityFromList_C15103()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseCityFromList@726722a6]" name="buyingAdditionalNumberChooseCityFromList_C15103" duration-ms="31317" started-at="2012-11-13T15:09:40Z" finished-at="2012-11-13T15:10:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- buyingAdditionalNumberChooseCityFromList_C15103 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseCityFromList@726722a6]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T15:10:11Z" finished-at="2012-11-13T15:10:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseCityFromList -->
-      <class name="com.YouMagicPro.LKA_tests.ContractBik1inTextFieldTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBik1inTextFieldTest@fb95de0]" name="startWebDriver" is-config="true" duration-ms="1161" started-at="2012-11-13T15:17:43Z" finished-at="2012-11-13T15:17:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractBikTest1inTextField_C15022()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBik1inTextFieldTest@fb95de0]" name="contractBikTest1inTextField_C15022" duration-ms="24148" started-at="2012-11-13T15:17:44Z" finished-at="2012-11-13T15:18:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contractBikTest1inTextField_C15022 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBik1inTextFieldTest@fb95de0]" name="closeSession" is-config="true" duration-ms="3" started-at="2012-11-13T15:18:08Z" finished-at="2012-11-13T15:18:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractBik1inTextFieldTest -->
-      <class name="com.YouMagicPro.LKA_tests.ContractBankAccountLettersInTextFieldTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountLettersInTextFieldTest@45051da4]" name="startWebDriver" is-config="true" duration-ms="1198" started-at="2012-11-13T15:12:48Z" finished-at="2012-11-13T15:12:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractBankAccountLettersInTextFieldTest_C14995()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountLettersInTextFieldTest@45051da4]" name="contractBankAccountLettersInTextFieldTest_C14995" duration-ms="100160" started-at="2012-11-13T15:12:49Z" finished-at="2012-11-13T15:14:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contractBankAccountLettersInTextFieldTest_C14995 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountLettersInTextFieldTest@45051da4]" name="closeSession" is-config="true" duration-ms="3" started-at="2012-11-13T15:14:29Z" finished-at="2012-11-13T15:14:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractBankAccountLettersInTextFieldTest -->
-      <class name="com.YouMagicPro.LKA_tests.OrderToAdressChangePhoneTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderToAdressChangePhoneTest@2842cace]" name="startWebDriver" is-config="true" duration-ms="1157" started-at="2012-11-13T16:14:36Z" finished-at="2012-11-13T16:14:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="orderToAdressChangePhoneTest_C25677()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderToAdressChangePhoneTest@2842cace]" name="orderToAdressChangePhoneTest_C25677" duration-ms="17091" started-at="2012-11-13T16:14:37Z" finished-at="2012-11-13T16:14:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- orderToAdressChangePhoneTest_C25677 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderToAdressChangePhoneTest@2842cace]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T16:14:54Z" finished-at="2012-11-13T16:14:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.OrderToAdressChangePhoneTest -->
-      <class name="com.YouMagicPro.LKA_tests.OrderDeliveryOfContractDropdownListTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderDeliveryOfContractDropdownListTest@7adbe76f]" name="startWebDriver" is-config="true" duration-ms="1537" started-at="2012-11-13T16:13:34Z" finished-at="2012-11-13T16:13:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="expenseStructureTest()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderDeliveryOfContractDropdownListTest@7adbe76f]" name="expenseStructureTest" duration-ms="19730" started-at="2012-11-13T16:13:36Z" finished-at="2012-11-13T16:13:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- expenseStructureTest -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderDeliveryOfContractDropdownListTest@7adbe76f]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-13T16:13:56Z" finished-at="2012-11-13T16:13:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.OrderDeliveryOfContractDropdownListTest -->
-      <class name="com.YouMagicPro.LKA_tests.GroupsThreeInNumberTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsThreeInNumberTest@4cd67e21]" name="startWebDriver" is-config="true" duration-ms="702" started-at="2012-11-13T16:10:16Z" finished-at="2012-11-13T16:10:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="FAIL" signature="groupsThreeInNumberTest_C15189()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsThreeInNumberTest@4cd67e21]" name="groupsThreeInNumberTest_C15189" duration-ms="9031" started-at="2012-11-13T16:10:16Z" finished-at="2012-11-13T16:10:26Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Element is not clickable at point (555, 381). Other element would receive the click: <img id="1" class="slideimage" src="/sites/all/modules/contrib/umagicpro_instructions/images/home.png" data-title="Благодарим вас за выбор YouMagic.Pro!"> (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30 milliseconds
-Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
-System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
-Driver info: driver.version: RemoteWebDriver
-Session ID: 5773a3f3b8f3eb48ee45d9f6f4314d5a]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (555, 381). Other element would receive the click: <img id="1" class="slideimage" src="/sites/all/modules/contrib/umagicpro_instructions/images/home.png" data-title="Благодарим вас за выбор YouMagic.Pro!"> (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30 milliseconds
-Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
-System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
-Driver info: driver.version: RemoteWebDriver
-Session ID: 5773a3f3b8f3eb48ee45d9f6f4314d5a
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:246)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
-	at com.YouMagicPro.LKA_tests.TestBase.waitAdminPageToLoad(TestBase.java:111)
-	at com.YouMagicPro.LKA_tests.GroupsThreeInNumberTest.groupsThreeInNumberTest_C15189(GroupsThreeInNumberTest.java:11)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:601)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:104)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:601)
-	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
-	at $Proxy0.invoke(Unknown Source)
-	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
-	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- groupsThreeInNumberTest_C15189 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsThreeInNumberTest@4cd67e21]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-13T16:10:26Z" finished-at="2012-11-13T16:10:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.GroupsThreeInNumberTest -->
-      <class name="com.YouMagicPro.LKA_tests.ContractCorAccountLettersInTextFieldTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountLettersInTextFieldTest@6a6203a5]" name="startWebDriver" is-config="true" duration-ms="1523" started-at="2012-11-13T15:30:35Z" finished-at="2012-11-13T15:30:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="FAIL" signature="contractCorAccountLettersInTextFieldTest_C15001()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountLettersInTextFieldTest@6a6203a5]" name="contractCorAccountLettersInTextFieldTest_C15001" duration-ms="399340" started-at="2012-11-13T15:30:37Z" finished-at="2012-11-13T15:37:16Z">
+        <test-method status="FAIL" signature="contractKppTest_C15048()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKppOneNumberInTextFieldTest@73e1518e]" name="contractKppTest_C15048" duration-ms="20458" started-at="2012-11-15T14:45:01Z" finished-at="2012-11-15T14:45:22Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Element is not clickable at point (868.5, 44). Other element would receive the click: <div class="sl_head">...</div> (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 79 milliseconds
+Command duration or timeout: 72 milliseconds
 Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
 System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
 Driver info: driver.version: RemoteWebDriver
-Session ID: 6dd90c403e997a1b72541fefc6729aeb]]>
+Session ID: aad18504f841e796c87ef33b5539159b]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (868.5, 44). Other element would receive the click: <div class="sl_head">...</div> (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 79 milliseconds
+Command duration or timeout: 72 milliseconds
 Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
 System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
 Driver info: driver.version: RemoteWebDriver
-Session ID: 6dd90c403e997a1b72541fefc6729aeb
+Session ID: aad18504f841e796c87ef33b5539159b
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -381,7 +122,7 @@ Session ID: 6dd90c403e997a1b72541fefc6729aeb
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:246)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
 	at com.YouMagicPro.LKA_tests.TestBase.waitContractPageToLoad(TestBase.java:137)
-	at com.YouMagicPro.LKA_tests.ContractCorAccountLettersInTextFieldTest.contractCorAccountLettersInTextFieldTest_C15001(ContractCorAccountLettersInTextFieldTest.java:8)
+	at com.YouMagicPro.LKA_tests.ContractKppOneNumberInTextFieldTest.contractKppTest_C15048(ContractKppOneNumberInTextFieldTest.java:11)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -420,104 +161,258 @@ Session ID: 6dd90c403e997a1b72541fefc6729aeb
           </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- contractCorAccountLettersInTextFieldTest_C15001 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountLettersInTextFieldTest@6a6203a5]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T15:37:16Z" finished-at="2012-11-13T15:37:16Z">
+        </test-method> <!-- contractKppTest_C15048 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKppOneNumberInTextFieldTest@73e1518e]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:45:22Z" finished-at="2012-11-15T14:45:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractCorAccountLettersInTextFieldTest -->
-      <class name="com.YouMagicPro.LKA_tests.ContractBikSymbolsInTextFieldTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBikSymbolsInTextFieldTest@3910af08]" name="startWebDriver" is-config="true" duration-ms="1171" started-at="2012-11-13T15:18:52Z" finished-at="2012-11-13T15:18:53Z">
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractKppOneNumberInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractBankAccountLettersAndNumbersTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountLettersAndNumbersTest@5a269232]" name="startWebDriver" is-config="true" duration-ms="1217" started-at="2012-11-15T14:34:00Z" finished-at="2012-11-15T14:34:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractBikSymbolsInTextFieldTest_C15026()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBikSymbolsInTextFieldTest@3910af08]" name="contractBikSymbolsInTextFieldTest_C15026" duration-ms="21217" started-at="2012-11-13T15:18:53Z" finished-at="2012-11-13T15:19:15Z">
+        <test-method status="PASS" signature="contractBankAccountLettersAndNumbersTest_C14496()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountLettersAndNumbersTest@5a269232]" name="contractBankAccountLettersAndNumbersTest_C14496" duration-ms="23496" started-at="2012-11-15T14:34:01Z" finished-at="2012-11-15T14:34:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- contractBikSymbolsInTextFieldTest_C15026 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBikSymbolsInTextFieldTest@3910af08]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T15:19:15Z" finished-at="2012-11-13T15:19:15Z">
+        </test-method> <!-- contractBankAccountLettersAndNumbersTest_C14496 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountLettersAndNumbersTest@5a269232]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:34:25Z" finished-at="2012-11-15T14:34:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractBikSymbolsInTextFieldTest -->
-      <class name="com.YouMagicPro.LKA_tests.ContractBankAccountTenInTextFieldTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountTenInTextFieldTest@5f9dc8dd]" name="startWebDriver" is-config="true" duration-ms="1167" started-at="2012-11-13T15:17:02Z" finished-at="2012-11-13T15:17:03Z">
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractBankAccountLettersAndNumbersTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractInnChooseFormTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInnChooseFormTest@6625abb1]" name="startWebDriver" is-config="true" duration-ms="1844" started-at="2012-11-15T14:41:57Z" finished-at="2012-11-15T14:41:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractBankAccountTenInTextFieldTest_C14994()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountTenInTextFieldTest@5f9dc8dd]" name="contractBankAccountTenInTextFieldTest_C14994" duration-ms="39862" started-at="2012-11-13T15:17:03Z" finished-at="2012-11-13T15:17:43Z">
+        <test-method status="PASS" signature="contractInnChooseForm_C15047()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInnChooseFormTest@6625abb1]" name="contractInnChooseForm_C15047" duration-ms="39492" started-at="2012-11-15T14:41:58Z" finished-at="2012-11-15T14:42:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- contractBankAccountTenInTextFieldTest_C14994 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountTenInTextFieldTest@5f9dc8dd]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T15:17:43Z" finished-at="2012-11-13T15:17:43Z">
+        </test-method> <!-- contractInnChooseForm_C15047 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInnChooseFormTest@6625abb1]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-15T14:42:38Z" finished-at="2012-11-15T14:42:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractBankAccountTenInTextFieldTest -->
-      <class name="com.YouMagicPro.LKA_tests.ContractOgrnOneNumberInTextFieldTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrnOneNumberInTextFieldTest@57799932]" name="startWebDriver" is-config="true" duration-ms="666" started-at="2012-11-13T16:08:04Z" finished-at="2012-11-13T16:08:05Z">
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractInnChooseFormTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractCheckDocumentTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCheckDocumentTest@7e7d611f]" name="startWebDriver" is-config="true" duration-ms="1277" started-at="2012-11-15T14:37:50Z" finished-at="2012-11-15T14:37:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractOgrnOneNumberInTextFieldTest_C15053()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrnOneNumberInTextFieldTest@57799932]" name="contractOgrnOneNumberInTextFieldTest_C15053" duration-ms="21488" started-at="2012-11-13T16:08:05Z" finished-at="2012-11-13T16:08:26Z">
+        <test-method status="PASS" signature="contractCheckDocumentTest_C14986()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCheckDocumentTest@7e7d611f]" name="contractCheckDocumentTest_C14986" duration-ms="18952" started-at="2012-11-15T14:37:51Z" finished-at="2012-11-15T14:38:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- contractOgrnOneNumberInTextFieldTest_C15053 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrnOneNumberInTextFieldTest@57799932]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T16:08:26Z" finished-at="2012-11-13T16:08:26Z">
+        </test-method> <!-- contractCheckDocumentTest_C14986 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCheckDocumentTest@7e7d611f]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:38:10Z" finished-at="2012-11-15T14:38:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractOgrnOneNumberInTextFieldTest -->
-      <class name="com.YouMagicPro.LKA_tests.ContractBikLettersInTextFieldTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBikLettersInTextFieldTest@4fc55da3]" name="startWebDriver" is-config="true" duration-ms="1163" started-at="2012-11-13T15:18:30Z" finished-at="2012-11-13T15:18:31Z">
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractCheckDocumentTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractKpp6NumbersInTextFieldTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKpp6NumbersInTextFieldTest@7dbe9f07]" name="startWebDriver" is-config="true" duration-ms="1036" started-at="2012-11-15T14:43:51Z" finished-at="2012-11-15T14:43:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractBikTestLettersInTextField_C15023()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBikLettersInTextFieldTest@4fc55da3]" name="contractBikTestLettersInTextField_C15023" duration-ms="20677" started-at="2012-11-13T15:18:31Z" finished-at="2012-11-13T15:18:52Z">
+        <test-method status="PASS" signature="contractKppTest_C15049()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKpp6NumbersInTextFieldTest@7dbe9f07]" name="contractKppTest_C15049" duration-ms="22018" started-at="2012-11-15T14:43:52Z" finished-at="2012-11-15T14:44:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- contractBikTestLettersInTextField_C15023 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBikLettersInTextFieldTest@4fc55da3]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-13T15:18:52Z" finished-at="2012-11-13T15:18:52Z">
+        </test-method> <!-- contractKppTest_C15049 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKpp6NumbersInTextFieldTest@7dbe9f07]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-15T14:44:14Z" finished-at="2012-11-15T14:44:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractBikLettersInTextFieldTest -->
-      <class name="com.YouMagicPro.LKA_tests.ContractKppLettersTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKppLettersTest@c0e1c69]" name="startWebDriver" is-config="true" duration-ms="1598" started-at="2012-11-13T16:05:42Z" finished-at="2012-11-13T16:05:44Z">
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractKpp6NumbersInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.NotificationsCheckFieldsTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.NotificationsCheckFieldsTest@2457256f]" name="startWebDriver" is-config="true" duration-ms="690" started-at="2012-11-15T14:50:52Z" finished-at="2012-11-15T14:50:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractKppTest_C15050()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKppLettersTest@c0e1c69]" name="contractKppTest_C15050" duration-ms="21326" started-at="2012-11-13T16:05:44Z" finished-at="2012-11-13T16:06:05Z">
+        <test-method status="PASS" signature="orderByEmailCancelButtonTest_C15141()[pri:0, instance:com.YouMagicPro.LKA_tests.NotificationsCheckFieldsTest@2457256f]" name="orderByEmailCancelButtonTest_C15141" duration-ms="33116" started-at="2012-11-15T14:50:53Z" finished-at="2012-11-15T14:51:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- contractKppTest_C15050 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKppLettersTest@c0e1c69]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-13T16:06:05Z" finished-at="2012-11-13T16:06:05Z">
+        </test-method> <!-- orderByEmailCancelButtonTest_C15141 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.NotificationsCheckFieldsTest@2457256f]" name="closeSession" is-config="true" duration-ms="4" started-at="2012-11-15T14:51:26Z" finished-at="2012-11-15T14:51:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractKppLettersTest -->
-      <class name="com.YouMagicPro.LKA_tests.GroupsOneInNumberTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsOneInNumberTest@6be05ef2]" name="startWebDriver" is-config="true" duration-ms="1154" started-at="2012-11-13T16:10:00Z" finished-at="2012-11-13T16:10:01Z">
+      </class> <!-- com.YouMagicPro.LKA_tests.NotificationsCheckFieldsTest -->
+      <class name="com.YouMagicPro.LKA_tests.EmployeesEditProfile3SymbolsInTextFieldTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesEditProfile3SymbolsInTextFieldTest@555aad0c]" name="startWebDriver" is-config="true" duration-ms="1161" started-at="2012-11-15T14:48:50Z" finished-at="2012-11-15T14:48:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="FAIL" signature="groupsTest()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsOneInNumberTest@6be05ef2]" name="groupsTest" duration-ms="14811" started-at="2012-11-13T16:10:01Z" finished-at="2012-11-13T16:10:16Z">
+        <test-method status="PASS" signature="employeesEditProfile3SymbolsInTextFieldTest_C15256()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesEditProfile3SymbolsInTextFieldTest@555aad0c]" name="employeesEditProfile3SymbolsInTextFieldTest_C15256" duration-ms="19739" started-at="2012-11-15T14:48:52Z" finished-at="2012-11-15T14:49:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeesEditProfile3SymbolsInTextFieldTest_C15256 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesEditProfile3SymbolsInTextFieldTest@555aad0c]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-15T14:49:11Z" finished-at="2012-11-15T14:49:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.EmployeesEditProfile3SymbolsInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.OrderDeliveryOfContractCancelButtonTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderDeliveryOfContractCancelButtonTest@17e4be04]" name="startWebDriver" is-config="true" duration-ms="2044" started-at="2012-11-15T14:54:06Z" finished-at="2012-11-15T14:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="expenseStructureTest()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderDeliveryOfContractCancelButtonTest@17e4be04]" name="expenseStructureTest" duration-ms="17847" started-at="2012-11-15T14:54:08Z" finished-at="2012-11-15T14:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expenseStructureTest -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderDeliveryOfContractCancelButtonTest@17e4be04]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-15T14:54:26Z" finished-at="2012-11-15T14:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.OrderDeliveryOfContractCancelButtonTest -->
+      <class name="com.YouMagicPro.LKA_tests.VoiceMenuAddTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.VoiceMenuAddTest@3929d28]" name="startWebDriver" is-config="true" duration-ms="1039" started-at="2012-11-15T14:30:54Z" finished-at="2012-11-15T14:30:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="voiceMenuAddTest_C15292()[pri:0, instance:com.YouMagicPro.LKA_tests.VoiceMenuAddTest@3929d28]" name="voiceMenuAddTest_C15292" duration-ms="20955" started-at="2012-11-15T14:30:55Z" finished-at="2012-11-15T14:31:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- voiceMenuAddTest_C15292 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.VoiceMenuAddTest@3929d28]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:31:16Z" finished-at="2012-11-15T14:31:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.VoiceMenuAddTest -->
+      <class name="com.YouMagicPro.LKA_tests.EmployeesEditProfileFillInDataTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesEditProfileFillInDataTest@3a333bdb]" name="startWebDriver" is-config="true" duration-ms="683" started-at="2012-11-15T14:49:11Z" finished-at="2012-11-15T14:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="employeesEditProfileTest_C15253()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesEditProfileFillInDataTest@3a333bdb]" name="employeesEditProfileTest_C15253" duration-ms="20610" started-at="2012-11-15T14:49:12Z" finished-at="2012-11-15T14:49:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeesEditProfileTest_C15253 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesEditProfileFillInDataTest@3a333bdb]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:49:33Z" finished-at="2012-11-15T14:49:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.EmployeesEditProfileFillInDataTest -->
+      <class name="com.YouMagicPro.LKA_tests.ExpenseStructureInternalNumbersFeeTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureInternalNumbersFeeTest@3f75c03e]" name="startWebDriver" is-config="true" duration-ms="1154" started-at="2012-11-15T14:50:32Z" finished-at="2012-11-15T14:50:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="expenseStructureInternalNumbersFeeTest_C15101()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureInternalNumbersFeeTest@3f75c03e]" name="expenseStructureInternalNumbersFeeTest_C15101" duration-ms="8584" started-at="2012-11-15T14:50:33Z" finished-at="2012-11-15T14:50:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expenseStructureInternalNumbersFeeTest_C15101 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureInternalNumbersFeeTest@3f75c03e]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:50:41Z" finished-at="2012-11-15T14:50:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ExpenseStructureInternalNumbersFeeTest -->
+      <class name="com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberCheckCost">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberCheckCost@332b25db]" name="startWebDriver" is-config="true" duration-ms="1194" started-at="2012-11-15T14:31:57Z" finished-at="2012-11-15T14:31:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="buyingAdditionalInternalNumberCheckCost_C15113()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberCheckCost@332b25db]" name="buyingAdditionalInternalNumberCheckCost_C15113" duration-ms="12981" started-at="2012-11-15T14:31:59Z" finished-at="2012-11-15T14:32:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyingAdditionalInternalNumberCheckCost_C15113 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberCheckCost@332b25db]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:32:12Z" finished-at="2012-11-15T14:32:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberCheckCost -->
+      <class name="com.YouMagicPro.LKA_tests.ContractFillInDataTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractFillInDataTest@4c418cf]" name="startWebDriver" is-config="true" duration-ms="1368" started-at="2012-11-15T14:41:05Z" finished-at="2012-11-15T14:41:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="fillInContractDataTest()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractFillInDataTest@4c418cf]" name="fillInContractDataTest" duration-ms="29160" started-at="2012-11-15T14:41:06Z" finished-at="2012-11-15T14:41:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillInContractDataTest -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractFillInDataTest@4c418cf]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:41:35Z" finished-at="2012-11-15T14:41:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractFillInDataTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractOgrnLettersAndNumbersInTextFieldTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrnLettersAndNumbersInTextFieldTest@216f1cbc]" name="startWebDriver" is-config="true" duration-ms="1440" started-at="2012-11-15T14:46:09Z" finished-at="2012-11-15T14:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="contractOgrnLettersAndNumbersInTextFieldTest_C15057()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrnLettersAndNumbersInTextFieldTest@216f1cbc]" name="contractOgrnLettersAndNumbersInTextFieldTest_C15057" duration-ms="22484" started-at="2012-11-15T14:46:10Z" finished-at="2012-11-15T14:46:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contractOgrnLettersAndNumbersInTextFieldTest_C15057 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrnLettersAndNumbersInTextFieldTest@216f1cbc]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-15T14:46:32Z" finished-at="2012-11-15T14:46:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractOgrnLettersAndNumbersInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseCityFromList">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseCityFromList@2684c71b]" name="startWebDriver" is-config="true" duration-ms="1743" started-at="2012-11-15T14:33:06Z" finished-at="2012-11-15T14:33:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="buyingAdditionalNumberChooseCityFromList_C15103()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseCityFromList@2684c71b]" name="buyingAdditionalNumberChooseCityFromList_C15103" duration-ms="16077" started-at="2012-11-15T14:33:08Z" finished-at="2012-11-15T14:33:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyingAdditionalNumberChooseCityFromList_C15103 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseCityFromList@2684c71b]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-15T14:33:24Z" finished-at="2012-11-15T14:33:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseCityFromList -->
+      <class name="com.YouMagicPro.LKA_tests.ContractBik1inTextFieldTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBik1inTextFieldTest@5d14798a]" name="startWebDriver" is-config="true" duration-ms="1283" started-at="2012-11-15T14:36:05Z" finished-at="2012-11-15T14:36:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="contractBikTest1inTextField_C15022()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBik1inTextFieldTest@5d14798a]" name="contractBikTest1inTextField_C15022" duration-ms="26013" started-at="2012-11-15T14:36:07Z" finished-at="2012-11-15T14:36:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contractBikTest1inTextField_C15022 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBik1inTextFieldTest@5d14798a]" name="closeSession" is-config="true" duration-ms="3" started-at="2012-11-15T14:36:33Z" finished-at="2012-11-15T14:36:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractBik1inTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractBankAccountLettersInTextFieldTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountLettersInTextFieldTest@726b37ad]" name="startWebDriver" is-config="true" duration-ms="1159" started-at="2012-11-15T14:34:25Z" finished-at="2012-11-15T14:34:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="contractBankAccountLettersInTextFieldTest_C14995()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountLettersInTextFieldTest@726b37ad]" name="contractBankAccountLettersInTextFieldTest_C14995" duration-ms="22117" started-at="2012-11-15T14:34:26Z" finished-at="2012-11-15T14:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contractBankAccountLettersInTextFieldTest_C14995 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountLettersInTextFieldTest@726b37ad]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-15T14:34:48Z" finished-at="2012-11-15T14:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractBankAccountLettersInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.OrderToAdressChangePhoneTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderToAdressChangePhoneTest@57799932]" name="startWebDriver" is-config="true" duration-ms="1628" started-at="2012-11-15T14:55:21Z" finished-at="2012-11-15T14:55:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="FAIL" signature="orderToAdressChangePhoneTest_C25677()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderToAdressChangePhoneTest@57799932]" name="orderToAdressChangePhoneTest_C25677" duration-ms="14831" started-at="2012-11-15T14:55:23Z" finished-at="2012-11-15T14:55:38Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[Element is not clickable at point (118.5, 428). Other element would receive the click: <img id="1" class="slideimage" src="/sites/all/modules/contrib/umagicpro_instructions/images/home.png" data-title="Благодарим вас за выбор YouMagic.Pro!"> (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 29 milliseconds
+              <![CDATA[Element is not clickable at point (84.5, 642) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 43 milliseconds
 Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
 System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
 Driver info: driver.version: RemoteWebDriver
-Session ID: 460f878ee1baea9663f9ca6cf8170f91]]>
+Session ID: 7de5c21014e03f656a0bb36707040247]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (118.5, 428). Other element would receive the click: <img id="1" class="slideimage" src="/sites/all/modules/contrib/umagicpro_instructions/images/home.png" data-title="Благодарим вас за выбор YouMagic.Pro!"> (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 29 milliseconds
+              <![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (84.5, 642) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 43 milliseconds
 Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
 System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
 Driver info: driver.version: RemoteWebDriver
-Session ID: 460f878ee1baea9663f9ca6cf8170f91
+Session ID: 7de5c21014e03f656a0bb36707040247
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -527,7 +422,7 @@ Session ID: 460f878ee1baea9663f9ca6cf8170f91
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:246)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
-	at com.YouMagicPro.LKA_tests.GroupsOneInNumberTest.groupsTest(GroupsOneInNumberTest.java:16)
+	at com.YouMagicPro.LKA_tests.OrderToAdressChangePhoneTest.orderToAdressChangePhoneTest_C25677(OrderToAdressChangePhoneTest.java:13)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -566,174 +461,558 @@ Session ID: 460f878ee1baea9663f9ca6cf8170f91
           </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- groupsTest -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsOneInNumberTest@6be05ef2]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-13T16:10:16Z" finished-at="2012-11-13T16:10:16Z">
+        </test-method> <!-- orderToAdressChangePhoneTest_C25677 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderToAdressChangePhoneTest@57799932]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-15T14:55:38Z" finished-at="2012-11-15T14:55:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.GroupsOneInNumberTest -->
-      <class name="com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberTextFieldTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberTextFieldTest@216f1cbc]" name="startWebDriver" is-config="true" duration-ms="664" started-at="2012-11-13T15:08:44Z" finished-at="2012-11-13T15:08:45Z">
+      </class> <!-- com.YouMagicPro.LKA_tests.OrderToAdressChangePhoneTest -->
+      <class name="com.YouMagicPro.LKA_tests.OrderDeliveryOfContractDropdownListTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderDeliveryOfContractDropdownListTest@34171a9b]" name="startWebDriver" is-config="true" duration-ms="1713" started-at="2012-11-15T14:54:26Z" finished-at="2012-11-15T14:54:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="buyingAdditionalInternalNumberTextFieldTest_C15112()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberTextFieldTest@216f1cbc]" name="buyingAdditionalInternalNumberTextFieldTest_C15112" duration-ms="53894" started-at="2012-11-13T15:08:45Z" finished-at="2012-11-13T15:09:39Z">
+        <test-method status="PASS" signature="expenseStructureTest()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderDeliveryOfContractDropdownListTest@34171a9b]" name="expenseStructureTest" duration-ms="17331" started-at="2012-11-15T14:54:28Z" finished-at="2012-11-15T14:54:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expenseStructureTest -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderDeliveryOfContractDropdownListTest@34171a9b]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:54:45Z" finished-at="2012-11-15T14:54:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.OrderDeliveryOfContractDropdownListTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractBikSymbolsInTextFieldTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBikSymbolsInTextFieldTest@48179cc2]" name="startWebDriver" is-config="true" duration-ms="1190" started-at="2012-11-15T14:37:25Z" finished-at="2012-11-15T14:37:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="contractBikSymbolsInTextFieldTest_C15026()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBikSymbolsInTextFieldTest@48179cc2]" name="contractBikSymbolsInTextFieldTest_C15026" duration-ms="23430" started-at="2012-11-15T14:37:26Z" finished-at="2012-11-15T14:37:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contractBikSymbolsInTextFieldTest_C15026 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBikSymbolsInTextFieldTest@48179cc2]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:37:50Z" finished-at="2012-11-15T14:37:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractBikSymbolsInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractCorAccountLettersInTextFieldTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountLettersInTextFieldTest@13b93c4c]" name="startWebDriver" is-config="true" duration-ms="1183" started-at="2012-11-15T14:38:56Z" finished-at="2012-11-15T14:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="contractCorAccountLettersInTextFieldTest_C15001()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountLettersInTextFieldTest@13b93c4c]" name="contractCorAccountLettersInTextFieldTest_C15001" duration-ms="21149" started-at="2012-11-15T14:38:57Z" finished-at="2012-11-15T14:39:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contractCorAccountLettersInTextFieldTest_C15001 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountLettersInTextFieldTest@13b93c4c]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:39:18Z" finished-at="2012-11-15T14:39:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractCorAccountLettersInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractBankAccountTenInTextFieldTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountTenInTextFieldTest@2ebaa4a4]" name="startWebDriver" is-config="true" duration-ms="1163" started-at="2012-11-15T14:35:42Z" finished-at="2012-11-15T14:35:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="contractBankAccountTenInTextFieldTest_C14994()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountTenInTextFieldTest@2ebaa4a4]" name="contractBankAccountTenInTextFieldTest_C14994" duration-ms="22363" started-at="2012-11-15T14:35:43Z" finished-at="2012-11-15T14:36:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contractBankAccountTenInTextFieldTest_C14994 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountTenInTextFieldTest@2ebaa4a4]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-15T14:36:05Z" finished-at="2012-11-15T14:36:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractBankAccountTenInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractOgrnOneNumberInTextFieldTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrnOneNumberInTextFieldTest@5c78bca]" name="startWebDriver" is-config="true" duration-ms="1193" started-at="2012-11-15T14:46:58Z" finished-at="2012-11-15T14:47:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="contractOgrnOneNumberInTextFieldTest_C15053()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrnOneNumberInTextFieldTest@5c78bca]" name="contractOgrnOneNumberInTextFieldTest_C15053" duration-ms="20746" started-at="2012-11-15T14:47:00Z" finished-at="2012-11-15T14:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contractOgrnOneNumberInTextFieldTest_C15053 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrnOneNumberInTextFieldTest@5c78bca]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:47:20Z" finished-at="2012-11-15T14:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractOgrnOneNumberInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractBikLettersInTextFieldTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBikLettersInTextFieldTest@74895110]" name="startWebDriver" is-config="true" duration-ms="1182" started-at="2012-11-15T14:37:02Z" finished-at="2012-11-15T14:37:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="contractBikTestLettersInTextField_C15023()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBikLettersInTextFieldTest@74895110]" name="contractBikTestLettersInTextField_C15023" duration-ms="21448" started-at="2012-11-15T14:37:04Z" finished-at="2012-11-15T14:37:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contractBikTestLettersInTextField_C15023 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBikLettersInTextFieldTest@74895110]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:37:25Z" finished-at="2012-11-15T14:37:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractBikLettersInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.VoiceMenuFillNAmeTextFieldTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.VoiceMenuFillNAmeTextFieldTest@96dbfb4]" name="startWebDriver" is-config="true" duration-ms="1460" started-at="2012-11-15T14:32:47Z" finished-at="2012-11-15T14:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="FAIL" signature="voiceFillNAmeTextFieldTest_C15293()[pri:0, instance:com.YouMagicPro.LKA_tests.VoiceMenuFillNAmeTextFieldTest@96dbfb4]" name="voiceFillNAmeTextFieldTest_C15293" duration-ms="17995" started-at="2012-11-15T14:32:48Z" finished-at="2012-11-15T14:33:06Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Element is not clickable at point (932.5, 402). Other element would receive the click: <div id="modalBackdrop" style="z-index: 1000; position: absolute; left: 0px; margin: 0px; background-color: rgb(255, 255, 255); opacity: 0.5; top: 0px; height: 1210px; width: 1037px; background-position: initial initial; background-repeat: initial initial;"></div> (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 35 milliseconds
+Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
+Driver info: driver.version: RemoteWebDriver
+Session ID: 66af44d1f76fea3d33fdcb5376fba0c2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (932.5, 402). Other element would receive the click: <div id="modalBackdrop" style="z-index: 1000; position: absolute; left: 0px; margin: 0px; background-color: rgb(255, 255, 255); opacity: 0.5; top: 0px; height: 1210px; width: 1037px; background-position: initial initial; background-repeat: initial initial;"></div> (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 35 milliseconds
+Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
+Driver info: driver.version: RemoteWebDriver
+Session ID: 66af44d1f76fea3d33fdcb5376fba0c2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:246)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.YouMagicPro.LKA_tests.VoiceMenuFillNAmeTextFieldTest.voiceFillNAmeTextFieldTest_C15293(VoiceMenuFillNAmeTextFieldTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at $Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- voiceFillNAmeTextFieldTest_C15293 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.VoiceMenuFillNAmeTextFieldTest@96dbfb4]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:33:06Z" finished-at="2012-11-15T14:33:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.VoiceMenuFillNAmeTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractKppLettersTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKppLettersTest@2c96d430]" name="startWebDriver" is-config="true" duration-ms="1646" started-at="2012-11-15T14:44:37Z" finished-at="2012-11-15T14:44:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="contractKppTest_C15050()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKppLettersTest@2c96d430]" name="contractKppTest_C15050" duration-ms="21063" started-at="2012-11-15T14:44:39Z" finished-at="2012-11-15T14:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contractKppTest_C15050 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKppLettersTest@2c96d430]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:45:00Z" finished-at="2012-11-15T14:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractKppLettersTest -->
+      <class name="com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberTextFieldTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberTextFieldTest@2d1bee74]" name="startWebDriver" is-config="true" duration-ms="1940" started-at="2012-11-15T14:32:33Z" finished-at="2012-11-15T14:32:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="buyingAdditionalInternalNumberTextFieldTest_C15112()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberTextFieldTest@2d1bee74]" name="buyingAdditionalInternalNumberTextFieldTest_C15112" duration-ms="11318" started-at="2012-11-15T14:32:35Z" finished-at="2012-11-15T14:32:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- buyingAdditionalInternalNumberTextFieldTest_C15112 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberTextFieldTest@216f1cbc]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T15:09:39Z" finished-at="2012-11-13T15:09:39Z">
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberTextFieldTest@2d1bee74]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:32:47Z" finished-at="2012-11-15T14:32:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
       </class> <!-- com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberTextFieldTest -->
       <class name="com.YouMagicPro.LKA_tests.ContractBankAccountOneInTextFieldTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountOneInTextFieldTest@69c2ff33]" name="startWebDriver" is-config="true" duration-ms="1401" started-at="2012-11-13T15:14:29Z" finished-at="2012-11-13T15:14:31Z">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountOneInTextFieldTest@3412605d]" name="startWebDriver" is-config="true" duration-ms="1243" started-at="2012-11-15T14:34:48Z" finished-at="2012-11-15T14:34:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractBankAccountOneInTextFieldTest_C14993()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountOneInTextFieldTest@69c2ff33]" name="contractBankAccountOneInTextFieldTest_C14993" duration-ms="94820" started-at="2012-11-13T15:14:31Z" finished-at="2012-11-13T15:16:05Z">
+        <test-method status="PASS" signature="contractBankAccountOneInTextFieldTest_C14993()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountOneInTextFieldTest@3412605d]" name="contractBankAccountOneInTextFieldTest_C14993" duration-ms="26413" started-at="2012-11-15T14:34:49Z" finished-at="2012-11-15T14:35:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contractBankAccountOneInTextFieldTest_C14993 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountOneInTextFieldTest@69c2ff33]" name="closeSession" is-config="true" duration-ms="3" started-at="2012-11-13T15:16:05Z" finished-at="2012-11-13T15:16:05Z">
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountOneInTextFieldTest@3412605d]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:35:16Z" finished-at="2012-11-15T14:35:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
       </class> <!-- com.YouMagicPro.LKA_tests.ContractBankAccountOneInTextFieldTest -->
       <class name="com.YouMagicPro.LKA_tests.OrderByEmailOrderWithoutDocTypeCheckedTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByEmailOrderWithoutDocTypeCheckedTest@1c6cdb70]" name="startWebDriver" is-config="true" duration-ms="1452" started-at="2012-11-13T16:11:32Z" finished-at="2012-11-13T16:11:33Z">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByEmailOrderWithoutDocTypeCheckedTest@18515783]" name="startWebDriver" is-config="true" duration-ms="1786" started-at="2012-11-15T14:52:25Z" finished-at="2012-11-15T14:52:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="orderByEmailOrderWithoutDocTypeCheckedTest_C25656()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByEmailOrderWithoutDocTypeCheckedTest@1c6cdb70]" name="orderByEmailOrderWithoutDocTypeCheckedTest_C25656" duration-ms="19060" started-at="2012-11-13T16:11:33Z" finished-at="2012-11-13T16:11:52Z">
+        <test-method status="PASS" signature="orderByEmailOrderWithoutDocTypeCheckedTest_C25656()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByEmailOrderWithoutDocTypeCheckedTest@18515783]" name="orderByEmailOrderWithoutDocTypeCheckedTest_C25656" duration-ms="19033" started-at="2012-11-15T14:52:26Z" finished-at="2012-11-15T14:52:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderByEmailOrderWithoutDocTypeCheckedTest_C25656 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByEmailOrderWithoutDocTypeCheckedTest@1c6cdb70]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-13T16:11:52Z" finished-at="2012-11-13T16:11:52Z">
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByEmailOrderWithoutDocTypeCheckedTest@18515783]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-15T14:52:45Z" finished-at="2012-11-15T14:52:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
       </class> <!-- com.YouMagicPro.LKA_tests.OrderByEmailOrderWithoutDocTypeCheckedTest -->
       <class name="com.YouMagicPro.LKA_tests.ContractBikLettersAndNumbersInTextFieldTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBikLettersAndNumbersInTextFieldTest@47f35aaa]" name="startWebDriver" is-config="true" duration-ms="1166" started-at="2012-11-13T15:18:08Z" finished-at="2012-11-13T15:18:10Z">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBikLettersAndNumbersInTextFieldTest@22749460]" name="startWebDriver" is-config="true" duration-ms="1195" started-at="2012-11-15T14:36:33Z" finished-at="2012-11-15T14:36:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractBikTest_C15025()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBikLettersAndNumbersInTextFieldTest@47f35aaa]" name="contractBikTest_C15025" duration-ms="20654" started-at="2012-11-13T15:18:10Z" finished-at="2012-11-13T15:18:30Z">
+        <test-method status="PASS" signature="contractBikTest_C15025()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBikLettersAndNumbersInTextFieldTest@22749460]" name="contractBikTest_C15025" duration-ms="28507" started-at="2012-11-15T14:36:34Z" finished-at="2012-11-15T14:37:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contractBikTest_C15025 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBikLettersAndNumbersInTextFieldTest@47f35aaa]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T15:18:30Z" finished-at="2012-11-13T15:18:30Z">
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBikLettersAndNumbersInTextFieldTest@22749460]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:37:02Z" finished-at="2012-11-15T14:37:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
       </class> <!-- com.YouMagicPro.LKA_tests.ContractBikLettersAndNumbersInTextFieldTest -->
-      <class name="com.YouMagicPro.LKA_tests.ContractKppSymbolsTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKppSymbolsTest@5113faf7]" name="startWebDriver" is-config="true" duration-ms="1186" started-at="2012-11-13T16:06:31Z" finished-at="2012-11-13T16:06:32Z">
+      <class name="com.YouMagicPro.LKA_tests.VoiceMenuChooseSoundTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.VoiceMenuChooseSoundTest@6faa7dbc]" name="startWebDriver" is-config="true" duration-ms="671" started-at="2012-11-15T14:31:34Z" finished-at="2012-11-15T14:31:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractKppTest_C15051()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKppSymbolsTest@5113faf7]" name="contractKppTest_C15051" duration-ms="21147" started-at="2012-11-13T16:06:32Z" finished-at="2012-11-13T16:06:53Z">
+        <test-method status="PASS" signature="voiceMailChooseSoundTest_C15294()[pri:0, instance:com.YouMagicPro.LKA_tests.VoiceMenuChooseSoundTest@6faa7dbc]" name="voiceMailChooseSoundTest_C15294" duration-ms="23097" started-at="2012-11-15T14:31:34Z" finished-at="2012-11-15T14:31:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- voiceMailChooseSoundTest_C15294 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.VoiceMenuChooseSoundTest@6faa7dbc]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:31:57Z" finished-at="2012-11-15T14:31:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.VoiceMenuChooseSoundTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractKppSymbolsTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKppSymbolsTest@ffeaa19]" name="startWebDriver" is-config="true" duration-ms="1998" started-at="2012-11-15T14:45:22Z" finished-at="2012-11-15T14:45:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="contractKppTest_C15051()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKppSymbolsTest@ffeaa19]" name="contractKppTest_C15051" duration-ms="21871" started-at="2012-11-15T14:45:24Z" finished-at="2012-11-15T14:45:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contractKppTest_C15051 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKppSymbolsTest@5113faf7]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T16:06:53Z" finished-at="2012-11-13T16:06:53Z">
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKppSymbolsTest@ffeaa19]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-15T14:45:46Z" finished-at="2012-11-15T14:45:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
       </class> <!-- com.YouMagicPro.LKA_tests.ContractKppSymbolsTest -->
       <class name="com.YouMagicPro.LKA_tests.OrderToAdressNoTextFieldFilledTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderToAdressNoTextFieldFilledTest@5235b55c]" name="startWebDriver" is-config="true" duration-ms="1193" started-at="2012-11-13T16:14:54Z" finished-at="2012-11-13T16:14:55Z">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderToAdressNoTextFieldFilledTest@443efcc7]" name="startWebDriver" is-config="true" duration-ms="1346" started-at="2012-11-15T14:55:38Z" finished-at="2012-11-15T14:55:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="OrderToAdressNoTextFieldFilledTest_C25679()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderToAdressNoTextFieldFilledTest@5235b55c]" name="OrderToAdressNoTextFieldFilledTest_C25679" duration-ms="22616" started-at="2012-11-13T16:14:55Z" finished-at="2012-11-13T16:15:18Z">
+        <test-method status="PASS" signature="OrderToAdressNoTextFieldFilledTest_C25679()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderToAdressNoTextFieldFilledTest@443efcc7]" name="OrderToAdressNoTextFieldFilledTest_C25679" duration-ms="19103" started-at="2012-11-15T14:55:39Z" finished-at="2012-11-15T14:55:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OrderToAdressNoTextFieldFilledTest_C25679 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderToAdressNoTextFieldFilledTest@5235b55c]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T16:15:18Z" finished-at="2012-11-13T16:15:18Z">
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderToAdressNoTextFieldFilledTest@443efcc7]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:55:58Z" finished-at="2012-11-15T14:55:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
       </class> <!-- com.YouMagicPro.LKA_tests.OrderToAdressNoTextFieldFilledTest -->
       <class name="com.YouMagicPro.LKA_tests.OrderToAdressCancelButtonClickTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderToAdressCancelButtonClickTest@755ee1ed]" name="startWebDriver" is-config="true" duration-ms="1757" started-at="2012-11-13T16:13:56Z" finished-at="2012-11-13T16:13:58Z">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderToAdressCancelButtonClickTest@44865ee]" name="startWebDriver" is-config="true" duration-ms="1910" started-at="2012-11-15T14:54:45Z" finished-at="2012-11-15T14:54:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="orderToAdressCancelButtonClickTest_C25675()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderToAdressCancelButtonClickTest@755ee1ed]" name="orderToAdressCancelButtonClickTest_C25675" duration-ms="19272" started-at="2012-11-13T16:13:58Z" finished-at="2012-11-13T16:14:17Z">
+        <test-method status="PASS" signature="orderToAdressCancelButtonClickTest_C25675()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderToAdressCancelButtonClickTest@44865ee]" name="orderToAdressCancelButtonClickTest_C25675" duration-ms="17839" started-at="2012-11-15T14:54:47Z" finished-at="2012-11-15T14:55:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderToAdressCancelButtonClickTest_C25675 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderToAdressCancelButtonClickTest@755ee1ed]" name="closeSession" is-config="true" duration-ms="3" started-at="2012-11-13T16:14:17Z" finished-at="2012-11-13T16:14:17Z">
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderToAdressCancelButtonClickTest@44865ee]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:55:05Z" finished-at="2012-11-15T14:55:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
       </class> <!-- com.YouMagicPro.LKA_tests.OrderToAdressCancelButtonClickTest -->
       <class name="com.YouMagicPro.LKA_tests.DiscSpaceTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.DiscSpaceTest@52c22530]" name="startWebDriver" is-config="true" duration-ms="1587" started-at="2012-11-13T16:08:50Z" finished-at="2012-11-13T16:08:51Z">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.DiscSpaceTest@6244b22e]" name="startWebDriver" is-config="true" duration-ms="1208" started-at="2012-11-15T14:47:42Z" finished-at="2012-11-15T14:47:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="expenseStructureTest()[pri:0, instance:com.YouMagicPro.LKA_tests.DiscSpaceTest@52c22530]" name="expenseStructureTest" duration-ms="9317" started-at="2012-11-13T16:08:51Z" finished-at="2012-11-13T16:09:01Z">
+        <test-method status="PASS" signature="expenseStructureTest()[pri:0, instance:com.YouMagicPro.LKA_tests.DiscSpaceTest@6244b22e]" name="expenseStructureTest" duration-ms="8615" started-at="2012-11-15T14:47:43Z" finished-at="2012-11-15T14:47:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- expenseStructureTest -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.DiscSpaceTest@52c22530]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-13T16:09:01Z" finished-at="2012-11-13T16:09:01Z">
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.DiscSpaceTest@6244b22e]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:47:51Z" finished-at="2012-11-15T14:47:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
       </class> <!-- com.YouMagicPro.LKA_tests.DiscSpaceTest -->
-      <class name="com.YouMagicPro.LKA_tests.Buying804NumberCostOfNumberTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.Buying804NumberCostOfNumberTest@15f2cff0]" name="startWebDriver" is-config="true" duration-ms="1188" started-at="2012-11-13T15:06:44Z" finished-at="2012-11-13T15:06:45Z">
+      <class name="com.YouMagicPro.LKA_tests.EmployeesEditProfileTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesEditProfileTest@52c22530]" name="startWebDriver" is-config="true" duration-ms="1160" started-at="2012-11-15T14:49:33Z" finished-at="2012-11-15T14:49:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="buying804NumberCostOfNumberTest_C25623()[pri:0, instance:com.YouMagicPro.LKA_tests.Buying804NumberCostOfNumberTest@15f2cff0]" name="buying804NumberCostOfNumberTest_C25623" duration-ms="53592" started-at="2012-11-13T15:06:45Z" finished-at="2012-11-13T15:07:38Z">
+        <test-method status="PASS" signature="employeesEditProfileTest_C15253()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesEditProfileTest@52c22530]" name="employeesEditProfileTest_C15253" duration-ms="17560" started-at="2012-11-15T14:49:34Z" finished-at="2012-11-15T14:49:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeesEditProfileTest_C15253 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesEditProfileTest@52c22530]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:49:51Z" finished-at="2012-11-15T14:49:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.EmployeesEditProfileTest -->
+      <class name="com.YouMagicPro.LKA_tests.Buying804NumberCostOfNumberTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.Buying804NumberCostOfNumberTest@722e2167]" name="startWebDriver" is-config="true" duration-ms="1222" started-at="2012-11-15T14:31:16Z" finished-at="2012-11-15T14:31:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="buying804NumberCostOfNumberTest_C25623()[pri:0, instance:com.YouMagicPro.LKA_tests.Buying804NumberCostOfNumberTest@722e2167]" name="buying804NumberCostOfNumberTest_C25623" duration-ms="16522" started-at="2012-11-15T14:31:17Z" finished-at="2012-11-15T14:31:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- buying804NumberCostOfNumberTest_C25623 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.Buying804NumberCostOfNumberTest@15f2cff0]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T15:07:38Z" finished-at="2012-11-13T15:07:38Z">
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.Buying804NumberCostOfNumberTest@722e2167]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:31:34Z" finished-at="2012-11-15T14:31:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
       </class> <!-- com.YouMagicPro.LKA_tests.Buying804NumberCostOfNumberTest -->
-      <class name="com.YouMagicPro.LKA_tests.OrderByPickUpChangeNameTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByPickUpChangeNameTest@39c573cd]" name="startWebDriver" is-config="true" duration-ms="2039" started-at="2012-11-13T16:12:13Z" finished-at="2012-11-13T16:12:16Z">
+      <class name="com.YouMagicPro.LKA_tests.EmployeesAddEmployeeTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesAddEmployeeTest@4dff4999]" name="startWebDriver" is-config="true" duration-ms="1158" started-at="2012-11-15T14:47:51Z" finished-at="2012-11-15T14:47:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="orderByPickUpChangeNameTest_C25668()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByPickUpChangeNameTest@39c573cd]" name="orderByPickUpChangeNameTest_C25668" duration-ms="19520" started-at="2012-11-13T16:12:16Z" finished-at="2012-11-13T16:12:35Z">
+        <test-method status="PASS" signature="employeesEditProfileTest_C15253()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesAddEmployeeTest@4dff4999]" name="employeesEditProfileTest_C15253" duration-ms="21054" started-at="2012-11-15T14:47:53Z" finished-at="2012-11-15T14:48:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeesEditProfileTest_C15253 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesAddEmployeeTest@4dff4999]" name="closeSession" is-config="true" duration-ms="5" started-at="2012-11-15T14:48:14Z" finished-at="2012-11-15T14:48:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.EmployeesAddEmployeeTest -->
+      <class name="com.YouMagicPro.LKA_tests.OrderByPickUpChangeNameTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByPickUpChangeNameTest@6b3782c3]" name="startWebDriver" is-config="true" duration-ms="1773" started-at="2012-11-15T14:53:04Z" finished-at="2012-11-15T14:53:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="orderByPickUpChangeNameTest_C25668()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByPickUpChangeNameTest@6b3782c3]" name="orderByPickUpChangeNameTest_C25668" duration-ms="16837" started-at="2012-11-15T14:53:06Z" finished-at="2012-11-15T14:53:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderByPickUpChangeNameTest_C25668 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByPickUpChangeNameTest@39c573cd]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T16:12:35Z" finished-at="2012-11-13T16:12:35Z">
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByPickUpChangeNameTest@6b3782c3]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-15T14:53:23Z" finished-at="2012-11-15T14:53:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
       </class> <!-- com.YouMagicPro.LKA_tests.OrderByPickUpChangeNameTest -->
       <class name="com.YouMagicPro.LKA_tests.Buying804NumberCategoriesOfNumbers">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.Buying804NumberCategoriesOfNumbers@7b37676c]" name="startWebDriver" is-config="true" duration-ms="1616" started-at="2012-11-13T15:05:37Z" finished-at="2012-11-13T15:05:39Z">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.Buying804NumberCategoriesOfNumbers@59737b19]" name="startWebDriver" is-config="true" duration-ms="5424" started-at="2012-11-15T14:30:28Z" finished-at="2012-11-15T14:30:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="FAIL" signature="buying804NumberCategoriesOfNumbers_C25622()[pri:0, instance:com.YouMagicPro.LKA_tests.Buying804NumberCategoriesOfNumbers@7b37676c]" name="buying804NumberCategoriesOfNumbers_C25622" duration-ms="64917" started-at="2012-11-13T15:05:39Z" finished-at="2012-11-13T15:06:44Z">
+        <test-method status="PASS" signature="buying804NumberCategoriesOfNumbers_C25622()[pri:0, instance:com.YouMagicPro.LKA_tests.Buying804NumberCategoriesOfNumbers@59737b19]" name="buying804NumberCategoriesOfNumbers_C25622" duration-ms="20509" started-at="2012-11-15T14:30:33Z" finished-at="2012-11-15T14:30:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buying804NumberCategoriesOfNumbers_C25622 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.Buying804NumberCategoriesOfNumbers@59737b19]" name="closeSession" is-config="true" duration-ms="3" started-at="2012-11-15T14:30:54Z" finished-at="2012-11-15T14:30:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.Buying804NumberCategoriesOfNumbers -->
+      <class name="com.YouMagicPro.LKA_tests.ContractCorAccountTenInTextFieldTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountTenInTextFieldTest@4be525ab]" name="startWebDriver" is-config="true" duration-ms="1159" started-at="2012-11-15T14:40:09Z" finished-at="2012-11-15T14:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="contractCorAccountTenInTextFieldTest_C15000()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountTenInTextFieldTest@4be525ab]" name="contractCorAccountTenInTextFieldTest_C15000" duration-ms="23064" started-at="2012-11-15T14:40:10Z" finished-at="2012-11-15T14:40:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contractCorAccountTenInTextFieldTest_C15000 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountTenInTextFieldTest@4be525ab]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:40:33Z" finished-at="2012-11-15T14:40:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractCorAccountTenInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractKppLettersAndNumbersTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKppLettersAndNumbersTest@310c247a]" name="startWebDriver" is-config="true" duration-ms="1650" started-at="2012-11-15T14:44:14Z" finished-at="2012-11-15T14:44:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="contractKppTest_C15054()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKppLettersAndNumbersTest@310c247a]" name="contractKppTest_C15054" duration-ms="21688" started-at="2012-11-15T14:44:16Z" finished-at="2012-11-15T14:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contractKppTest_C15054 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKppLettersAndNumbersTest@310c247a]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:44:37Z" finished-at="2012-11-15T14:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractKppLettersAndNumbersTest -->
+      <class name="com.YouMagicPro.LKA_tests.EmployeesEditProfile2SymbolsInTextFieldTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesEditProfile2SymbolsInTextFieldTest@7d16a957]" name="startWebDriver" is-config="true" duration-ms="1233" started-at="2012-11-15T14:48:30Z" finished-at="2012-11-15T14:48:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="employeesEditProfileTest_C15253()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesEditProfile2SymbolsInTextFieldTest@7d16a957]" name="employeesEditProfileTest_C15253" duration-ms="19528" started-at="2012-11-15T14:48:31Z" finished-at="2012-11-15T14:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeesEditProfileTest_C15253 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesEditProfile2SymbolsInTextFieldTest@7d16a957]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:48:50Z" finished-at="2012-11-15T14:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.EmployeesEditProfile2SymbolsInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.OrderByEmailChangeNameTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByEmailChangeNameTest@6b6622e6]" name="startWebDriver" is-config="true" duration-ms="1953" started-at="2012-11-15T14:52:04Z" finished-at="2012-11-15T14:52:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="orderByEmailChangeNameTest_C25671()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByEmailChangeNameTest@6b6622e6]" name="orderByEmailChangeNameTest_C25671" duration-ms="18110" started-at="2012-11-15T14:52:06Z" finished-at="2012-11-15T14:52:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderByEmailChangeNameTest_C25671 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByEmailChangeNameTest@6b6622e6]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:52:25Z" finished-at="2012-11-15T14:52:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.OrderByEmailChangeNameTest -->
+      <class name="com.YouMagicPro.LKA_tests.OrderByEmailChangeEmailTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByEmailChangeEmailTest@794f47c]" name="startWebDriver" is-config="true" duration-ms="1549" started-at="2012-11-15T14:51:45Z" finished-at="2012-11-15T14:51:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="orderByEmailChangeEmailTest_C25653()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByEmailChangeEmailTest@794f47c]" name="orderByEmailChangeEmailTest_C25653" duration-ms="18273" started-at="2012-11-15T14:51:46Z" finished-at="2012-11-15T14:52:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderByEmailChangeEmailTest_C25653 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByEmailChangeEmailTest@794f47c]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-15T14:52:04Z" finished-at="2012-11-15T14:52:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.OrderByEmailChangeEmailTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractInn6NumbersInTextFieldTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInn6NumbersInTextFieldTest@58d3d0d4]" name="startWebDriver" is-config="true" duration-ms="1708" started-at="2012-11-15T14:41:35Z" finished-at="2012-11-15T14:41:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="contractInn6NumbersInTextFieldTest_C15029()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInn6NumbersInTextFieldTest@58d3d0d4]" name="contractInn6NumbersInTextFieldTest_C15029" duration-ms="19613" started-at="2012-11-15T14:41:37Z" finished-at="2012-11-15T14:41:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contractInn6NumbersInTextFieldTest_C15029 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInn6NumbersInTextFieldTest@58d3d0d4]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:41:57Z" finished-at="2012-11-15T14:41:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractInn6NumbersInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.VoiceMenuEmptyNameTextFieldTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.VoiceMenuEmptyNameTextFieldTest@599a4de1]" name="startWebDriver" is-config="true" duration-ms="1235" started-at="2012-11-15T14:32:12Z" finished-at="2012-11-15T14:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="voiceMailEmptyNameTextFieldTest_C19851()[pri:0, instance:com.YouMagicPro.LKA_tests.VoiceMenuEmptyNameTextFieldTest@599a4de1]" name="voiceMailEmptyNameTextFieldTest_C19851" duration-ms="20598" started-at="2012-11-15T14:32:13Z" finished-at="2012-11-15T14:32:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- voiceMailEmptyNameTextFieldTest_C19851 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.VoiceMenuEmptyNameTextFieldTest@599a4de1]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-15T14:32:33Z" finished-at="2012-11-15T14:32:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.VoiceMenuEmptyNameTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.ExpenseStructureChooseAdditionalNumbersTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureChooseAdditionalNumbersTest@3458fd2]" name="startWebDriver" is-config="true" duration-ms="1218" started-at="2012-11-15T14:50:01Z" finished-at="2012-11-15T14:50:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="expenseStructureChooseAdditionalNumbersTest_C15100()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureChooseAdditionalNumbersTest@3458fd2]" name="expenseStructureChooseAdditionalNumbersTest_C15100" duration-ms="11873" started-at="2012-11-15T14:50:03Z" finished-at="2012-11-15T14:50:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expenseStructureChooseAdditionalNumbersTest_C15100 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureChooseAdditionalNumbersTest@3458fd2]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:50:14Z" finished-at="2012-11-15T14:50:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ExpenseStructureChooseAdditionalNumbersTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractCorAccountSymbolsInTextFieldTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountSymbolsInTextFieldTest@e8baeed]" name="startWebDriver" is-config="true" duration-ms="1228" started-at="2012-11-15T14:39:40Z" finished-at="2012-11-15T14:39:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="contractCorAccountSymbolsInTextFieldTest_C15003()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountSymbolsInTextFieldTest@e8baeed]" name="contractCorAccountSymbolsInTextFieldTest_C15003" duration-ms="27583" started-at="2012-11-15T14:39:41Z" finished-at="2012-11-15T14:40:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contractCorAccountSymbolsInTextFieldTest_C15003 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountSymbolsInTextFieldTest@e8baeed]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-15T14:40:09Z" finished-at="2012-11-15T14:40:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractCorAccountSymbolsInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractOgrnLettersInTextFieldTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrnLettersInTextFieldTest@4ba046fe]" name="startWebDriver" is-config="true" duration-ms="667" started-at="2012-11-15T14:46:32Z" finished-at="2012-11-15T14:46:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="contractOgrnLettersInTextFieldTest_C15056()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrnLettersInTextFieldTest@4ba046fe]" name="contractOgrnLettersInTextFieldTest_C15056" duration-ms="25234" started-at="2012-11-15T14:46:33Z" finished-at="2012-11-15T14:46:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contractOgrnLettersInTextFieldTest_C15056 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrnLettersInTextFieldTest@4ba046fe]" name="closeSession" is-config="true" duration-ms="3" started-at="2012-11-15T14:46:58Z" finished-at="2012-11-15T14:46:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractOgrnLettersInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.OrderByEmailCancelButtonTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByEmailCancelButtonTest@c0e1c69]" name="startWebDriver" is-config="true" duration-ms="1494" started-at="2012-11-15T14:51:26Z" finished-at="2012-11-15T14:51:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="orderByEmailCancelButtonTest_C15141()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByEmailCancelButtonTest@c0e1c69]" name="orderByEmailCancelButtonTest_C15141" duration-ms="17242" started-at="2012-11-15T14:51:27Z" finished-at="2012-11-15T14:51:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderByEmailCancelButtonTest_C15141 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByEmailCancelButtonTest@c0e1c69]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:51:45Z" finished-at="2012-11-15T14:51:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.OrderByEmailCancelButtonTest -->
+      <class name="com.YouMagicPro.LKA_tests.ExpenseStructureRentalFeeTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureRentalFeeTest@1a483edb]" name="startWebDriver" is-config="true" duration-ms="1174" started-at="2012-11-15T14:50:41Z" finished-at="2012-11-15T14:50:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="FAIL" signature="expenseStructureRentalFeeTest_C15096()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureRentalFeeTest@1a483edb]" name="expenseStructureRentalFeeTest_C15096" duration-ms="9554" started-at="2012-11-15T14:50:43Z" finished-at="2012-11-15T14:50:52Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Element is not clickable at point (555, 381). Other element would receive the click: <img id="1" class="slideimage" src="/sites/all/modules/contrib/umagicpro_instructions/images/home.png" data-title="Благодарим вас за выбор YouMagic.Pro!"> (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 32 milliseconds
+Command duration or timeout: 31 milliseconds
 Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
 System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
 Driver info: driver.version: RemoteWebDriver
-Session ID: 6752d5fad075b76405e9a4ba98709f8e]]>
+Session ID: a5b31ae88c69dfad0eadef8c5a7d3dc4]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (555, 381). Other element would receive the click: <img id="1" class="slideimage" src="/sites/all/modules/contrib/umagicpro_instructions/images/home.png" data-title="Благодарим вас за выбор YouMagic.Pro!"> (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 32 milliseconds
+Command duration or timeout: 31 milliseconds
 Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
 System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
 Driver info: driver.version: RemoteWebDriver
-Session ID: 6752d5fad075b76405e9a4ba98709f8e
+Session ID: a5b31ae88c69dfad0eadef8c5a7d3dc4
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -744,7 +1023,7 @@ Session ID: 6752d5fad075b76405e9a4ba98709f8e
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:246)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
 	at com.YouMagicPro.LKA_tests.TestBase.waitAdminPageToLoad(TestBase.java:111)
-	at com.YouMagicPro.LKA_tests.Buying804NumberCategoriesOfNumbers.buying804NumberCategoriesOfNumbers_C25622(Buying804NumberCategoriesOfNumbers.java:11)
+	at com.YouMagicPro.LKA_tests.ExpenseStructureRentalFeeTest.expenseStructureRentalFeeTest_C15096(ExpenseStructureRentalFeeTest.java:11)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -781,253 +1060,106 @@ Session ID: 6752d5fad075b76405e9a4ba98709f8e
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- buying804NumberCategoriesOfNumbers_C25622 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.Buying804NumberCategoriesOfNumbers@7b37676c]" name="closeSession" is-config="true" duration-ms="5" started-at="2012-11-13T15:06:44Z" finished-at="2012-11-13T15:06:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.Buying804NumberCategoriesOfNumbers -->
-      <class name="com.YouMagicPro.LKA_tests.ContractCorAccountTenInTextFieldTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountTenInTextFieldTest@7e7d611f]" name="startWebDriver" is-config="true" duration-ms="1183" started-at="2012-11-13T15:38:52Z" finished-at="2012-11-13T15:38:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractCorAccountTenInTextFieldTest_C15000()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountTenInTextFieldTest@7e7d611f]" name="contractCorAccountTenInTextFieldTest_C15000" duration-ms="23918" started-at="2012-11-13T15:38:53Z" finished-at="2012-11-13T15:39:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contractCorAccountTenInTextFieldTest_C15000 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountTenInTextFieldTest@7e7d611f]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T15:39:17Z" finished-at="2012-11-13T15:39:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractCorAccountTenInTextFieldTest -->
-      <class name="com.YouMagicPro.LKA_tests.ContractKppLettersAndNumbersTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKppLettersAndNumbersTest@48179cc2]" name="startWebDriver" is-config="true" duration-ms="1176" started-at="2012-11-13T16:05:19Z" finished-at="2012-11-13T16:05:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractKppTest_C15054()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKppLettersAndNumbersTest@48179cc2]" name="contractKppTest_C15054" duration-ms="22475" started-at="2012-11-13T16:05:20Z" finished-at="2012-11-13T16:05:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contractKppTest_C15054 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractKppLettersAndNumbersTest@48179cc2]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T16:05:42Z" finished-at="2012-11-13T16:05:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractKppLettersAndNumbersTest -->
-      <class name="com.YouMagicPro.LKA_tests.OrderByEmailChangeNameTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByEmailChangeNameTest@29d52a29]" name="startWebDriver" is-config="true" duration-ms="947" started-at="2012-11-13T16:11:07Z" finished-at="2012-11-13T16:11:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="orderByEmailChangeNameTest_C25671()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByEmailChangeNameTest@29d52a29]" name="orderByEmailChangeNameTest_C25671" duration-ms="23627" started-at="2012-11-13T16:11:08Z" finished-at="2012-11-13T16:11:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- orderByEmailChangeNameTest_C25671 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByEmailChangeNameTest@29d52a29]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T16:11:32Z" finished-at="2012-11-13T16:11:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.OrderByEmailChangeNameTest -->
-      <class name="com.YouMagicPro.LKA_tests.OrderByEmailChangeEmailTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByEmailChangeEmailTest@588e2e94]" name="startWebDriver" is-config="true" duration-ms="1383" started-at="2012-11-13T16:10:49Z" finished-at="2012-11-13T16:10:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="orderByEmailChangeEmailTest_C25653()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByEmailChangeEmailTest@588e2e94]" name="orderByEmailChangeEmailTest_C25653" duration-ms="17054" started-at="2012-11-13T16:10:50Z" finished-at="2012-11-13T16:11:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- orderByEmailChangeEmailTest_C25653 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByEmailChangeEmailTest@588e2e94]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T16:11:07Z" finished-at="2012-11-13T16:11:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.OrderByEmailChangeEmailTest -->
-      <class name="com.YouMagicPro.LKA_tests.ContractInn6NumbersInTextFieldTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInn6NumbersInTextFieldTest@2a7704dd]" name="startWebDriver" is-config="true" duration-ms="1204" started-at="2012-11-13T15:42:22Z" finished-at="2012-11-13T15:42:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractInn6NumbersInTextFieldTest_C15029()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInn6NumbersInTextFieldTest@2a7704dd]" name="contractInn6NumbersInTextFieldTest_C15029" duration-ms="36647" started-at="2012-11-13T15:42:24Z" finished-at="2012-11-13T15:43:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contractInn6NumbersInTextFieldTest_C15029 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInn6NumbersInTextFieldTest@2a7704dd]" name="closeSession" is-config="true" duration-ms="3" started-at="2012-11-13T15:43:00Z" finished-at="2012-11-13T15:43:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractInn6NumbersInTextFieldTest -->
-      <class name="com.YouMagicPro.LKA_tests.ExpenseStructureChooseAdditionalNumbersTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureChooseAdditionalNumbersTest@73ad1d2c]" name="startWebDriver" is-config="true" duration-ms="1167" started-at="2012-11-13T16:09:11Z" finished-at="2012-11-13T16:09:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="expenseStructureChooseAdditionalNumbersTest_C15100()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureChooseAdditionalNumbersTest@73ad1d2c]" name="expenseStructureChooseAdditionalNumbersTest_C15100" duration-ms="10503" started-at="2012-11-13T16:09:12Z" finished-at="2012-11-13T16:09:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- expenseStructureChooseAdditionalNumbersTest_C15100 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureChooseAdditionalNumbersTest@73ad1d2c]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T16:09:23Z" finished-at="2012-11-13T16:09:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ExpenseStructureChooseAdditionalNumbersTest -->
-      <class name="com.YouMagicPro.LKA_tests.ContractCorAccountSymbolsInTextFieldTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountSymbolsInTextFieldTest@2686a13f]" name="startWebDriver" is-config="true" duration-ms="1177" started-at="2012-11-13T15:38:31Z" finished-at="2012-11-13T15:38:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="FAIL" signature="contractCorAccountSymbolsInTextFieldTest_C15003()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountSymbolsInTextFieldTest@2686a13f]" name="contractCorAccountSymbolsInTextFieldTest_C15003" duration-ms="19343" started-at="2012-11-13T15:38:32Z" finished-at="2012-11-13T15:38:52Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Element is not clickable at point (750.5, 645.5). Other element would receive the click: <div id="instructionBackdrop" style="z-index: 1110; position: absolute; left: 0px; margin: 0px; background-color: rgb(255, 255, 255); opacity: 0.55; top: 0px; height: 2510px; width: 977px; background-position: initial initial; background-repeat: initial initial;"></div> (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 47 milliseconds
-Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
-System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
-Driver info: driver.version: RemoteWebDriver
-Session ID: 053d130924a2ef8cf5d8e23415fd3f59]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (750.5, 645.5). Other element would receive the click: <div id="instructionBackdrop" style="z-index: 1110; position: absolute; left: 0px; margin: 0px; background-color: rgb(255, 255, 255); opacity: 0.55; top: 0px; height: 2510px; width: 977px; background-position: initial initial; background-repeat: initial initial;"></div> (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 47 milliseconds
-Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
-System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
-Driver info: driver.version: RemoteWebDriver
-Session ID: 053d130924a2ef8cf5d8e23415fd3f59
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:246)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
-	at com.YouMagicPro.LKA_tests.TestBase.sendKeysAndAssert_cor(TestBase.java:67)
-	at com.YouMagicPro.LKA_tests.ContractCorAccountSymbolsInTextFieldTest.contractCorAccountSymbolsInTextFieldTest_C15003(ContractCorAccountSymbolsInTextFieldTest.java:10)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:601)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:104)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:601)
-	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
-	at $Proxy0.invoke(Unknown Source)
-	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
-	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contractCorAccountSymbolsInTextFieldTest_C15003 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountSymbolsInTextFieldTest@2686a13f]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T15:38:52Z" finished-at="2012-11-13T15:38:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractCorAccountSymbolsInTextFieldTest -->
-      <class name="com.YouMagicPro.LKA_tests.ContractOgrnLettersInTextFieldTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrnLettersInTextFieldTest@5c78bca]" name="startWebDriver" is-config="true" duration-ms="1334" started-at="2012-11-13T16:07:42Z" finished-at="2012-11-13T16:07:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractOgrnLettersInTextFieldTest_C15056()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrnLettersInTextFieldTest@5c78bca]" name="contractOgrnLettersInTextFieldTest_C15056" duration-ms="20791" started-at="2012-11-13T16:07:43Z" finished-at="2012-11-13T16:08:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contractOgrnLettersInTextFieldTest_C15056 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrnLettersInTextFieldTest@5c78bca]" name="closeSession" is-config="true" duration-ms="23" started-at="2012-11-13T16:08:04Z" finished-at="2012-11-13T16:08:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractOgrnLettersInTextFieldTest -->
-      <class name="com.YouMagicPro.LKA_tests.OrderByEmailCancelButtonTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByEmailCancelButtonTest@217c26cc]" name="startWebDriver" is-config="true" duration-ms="1194" started-at="2012-11-13T16:10:26Z" finished-at="2012-11-13T16:10:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="orderByEmailCancelButtonTest_C15141()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByEmailCancelButtonTest@217c26cc]" name="orderByEmailCancelButtonTest_C15141" duration-ms="22170" started-at="2012-11-13T16:10:27Z" finished-at="2012-11-13T16:10:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- orderByEmailCancelButtonTest_C15141 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByEmailCancelButtonTest@217c26cc]" name="closeSession" is-config="true" duration-ms="23" started-at="2012-11-13T16:10:49Z" finished-at="2012-11-13T16:10:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.OrderByEmailCancelButtonTest -->
-      <class name="com.YouMagicPro.LKA_tests.ExpenseStructureRentalFeeTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureRentalFeeTest@2e3fb088]" name="startWebDriver" is-config="true" duration-ms="655" started-at="2012-11-13T16:09:50Z" finished-at="2012-11-13T16:09:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="expenseStructureRentalFeeTest_C15096()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureRentalFeeTest@2e3fb088]" name="expenseStructureRentalFeeTest_C15096" duration-ms="8819" started-at="2012-11-13T16:09:51Z" finished-at="2012-11-13T16:10:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- expenseStructureRentalFeeTest_C15096 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureRentalFeeTest@2e3fb088]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T16:10:00Z" finished-at="2012-11-13T16:10:00Z">
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureRentalFeeTest@1a483edb]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:50:52Z" finished-at="2012-11-15T14:50:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
       </class> <!-- com.YouMagicPro.LKA_tests.ExpenseStructureRentalFeeTest -->
       <class name="com.YouMagicPro.LKA_tests.ContractInnLettersInTextFieldTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInnLettersInTextFieldTest@501614a]" name="startWebDriver" is-config="true" duration-ms="688" started-at="2012-11-13T15:46:25Z" finished-at="2012-11-13T15:46:26Z">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInnLettersInTextFieldTest@6be05ef2]" name="startWebDriver" is-config="true" duration-ms="1343" started-at="2012-11-15T14:42:38Z" finished-at="2012-11-15T14:42:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractInnLettersInTextFieldTest_C15030()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInnLettersInTextFieldTest@501614a]" name="contractInnLettersInTextFieldTest_C15030" duration-ms="447818" started-at="2012-11-13T15:46:26Z" finished-at="2012-11-13T15:53:53Z">
+        <test-method status="PASS" signature="contractInnLettersInTextFieldTest_C15030()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInnLettersInTextFieldTest@6be05ef2]" name="contractInnLettersInTextFieldTest_C15030" duration-ms="22554" started-at="2012-11-15T14:42:39Z" finished-at="2012-11-15T14:43:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contractInnLettersInTextFieldTest_C15030 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInnLettersInTextFieldTest@501614a]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T15:53:53Z" finished-at="2012-11-13T15:53:53Z">
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInnLettersInTextFieldTest@6be05ef2]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:43:02Z" finished-at="2012-11-15T14:43:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
       </class> <!-- com.YouMagicPro.LKA_tests.ContractInnLettersInTextFieldTest -->
       <class name="com.YouMagicPro.LKA_tests.ContractInnOneInTextFieldTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInnOneInTextFieldTest@575ec870]" name="startWebDriver" is-config="true" duration-ms="747" started-at="2012-11-13T15:53:53Z" finished-at="2012-11-13T15:53:54Z">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInnOneInTextFieldTest@3f8a0ef0]" name="startWebDriver" is-config="true" duration-ms="1200" started-at="2012-11-15T14:43:02Z" finished-at="2012-11-15T14:43:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="FAIL" signature="contractInnOneInTextFieldTest_C15028()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInnOneInTextFieldTest@575ec870]" name="contractInnOneInTextFieldTest_C15028" duration-ms="458766" started-at="2012-11-13T15:53:54Z" finished-at="2012-11-13T16:01:33Z">
+        <test-method status="PASS" signature="contractInnOneInTextFieldTest_C15028()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInnOneInTextFieldTest@3f8a0ef0]" name="contractInnOneInTextFieldTest_C15028" duration-ms="24019" started-at="2012-11-15T14:43:03Z" finished-at="2012-11-15T14:43:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contractInnOneInTextFieldTest_C15028 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInnOneInTextFieldTest@3f8a0ef0]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:43:27Z" finished-at="2012-11-15T14:43:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractInnOneInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.ExpenseStructureAdditionalNumbersFeeTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureAdditionalNumbersFeeTest@572bd15e]" name="startWebDriver" is-config="true" duration-ms="1159" started-at="2012-11-15T14:49:51Z" finished-at="2012-11-15T14:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="expenseStructureAdditionalNumbersFeeTest_C15096()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureAdditionalNumbersFeeTest@572bd15e]" name="expenseStructureAdditionalNumbersFeeTest_C15096" duration-ms="8909" started-at="2012-11-15T14:49:52Z" finished-at="2012-11-15T14:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expenseStructureAdditionalNumbersFeeTest_C15096 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureAdditionalNumbersFeeTest@572bd15e]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-15T14:50:01Z" finished-at="2012-11-15T14:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ExpenseStructureAdditionalNumbersFeeTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest@5ac7cee9]" name="startWebDriver" is-config="true" duration-ms="1255" started-at="2012-11-15T14:40:33Z" finished-at="2012-11-15T14:40:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="contractEndOfPageDataTest_C15062()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest@5ac7cee9]" name="contractEndOfPageDataTest_C15062" duration-ms="30208" started-at="2012-11-15T14:40:35Z" finished-at="2012-11-15T14:41:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contractEndOfPageDataTest_C15062 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest@5ac7cee9]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:41:05Z" finished-at="2012-11-15T14:41:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest -->
+      <class name="com.YouMagicPro.LKA_tests.OrderByPickUpChangePhoneTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByPickUpChangePhoneTest@6638c07a]" name="startWebDriver" is-config="true" duration-ms="2292" started-at="2012-11-15T14:53:23Z" finished-at="2012-11-15T14:53:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="OrderByPickUpChangePhoneTest_C25666()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByPickUpChangePhoneTest@6638c07a]" name="OrderByPickUpChangePhoneTest_C25666" duration-ms="17834" started-at="2012-11-15T14:53:25Z" finished-at="2012-11-15T14:53:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderByPickUpChangePhoneTest_C25666 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByPickUpChangePhoneTest@6638c07a]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-15T14:53:43Z" finished-at="2012-11-15T14:53:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.OrderByPickUpChangePhoneTest -->
+      <class name="com.YouMagicPro.LKA_tests.OrderToAdressChangeNameTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderToAdressChangeNameTest@217c26cc]" name="startWebDriver" is-config="true" duration-ms="1534" started-at="2012-11-15T14:55:05Z" finished-at="2012-11-15T14:55:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="FAIL" signature="orderToAdressChangeNameTest_C25672()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderToAdressChangeNameTest@217c26cc]" name="orderToAdressChangeNameTest_C25672" duration-ms="14703" started-at="2012-11-15T14:55:06Z" finished-at="2012-11-15T14:55:21Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[Element is not clickable at point (555, 381). Other element would receive the click: <img id="1" class="slideimage" src="/sites/all/modules/contrib/umagicpro_instructions/images/home.png" data-title="Благодарим вас за выбор YouMagic.Pro!"> (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 33 milliseconds
+              <![CDATA[Element is not clickable at point (84.5, 642) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41 milliseconds
 Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
 System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
 Driver info: driver.version: RemoteWebDriver
-Session ID: aab41033625dc2508e332250dcfabb57]]>
+Session ID: 38c3b9e3e92f77d48de79d18987a97de]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (555, 381). Other element would receive the click: <img id="1" class="slideimage" src="/sites/all/modules/contrib/umagicpro_instructions/images/home.png" data-title="Благодарим вас за выбор YouMagic.Pro!"> (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 33 milliseconds
+              <![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (84.5, 642) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41 milliseconds
 Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
 System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
 Driver info: driver.version: RemoteWebDriver
-Session ID: aab41033625dc2508e332250dcfabb57
+Session ID: 38c3b9e3e92f77d48de79d18987a97de
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1037,8 +1169,7 @@ Session ID: aab41033625dc2508e332250dcfabb57
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:246)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
-	at com.YouMagicPro.LKA_tests.TestBase.waitContractPageToLoad(TestBase.java:138)
-	at com.YouMagicPro.LKA_tests.ContractInnOneInTextFieldTest.contractInnOneInTextFieldTest_C15028(ContractInnOneInTextFieldTest.java:8)
+	at com.YouMagicPro.LKA_tests.OrderToAdressChangeNameTest.orderToAdressChangeNameTest_C25672(OrderToAdressChangeNameTest.java:13)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1077,180 +1208,124 @@ Session ID: aab41033625dc2508e332250dcfabb57
           </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- contractInnOneInTextFieldTest_C15028 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInnOneInTextFieldTest@575ec870]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T16:01:33Z" finished-at="2012-11-13T16:01:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractInnOneInTextFieldTest -->
-      <class name="com.YouMagicPro.LKA_tests.ExpenseStructureAdditionalNumbersFeeTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureAdditionalNumbersFeeTest@6faa7dbc]" name="startWebDriver" is-config="true" duration-ms="1175" started-at="2012-11-13T16:09:01Z" finished-at="2012-11-13T16:09:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="expenseStructureAdditionalNumbersFeeTest_C15096()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureAdditionalNumbersFeeTest@6faa7dbc]" name="expenseStructureAdditionalNumbersFeeTest_C15096" duration-ms="8922" started-at="2012-11-13T16:09:02Z" finished-at="2012-11-13T16:09:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- expenseStructureAdditionalNumbersFeeTest_C15096 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ExpenseStructureAdditionalNumbersFeeTest@6faa7dbc]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T16:09:11Z" finished-at="2012-11-13T16:09:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ExpenseStructureAdditionalNumbersFeeTest -->
-      <class name="com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest@50c442db]" name="startWebDriver" is-config="true" duration-ms="694" started-at="2012-11-13T15:39:17Z" finished-at="2012-11-13T15:39:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractEndOfPageDataTest_C15062()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest@50c442db]" name="contractEndOfPageDataTest_C15062" duration-ms="104124" started-at="2012-11-13T15:39:17Z" finished-at="2012-11-13T15:41:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contractEndOfPageDataTest_C15062 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest@50c442db]" name="closeSession" is-config="true" duration-ms="3" started-at="2012-11-13T15:41:02Z" finished-at="2012-11-13T15:41:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest -->
-      <class name="com.YouMagicPro.LKA_tests.OrderByPickUpChangePhoneTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByPickUpChangePhoneTest@1fcf6aa3]" name="startWebDriver" is-config="true" duration-ms="1512" started-at="2012-11-13T16:12:35Z" finished-at="2012-11-13T16:12:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="OrderByPickUpChangePhoneTest_C25666()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByPickUpChangePhoneTest@1fcf6aa3]" name="OrderByPickUpChangePhoneTest_C25666" duration-ms="16917" started-at="2012-11-13T16:12:37Z" finished-at="2012-11-13T16:12:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OrderByPickUpChangePhoneTest_C25666 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByPickUpChangePhoneTest@1fcf6aa3]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-13T16:12:53Z" finished-at="2012-11-13T16:12:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.OrderByPickUpChangePhoneTest -->
-      <class name="com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumbersFromList">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumbersFromList@5f8f22f3]" name="startWebDriver" is-config="true" duration-ms="1168" started-at="2012-11-13T15:10:51Z" finished-at="2012-11-13T15:10:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="BuyingAdditionalNumberChooseNumbersFromList_C15106()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumbersFromList@5f8f22f3]" name="BuyingAdditionalNumberChooseNumbersFromList_C15106" duration-ms="20546" started-at="2012-11-13T15:10:52Z" finished-at="2012-11-13T15:11:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BuyingAdditionalNumberChooseNumbersFromList_C15106 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumbersFromList@5f8f22f3]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T15:11:13Z" finished-at="2012-11-13T15:11:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumbersFromList -->
-      <class name="com.YouMagicPro.LKA_tests.OrderToAdressChangeNameTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderToAdressChangeNameTest@23536fd]" name="startWebDriver" is-config="true" duration-ms="668" started-at="2012-11-13T16:14:17Z" finished-at="2012-11-13T16:14:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="orderToAdressChangeNameTest_C25672()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderToAdressChangeNameTest@23536fd]" name="orderToAdressChangeNameTest_C25672" duration-ms="18099" started-at="2012-11-13T16:14:17Z" finished-at="2012-11-13T16:14:36Z">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- orderToAdressChangeNameTest_C25672 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderToAdressChangeNameTest@23536fd]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T16:14:36Z" finished-at="2012-11-13T16:14:36Z">
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderToAdressChangeNameTest@217c26cc]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-15T14:55:21Z" finished-at="2012-11-15T14:55:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
       </class> <!-- com.YouMagicPro.LKA_tests.OrderToAdressChangeNameTest -->
-      <class name="com.YouMagicPro.LKA_tests.OrderByPickUpOrderWithoutDocTypeCheckedTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByPickUpOrderWithoutDocTypeCheckedTest@7653537c]" name="startWebDriver" is-config="true" duration-ms="1826" started-at="2012-11-13T16:12:53Z" finished-at="2012-11-13T16:12:55Z">
+      <class name="com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumbersFromList">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumbersFromList@634a988]" name="startWebDriver" is-config="true" duration-ms="1233" started-at="2012-11-15T14:33:42Z" finished-at="2012-11-15T14:33:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="orderByPickUpOrderWithoutDocTypeCheckedTest_C25663()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByPickUpOrderWithoutDocTypeCheckedTest@7653537c]" name="orderByPickUpOrderWithoutDocTypeCheckedTest_C25663" duration-ms="21174" started-at="2012-11-13T16:12:55Z" finished-at="2012-11-13T16:13:16Z">
+        <test-method status="PASS" signature="BuyingAdditionalNumberChooseNumbersFromList_C15106()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumbersFromList@634a988]" name="BuyingAdditionalNumberChooseNumbersFromList_C15106" duration-ms="17289" started-at="2012-11-15T14:33:43Z" finished-at="2012-11-15T14:34:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuyingAdditionalNumberChooseNumbersFromList_C15106 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumbersFromList@634a988]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:34:00Z" finished-at="2012-11-15T14:34:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumbersFromList -->
+      <class name="com.YouMagicPro.LKA_tests.OrderByPickUpOrderWithoutDocTypeCheckedTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByPickUpOrderWithoutDocTypeCheckedTest@63292d35]" name="startWebDriver" is-config="true" duration-ms="1934" started-at="2012-11-15T14:53:43Z" finished-at="2012-11-15T14:53:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="orderByPickUpOrderWithoutDocTypeCheckedTest_C25663()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByPickUpOrderWithoutDocTypeCheckedTest@63292d35]" name="orderByPickUpOrderWithoutDocTypeCheckedTest_C25663" duration-ms="21128" started-at="2012-11-15T14:53:45Z" finished-at="2012-11-15T14:54:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderByPickUpOrderWithoutDocTypeCheckedTest_C25663 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByPickUpOrderWithoutDocTypeCheckedTest@7653537c]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T16:13:16Z" finished-at="2012-11-13T16:13:16Z">
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByPickUpOrderWithoutDocTypeCheckedTest@63292d35]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:54:06Z" finished-at="2012-11-15T14:54:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
       </class> <!-- com.YouMagicPro.LKA_tests.OrderByPickUpOrderWithoutDocTypeCheckedTest -->
       <class name="com.YouMagicPro.LKA_tests.ContractOgrn6NumbersInTextFieldTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrn6NumbersInTextFieldTest@2224faea]" name="startWebDriver" is-config="true" duration-ms="686" started-at="2012-11-13T16:06:53Z" finished-at="2012-11-13T16:06:54Z">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrn6NumbersInTextFieldTest@23cf68e9]" name="startWebDriver" is-config="true" duration-ms="726" started-at="2012-11-15T14:45:46Z" finished-at="2012-11-15T14:45:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractOgrn6NumbersInTextFieldTest_C15055()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrn6NumbersInTextFieldTest@2224faea]" name="contractOgrn6NumbersInTextFieldTest_C15055" duration-ms="23396" started-at="2012-11-13T16:06:54Z" finished-at="2012-11-13T16:07:17Z">
+        <test-method status="PASS" signature="contractOgrn6NumbersInTextFieldTest_C15055()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrn6NumbersInTextFieldTest@23cf68e9]" name="contractOgrn6NumbersInTextFieldTest_C15055" duration-ms="22050" started-at="2012-11-15T14:45:46Z" finished-at="2012-11-15T14:46:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contractOgrn6NumbersInTextFieldTest_C15055 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrn6NumbersInTextFieldTest@2224faea]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T16:07:17Z" finished-at="2012-11-13T16:07:17Z">
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractOgrn6NumbersInTextFieldTest@23cf68e9]" name="closeSession" is-config="true" duration-ms="3" started-at="2012-11-15T14:46:09Z" finished-at="2012-11-15T14:46:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
       </class> <!-- com.YouMagicPro.LKA_tests.ContractOgrn6NumbersInTextFieldTest -->
-      <class name="com.YouMagicPro.LKA_tests.ContractBankAccountSymbolsInTextFieldTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountSymbolsInTextFieldTest@76c197b6]" name="startWebDriver" is-config="true" duration-ms="1190" started-at="2012-11-13T15:16:05Z" finished-at="2012-11-13T15:16:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractBankAccountSymbolsInTextFieldTest_C14997()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountSymbolsInTextFieldTest@76c197b6]" name="contractBankAccountSymbolsInTextFieldTest_C14997" duration-ms="55455" started-at="2012-11-13T15:16:07Z" finished-at="2012-11-13T15:17:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contractBankAccountSymbolsInTextFieldTest_C14997 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountSymbolsInTextFieldTest@76c197b6]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T15:17:02Z" finished-at="2012-11-13T15:17:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractBankAccountSymbolsInTextFieldTest -->
       <class name="com.YouMagicPro.LKA_tests.OrderByPickUpCancelButtonTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByPickUpCancelButtonTest@14ddf6a1]" name="startWebDriver" is-config="true" duration-ms="1899" started-at="2012-11-13T16:11:52Z" finished-at="2012-11-13T16:11:54Z">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByPickUpCancelButtonTest@2a7704dd]" name="startWebDriver" is-config="true" duration-ms="1945" started-at="2012-11-15T14:52:45Z" finished-at="2012-11-15T14:52:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="orderByPickUpCancelButtonTest_C25664()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByPickUpCancelButtonTest@14ddf6a1]" name="orderByPickUpCancelButtonTest_C25664" duration-ms="19135" started-at="2012-11-13T16:11:54Z" finished-at="2012-11-13T16:12:13Z">
+        <test-method status="PASS" signature="orderByPickUpCancelButtonTest_C25664()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByPickUpCancelButtonTest@2a7704dd]" name="orderByPickUpCancelButtonTest_C25664" duration-ms="17182" started-at="2012-11-15T14:52:47Z" finished-at="2012-11-15T14:53:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderByPickUpCancelButtonTest_C25664 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByPickUpCancelButtonTest@14ddf6a1]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T16:12:13Z" finished-at="2012-11-13T16:12:13Z">
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.OrderByPickUpCancelButtonTest@2a7704dd]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-15T14:53:04Z" finished-at="2012-11-15T14:53:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
       </class> <!-- com.YouMagicPro.LKA_tests.OrderByPickUpCancelButtonTest -->
-      <class name="com.YouMagicPro.LKA_tests.ContractInnSymbolsInTextFieldTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInnSymbolsInTextFieldTest@599a4de1]" name="startWebDriver" is-config="true" duration-ms="1195" started-at="2012-11-13T16:01:33Z" finished-at="2012-11-13T16:01:34Z">
+      <class name="com.YouMagicPro.LKA_tests.ContractBankAccountSymbolsInTextFieldTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountSymbolsInTextFieldTest@55c2671b]" name="startWebDriver" is-config="true" duration-ms="1184" started-at="2012-11-15T14:35:16Z" finished-at="2012-11-15T14:35:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractInnLettersInTextFieldTest_C15030()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInnSymbolsInTextFieldTest@599a4de1]" name="contractInnLettersInTextFieldTest_C15030" duration-ms="193587" started-at="2012-11-13T16:01:34Z" finished-at="2012-11-13T16:04:48Z">
+        <test-method status="PASS" signature="contractBankAccountSymbolsInTextFieldTest_C14997()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountSymbolsInTextFieldTest@55c2671b]" name="contractBankAccountSymbolsInTextFieldTest_C14997" duration-ms="24822" started-at="2012-11-15T14:35:17Z" finished-at="2012-11-15T14:35:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contractBankAccountSymbolsInTextFieldTest_C14997 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractBankAccountSymbolsInTextFieldTest@55c2671b]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-15T14:35:42Z" finished-at="2012-11-15T14:35:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractBankAccountSymbolsInTextFieldTest -->
+      <class name="com.YouMagicPro.LKA_tests.ContractInnSymbolsInTextFieldTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInnSymbolsInTextFieldTest@444c742]" name="startWebDriver" is-config="true" duration-ms="1464" started-at="2012-11-15T14:43:27Z" finished-at="2012-11-15T14:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="contractInnLettersInTextFieldTest_C15030()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInnSymbolsInTextFieldTest@444c742]" name="contractInnLettersInTextFieldTest_C15030" duration-ms="22280" started-at="2012-11-15T14:43:29Z" finished-at="2012-11-15T14:43:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contractInnLettersInTextFieldTest_C15030 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInnSymbolsInTextFieldTest@599a4de1]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T16:04:48Z" finished-at="2012-11-13T16:04:48Z">
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractInnSymbolsInTextFieldTest@444c742]" name="closeSession" is-config="true" duration-ms="1" started-at="2012-11-15T14:43:51Z" finished-at="2012-11-15T14:43:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
       </class> <!-- com.YouMagicPro.LKA_tests.ContractInnSymbolsInTextFieldTest -->
       <class name="com.YouMagicPro.LKA_tests.ContractCorAccount19NumbersTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccount19NumbersTest@32b4376e]" name="startWebDriver" is-config="true" duration-ms="659" started-at="2012-11-13T15:19:34Z" finished-at="2012-11-13T15:19:35Z">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccount19NumbersTest@5dd72c40]" name="startWebDriver" is-config="true" duration-ms="861" started-at="2012-11-15T14:38:10Z" finished-at="2012-11-15T14:38:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractCorAccount19NumbersTest_C15005()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccount19NumbersTest@32b4376e]" name="contractCorAccount19NumbersTest_C15005" duration-ms="128144" started-at="2012-11-13T15:19:35Z" finished-at="2012-11-13T15:21:43Z">
+        <test-method status="PASS" signature="contractCorAccount19NumbersTest_C15005()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccount19NumbersTest@5dd72c40]" name="contractCorAccount19NumbersTest_C15005" duration-ms="23033" started-at="2012-11-15T14:38:11Z" finished-at="2012-11-15T14:38:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contractCorAccount19NumbersTest_C15005 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccount19NumbersTest@32b4376e]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T15:21:43Z" finished-at="2012-11-13T15:21:43Z">
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccount19NumbersTest@5dd72c40]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-15T14:38:34Z" finished-at="2012-11-15T14:38:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
       </class> <!-- com.YouMagicPro.LKA_tests.ContractCorAccount19NumbersTest -->
       <class name="com.YouMagicPro.LKA_tests.ContractCorAccountOneInTextFieldTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountOneInTextFieldTest@2ebaa4a4]" name="startWebDriver" is-config="true" duration-ms="1230" started-at="2012-11-13T15:37:16Z" finished-at="2012-11-13T15:37:17Z">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountOneInTextFieldTest@142edebe]" name="startWebDriver" is-config="true" duration-ms="677" started-at="2012-11-15T14:39:18Z" finished-at="2012-11-15T14:39:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractCorAccountOneInTextFieldTest_C14499()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountOneInTextFieldTest@2ebaa4a4]" name="contractCorAccountOneInTextFieldTest_C14499" duration-ms="73974" started-at="2012-11-13T15:37:17Z" finished-at="2012-11-13T15:38:31Z">
+        <test-method status="PASS" signature="contractCorAccountOneInTextFieldTest_C14499()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountOneInTextFieldTest@142edebe]" name="contractCorAccountOneInTextFieldTest_C14499" duration-ms="21449" started-at="2012-11-15T14:39:19Z" finished-at="2012-11-15T14:39:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contractCorAccountOneInTextFieldTest_C14499 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountOneInTextFieldTest@2ebaa4a4]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-13T15:38:31Z" finished-at="2012-11-13T15:38:31Z">
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccountOneInTextFieldTest@142edebe]" name="closeSession" is-config="true" duration-ms="3" started-at="2012-11-15T14:39:40Z" finished-at="2012-11-15T14:39:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
       </class> <!-- com.YouMagicPro.LKA_tests.ContractCorAccountOneInTextFieldTest -->
-    </test> <!-- com.YouMagicPro.LKA_tests -->
-  </suite> <!-- com.YouMagicPro.LKA_tests -->
+    </test> <!-- com.LKA_tests -->
+  </suite> <!-- com.LKA_tests -->
 </testng-results>

@@ -2,10 +2,10 @@ package com.YouMagicPro.LKS_tests;
 
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
+import com.registration.tests.TestBaseReg;
 
 
-
-public class HistoryPageTest  extends TestBase{
+public class HistoryPageTest  extends TestBaseReg{
 	@Test
 	public void historyPageTest () throws Exception {	 
 		selenium.open("http://umagicpro-pp.rnd.mtt/"); //¬ход на сайт http://umagicpro-pp/

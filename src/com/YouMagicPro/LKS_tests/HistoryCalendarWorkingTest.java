@@ -1,10 +1,10 @@
 package com.YouMagicPro.LKS_tests;
 
 import org.testng.annotations.Test;
+import com.registration.tests.TestBaseReg;
 
 
-
-public class HistoryCalendarWorkingTest extends TestBase{
+public class HistoryCalendarWorkingTest extends TestBaseReg{
 	@Test
 	public void historyCalendarWorkingTest () throws Exception {	 
 		selenium.open("http://umagicpro-pp.rnd.mtt/"); //¬ход на сайт http://umagicpro-pp/

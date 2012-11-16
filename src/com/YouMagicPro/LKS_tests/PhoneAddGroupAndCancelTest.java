@@ -2,10 +2,10 @@ package com.YouMagicPro.LKS_tests;
 
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
+import com.registration.tests.TestBaseReg;
 
 
-
-public class PhoneAddGroupAndCancelTest extends TestBase{
+public class PhoneAddGroupAndCancelTest extends TestBaseReg{
 	@Test
 	public void  phoneAddGroupAndCancelTest () throws Exception {	 
 		selenium.open("http://umagicpro-pp.rnd.mtt/"); //¬ход на сайт http://umagicpro-pp/

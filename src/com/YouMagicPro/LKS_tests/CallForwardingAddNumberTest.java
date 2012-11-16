@@ -3,9 +3,11 @@ package com.YouMagicPro.LKS_tests;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 
+import com.registration.tests.TestBaseReg;
 
 
-public class CallForwardingAddNumberTest extends TestBase{
+
+public class CallForwardingAddNumberTest extends TestBaseReg{
 	@Test
 	public void callForwardingAddNumberTest () throws Exception {	 
 		selenium.open("http://umagicpro-pp.rnd.mtt/"); //¬ход на сайт http://umagicpro-pp/

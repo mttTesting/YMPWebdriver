@@ -1,0 +1,946 @@
+<html>
+<head>
+<title>TestNG:  com.LKA_tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>com.LKA_tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>67/5/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Nov 15 14:30:28 MSK 2012</td>
+</tr>
+<tr><td>Total time:</td><td>1544 seconds (1544006 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractKppOneNumberInTextFieldTest.contractKppTest_C15048()'><b>contractKppTest_C15048</b><br>Test class: com.YouMagicPro.LKA_tests.ContractKppOneNumberInTextFieldTest</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Element is not clickable at point (868.5, 44). Other element would receive the click: &lt;div class=&quot;sl_head&quot;&gt;...&lt;/div&gt; (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 72 milliseconds
+Build info: version: &apos;2.26.0&apos;, revision: &apos;18040&apos;, time: &apos;2012-11-02 09:44:45&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Driver info: driver.version: RemoteWebDriver
+Session ID: aad18504f841e796c87ef33b5539159b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:246)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.YouMagicPro.LKA_tests.TestBase.waitContractPageToLoad(TestBase.java:137)
+	at com.YouMagicPro.LKA_tests.ContractKppOneNumberInTextFieldTest.contractKppTest_C15048(ContractKppOneNumberInTextFieldTest.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at $Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+</pre></div><a href='#' onClick='toggleBox("stack-trace146010141", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace146010141'><pre>org.openqa.selenium.WebDriverException: Element is not clickable at point (868.5, 44). Other element would receive the click: &lt;div class=&quot;sl_head&quot;&gt;...&lt;/div&gt; (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 72 milliseconds
+Build info: version: &apos;2.26.0&apos;, revision: &apos;18040&apos;, time: &apos;2012-11-02 09:44:45&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Driver info: driver.version: RemoteWebDriver
+Session ID: aad18504f841e796c87ef33b5539159b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:246)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.YouMagicPro.LKA_tests.TestBase.waitContractPageToLoad(TestBase.java:137)
+	at com.YouMagicPro.LKA_tests.ContractKppOneNumberInTextFieldTest.contractKppTest_C15048(ContractKppOneNumberInTextFieldTest.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at $Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+</pre></div></td>
+<td>20</td>
+<td>com.YouMagicPro.LKA_tests.ContractKppOneNumberInTextFieldTest@73e1518e</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ExpenseStructureRentalFeeTest.expenseStructureRentalFeeTest_C15096()'><b>expenseStructureRentalFeeTest_C15096</b><br>Test class: com.YouMagicPro.LKA_tests.ExpenseStructureRentalFeeTest</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Element is not clickable at point (555, 381). Other element would receive the click: &lt;img id=&quot;1&quot; class=&quot;slideimage&quot; src=&quot;/sites/all/modules/contrib/umagicpro_instructions/images/home.png&quot; data-title=&quot;Благодарим вас за выбор YouMagic.Pro!&quot;&gt; (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+Build info: version: &apos;2.26.0&apos;, revision: &apos;18040&apos;, time: &apos;2012-11-02 09:44:45&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Driver info: driver.version: RemoteWebDriver
+Session ID: a5b31ae88c69dfad0eadef8c5a7d3dc4
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:246)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.YouMagicPro.LKA_tests.TestBase.waitAdminPageToLoad(TestBase.java:111)
+	at com.YouMagicPro.LKA_tests.ExpenseStructureRentalFeeTest.expenseStructureRentalFeeTest_C15096(ExpenseStructureRentalFeeTest.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at $Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1864129508", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1864129508'><pre>org.openqa.selenium.WebDriverException: Element is not clickable at point (555, 381). Other element would receive the click: &lt;img id=&quot;1&quot; class=&quot;slideimage&quot; src=&quot;/sites/all/modules/contrib/umagicpro_instructions/images/home.png&quot; data-title=&quot;Благодарим вас за выбор YouMagic.Pro!&quot;&gt; (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+Build info: version: &apos;2.26.0&apos;, revision: &apos;18040&apos;, time: &apos;2012-11-02 09:44:45&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Driver info: driver.version: RemoteWebDriver
+Session ID: a5b31ae88c69dfad0eadef8c5a7d3dc4
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:246)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.YouMagicPro.LKA_tests.TestBase.waitAdminPageToLoad(TestBase.java:111)
+	at com.YouMagicPro.LKA_tests.ExpenseStructureRentalFeeTest.expenseStructureRentalFeeTest_C15096(ExpenseStructureRentalFeeTest.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at $Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+</pre></div></td>
+<td>9</td>
+<td>com.YouMagicPro.LKA_tests.ExpenseStructureRentalFeeTest@1a483edb</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.OrderToAdressChangeNameTest.orderToAdressChangeNameTest_C25672()'><b>orderToAdressChangeNameTest_C25672</b><br>Test class: com.YouMagicPro.LKA_tests.OrderToAdressChangeNameTest</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Element is not clickable at point (84.5, 642) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41 milliseconds
+Build info: version: &apos;2.26.0&apos;, revision: &apos;18040&apos;, time: &apos;2012-11-02 09:44:45&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Driver info: driver.version: RemoteWebDriver
+Session ID: 38c3b9e3e92f77d48de79d18987a97de
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:246)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.YouMagicPro.LKA_tests.OrderToAdressChangeNameTest.orderToAdressChangeNameTest_C25672(OrderToAdressChangeNameTest.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at $Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1165994758", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1165994758'><pre>org.openqa.selenium.WebDriverException: Element is not clickable at point (84.5, 642) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41 milliseconds
+Build info: version: &apos;2.26.0&apos;, revision: &apos;18040&apos;, time: &apos;2012-11-02 09:44:45&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Driver info: driver.version: RemoteWebDriver
+Session ID: 38c3b9e3e92f77d48de79d18987a97de
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:246)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.YouMagicPro.LKA_tests.OrderToAdressChangeNameTest.orderToAdressChangeNameTest_C25672(OrderToAdressChangeNameTest.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at $Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+</pre></div></td>
+<td>14</td>
+<td>com.YouMagicPro.LKA_tests.OrderToAdressChangeNameTest@217c26cc</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.OrderToAdressChangePhoneTest.orderToAdressChangePhoneTest_C25677()'><b>orderToAdressChangePhoneTest_C25677</b><br>Test class: com.YouMagicPro.LKA_tests.OrderToAdressChangePhoneTest</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Element is not clickable at point (84.5, 642) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 43 milliseconds
+Build info: version: &apos;2.26.0&apos;, revision: &apos;18040&apos;, time: &apos;2012-11-02 09:44:45&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Driver info: driver.version: RemoteWebDriver
+Session ID: 7de5c21014e03f656a0bb36707040247
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:246)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.YouMagicPro.LKA_tests.OrderToAdressChangePhoneTest.orderToAdressChangePhoneTest_C25677(OrderToAdressChangePhoneTest.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at $Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1033614551", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1033614551'><pre>org.openqa.selenium.WebDriverException: Element is not clickable at point (84.5, 642) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 43 milliseconds
+Build info: version: &apos;2.26.0&apos;, revision: &apos;18040&apos;, time: &apos;2012-11-02 09:44:45&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Driver info: driver.version: RemoteWebDriver
+Session ID: 7de5c21014e03f656a0bb36707040247
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:246)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.YouMagicPro.LKA_tests.OrderToAdressChangePhoneTest.orderToAdressChangePhoneTest_C25677(OrderToAdressChangePhoneTest.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at $Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+</pre></div></td>
+<td>14</td>
+<td>com.YouMagicPro.LKA_tests.OrderToAdressChangePhoneTest@57799932</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.VoiceMenuFillNAmeTextFieldTest.voiceFillNAmeTextFieldTest_C15293()'><b>voiceFillNAmeTextFieldTest_C15293</b><br>Test class: com.YouMagicPro.LKA_tests.VoiceMenuFillNAmeTextFieldTest</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Element is not clickable at point (932.5, 402). Other element would receive the click: &lt;div id=&quot;modalBackdrop&quot; style=&quot;z-index: 1000; position: absolute; left: 0px; margin: 0px; background-color: rgb(255, 255, 255); opacity: 0.5; top: 0px; height: 1210px; width: 1037px; background-position: initial initial; background-repeat: initial initial;&quot;&gt;&lt;/div&gt; (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 35 milliseconds
+Build info: version: &apos;2.26.0&apos;, revision: &apos;18040&apos;, time: &apos;2012-11-02 09:44:45&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Driver info: driver.version: RemoteWebDriver
+Session ID: 66af44d1f76fea3d33fdcb5376fba0c2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:246)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.YouMagicPro.LKA_tests.VoiceMenuFillNAmeTextFieldTest.voiceFillNAmeTextFieldTest_C15293(VoiceMenuFillNAmeTextFieldTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at $Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1812143165", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1812143165'><pre>org.openqa.selenium.WebDriverException: Element is not clickable at point (932.5, 402). Other element would receive the click: &lt;div id=&quot;modalBackdrop&quot; style=&quot;z-index: 1000; position: absolute; left: 0px; margin: 0px; background-color: rgb(255, 255, 255); opacity: 0.5; top: 0px; height: 1210px; width: 1037px; background-position: initial initial; background-repeat: initial initial;&quot;&gt;&lt;/div&gt; (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 35 milliseconds
+Build info: version: &apos;2.26.0&apos;, revision: &apos;18040&apos;, time: &apos;2012-11-02 09:44:45&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Driver info: driver.version: RemoteWebDriver
+Session ID: 66af44d1f76fea3d33fdcb5376fba0c2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:246)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.YouMagicPro.LKA_tests.VoiceMenuFillNAmeTextFieldTest.voiceFillNAmeTextFieldTest_C15293(VoiceMenuFillNAmeTextFieldTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at $Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+</pre></div></td>
+<td>17</td>
+<td>com.YouMagicPro.LKA_tests.VoiceMenuFillNAmeTextFieldTest@96dbfb4</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumberCategories.BuyingAdditionalNumberChooseNumberCategories_C15105()'><b>BuyingAdditionalNumberChooseNumberCategories_C15105</b><br>Test class: com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumberCategories</td>
+<td></td>
+<td>16</td>
+<td>com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumberCategories@642966f5</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumbersFromList.BuyingAdditionalNumberChooseNumbersFromList_C15106()'><b>BuyingAdditionalNumberChooseNumbersFromList_C15106</b><br>Test class: com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumbersFromList</td>
+<td></td>
+<td>17</td>
+<td>com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseNumbersFromList@634a988</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.OrderByPickUpChangePhoneTest.OrderByPickUpChangePhoneTest_C25666()'><b>OrderByPickUpChangePhoneTest_C25666</b><br>Test class: com.YouMagicPro.LKA_tests.OrderByPickUpChangePhoneTest</td>
+<td></td>
+<td>17</td>
+<td>com.YouMagicPro.LKA_tests.OrderByPickUpChangePhoneTest@6638c07a</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.OrderToAdressNoTextFieldFilledTest.OrderToAdressNoTextFieldFilledTest_C25679()'><b>OrderToAdressNoTextFieldFilledTest_C25679</b><br>Test class: com.YouMagicPro.LKA_tests.OrderToAdressNoTextFieldFilledTest</td>
+<td></td>
+<td>19</td>
+<td>com.YouMagicPro.LKA_tests.OrderToAdressNoTextFieldFilledTest@443efcc7</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.SupportPhoneTest.SupportPhoneTest_C25679()'><b>SupportPhoneTest_C25679</b><br>Test class: com.YouMagicPro.LKA_tests.SupportPhoneTest</td>
+<td></td>
+<td>12</td>
+<td>com.YouMagicPro.LKA_tests.SupportPhoneTest@7038ce7b</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.Buying804NumberCategoriesOfNumbers.buying804NumberCategoriesOfNumbers_C25622()'><b>buying804NumberCategoriesOfNumbers_C25622</b><br>Test class: com.YouMagicPro.LKA_tests.Buying804NumberCategoriesOfNumbers</td>
+<td></td>
+<td>20</td>
+<td>com.YouMagicPro.LKA_tests.Buying804NumberCategoriesOfNumbers@59737b19</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.Buying804NumberCostOfNumberTest.buying804NumberCostOfNumberTest_C25623()'><b>buying804NumberCostOfNumberTest_C25623</b><br>Test class: com.YouMagicPro.LKA_tests.Buying804NumberCostOfNumberTest</td>
+<td></td>
+<td>16</td>
+<td>com.YouMagicPro.LKA_tests.Buying804NumberCostOfNumberTest@722e2167</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberCheckCost.buyingAdditionalInternalNumberCheckCost_C15113()'><b>buyingAdditionalInternalNumberCheckCost_C15113</b><br>Test class: com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberCheckCost</td>
+<td></td>
+<td>12</td>
+<td>com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberCheckCost@332b25db</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberTextFieldTest.buyingAdditionalInternalNumberTextFieldTest_C15112()'><b>buyingAdditionalInternalNumberTextFieldTest_C15112</b><br>Test class: com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberTextFieldTest</td>
+<td></td>
+<td>11</td>
+<td>com.YouMagicPro.LKA_tests.BuyingAdditionalInternalNumberTextFieldTest@2d1bee74</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseCityFromList.buyingAdditionalNumberChooseCityFromList_C15103()'><b>buyingAdditionalNumberChooseCityFromList_C15103</b><br>Test class: com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseCityFromList</td>
+<td></td>
+<td>16</td>
+<td>com.YouMagicPro.LKA_tests.BuyingAdditionalNumberChooseCityFromList@2684c71b</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractBankAccountLettersAndNumbersTest.contractBankAccountLettersAndNumbersTest_C14496()'><b>contractBankAccountLettersAndNumbersTest_C14496</b><br>Test class: com.YouMagicPro.LKA_tests.ContractBankAccountLettersAndNumbersTest</td>
+<td></td>
+<td>23</td>
+<td>com.YouMagicPro.LKA_tests.ContractBankAccountLettersAndNumbersTest@5a269232</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractBankAccountLettersInTextFieldTest.contractBankAccountLettersInTextFieldTest_C14995()'><b>contractBankAccountLettersInTextFieldTest_C14995</b><br>Test class: com.YouMagicPro.LKA_tests.ContractBankAccountLettersInTextFieldTest</td>
+<td></td>
+<td>22</td>
+<td>com.YouMagicPro.LKA_tests.ContractBankAccountLettersInTextFieldTest@726b37ad</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractBankAccountOneInTextFieldTest.contractBankAccountOneInTextFieldTest_C14993()'><b>contractBankAccountOneInTextFieldTest_C14993</b><br>Test class: com.YouMagicPro.LKA_tests.ContractBankAccountOneInTextFieldTest</td>
+<td></td>
+<td>26</td>
+<td>com.YouMagicPro.LKA_tests.ContractBankAccountOneInTextFieldTest@3412605d</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractBankAccountSymbolsInTextFieldTest.contractBankAccountSymbolsInTextFieldTest_C14997()'><b>contractBankAccountSymbolsInTextFieldTest_C14997</b><br>Test class: com.YouMagicPro.LKA_tests.ContractBankAccountSymbolsInTextFieldTest</td>
+<td></td>
+<td>24</td>
+<td>com.YouMagicPro.LKA_tests.ContractBankAccountSymbolsInTextFieldTest@55c2671b</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractBankAccountTenInTextFieldTest.contractBankAccountTenInTextFieldTest_C14994()'><b>contractBankAccountTenInTextFieldTest_C14994</b><br>Test class: com.YouMagicPro.LKA_tests.ContractBankAccountTenInTextFieldTest</td>
+<td></td>
+<td>22</td>
+<td>com.YouMagicPro.LKA_tests.ContractBankAccountTenInTextFieldTest@2ebaa4a4</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractBikSymbolsInTextFieldTest.contractBikSymbolsInTextFieldTest_C15026()'><b>contractBikSymbolsInTextFieldTest_C15026</b><br>Test class: com.YouMagicPro.LKA_tests.ContractBikSymbolsInTextFieldTest</td>
+<td></td>
+<td>23</td>
+<td>com.YouMagicPro.LKA_tests.ContractBikSymbolsInTextFieldTest@48179cc2</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractBik1inTextFieldTest.contractBikTest1inTextField_C15022()'><b>contractBikTest1inTextField_C15022</b><br>Test class: com.YouMagicPro.LKA_tests.ContractBik1inTextFieldTest</td>
+<td></td>
+<td>26</td>
+<td>com.YouMagicPro.LKA_tests.ContractBik1inTextFieldTest@5d14798a</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractBikLettersInTextFieldTest.contractBikTestLettersInTextField_C15023()'><b>contractBikTestLettersInTextField_C15023</b><br>Test class: com.YouMagicPro.LKA_tests.ContractBikLettersInTextFieldTest</td>
+<td></td>
+<td>21</td>
+<td>com.YouMagicPro.LKA_tests.ContractBikLettersInTextFieldTest@74895110</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractBikLettersAndNumbersInTextFieldTest.contractBikTest_C15025()'><b>contractBikTest_C15025</b><br>Test class: com.YouMagicPro.LKA_tests.ContractBikLettersAndNumbersInTextFieldTest</td>
+<td></td>
+<td>28</td>
+<td>com.YouMagicPro.LKA_tests.ContractBikLettersAndNumbersInTextFieldTest@22749460</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractCheckDocumentTest.contractCheckDocumentTest_C14986()'><b>contractCheckDocumentTest_C14986</b><br>Test class: com.YouMagicPro.LKA_tests.ContractCheckDocumentTest</td>
+<td></td>
+<td>18</td>
+<td>com.YouMagicPro.LKA_tests.ContractCheckDocumentTest@7e7d611f</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractCorAccount19NumbersTest.contractCorAccount19NumbersTest_C15005()'><b>contractCorAccount19NumbersTest_C15005</b><br>Test class: com.YouMagicPro.LKA_tests.ContractCorAccount19NumbersTest</td>
+<td></td>
+<td>23</td>
+<td>com.YouMagicPro.LKA_tests.ContractCorAccount19NumbersTest@5dd72c40</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractCorAccountLettersInTextFieldTest.contractCorAccountLettersInTextFieldTest_C15001()'><b>contractCorAccountLettersInTextFieldTest_C15001</b><br>Test class: com.YouMagicPro.LKA_tests.ContractCorAccountLettersInTextFieldTest</td>
+<td></td>
+<td>21</td>
+<td>com.YouMagicPro.LKA_tests.ContractCorAccountLettersInTextFieldTest@13b93c4c</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractCorAccountOneInTextFieldTest.contractCorAccountOneInTextFieldTest_C14499()'><b>contractCorAccountOneInTextFieldTest_C14499</b><br>Test class: com.YouMagicPro.LKA_tests.ContractCorAccountOneInTextFieldTest</td>
+<td></td>
+<td>21</td>
+<td>com.YouMagicPro.LKA_tests.ContractCorAccountOneInTextFieldTest@142edebe</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractCorAccountSymbolsInTextFieldTest.contractCorAccountSymbolsInTextFieldTest_C15003()'><b>contractCorAccountSymbolsInTextFieldTest_C15003</b><br>Test class: com.YouMagicPro.LKA_tests.ContractCorAccountSymbolsInTextFieldTest</td>
+<td></td>
+<td>27</td>
+<td>com.YouMagicPro.LKA_tests.ContractCorAccountSymbolsInTextFieldTest@e8baeed</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractCorAccountLettersAndNumbersTextFieldTest.contractCorAccountTenInTextFieldTest_C15000()'><b>contractCorAccountTenInTextFieldTest_C15000</b><br>Test class: com.YouMagicPro.LKA_tests.ContractCorAccountLettersAndNumbersTextFieldTest</td>
+<td></td>
+<td>20</td>
+<td>com.YouMagicPro.LKA_tests.ContractCorAccountLettersAndNumbersTextFieldTest@1121964c</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractCorAccountTenInTextFieldTest.contractCorAccountTenInTextFieldTest_C15000()'><b>contractCorAccountTenInTextFieldTest_C15000</b><br>Test class: com.YouMagicPro.LKA_tests.ContractCorAccountTenInTextFieldTest</td>
+<td></td>
+<td>23</td>
+<td>com.YouMagicPro.LKA_tests.ContractCorAccountTenInTextFieldTest@4be525ab</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest.contractEndOfPageDataTest_C15062()'><b>contractEndOfPageDataTest_C15062</b><br>Test class: com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest</td>
+<td></td>
+<td>30</td>
+<td>com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest@5ac7cee9</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractOgrnSymbolsTest.contractFillBankAccountTest()'><b>contractFillBankAccountTest</b><br>Test class: com.YouMagicPro.LKA_tests.ContractOgrnSymbolsTest</td>
+<td></td>
+<td>20</td>
+<td>com.YouMagicPro.LKA_tests.ContractOgrnSymbolsTest@333903d0</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractInn6NumbersInTextFieldTest.contractInn6NumbersInTextFieldTest_C15029()'><b>contractInn6NumbersInTextFieldTest_C15029</b><br>Test class: com.YouMagicPro.LKA_tests.ContractInn6NumbersInTextFieldTest</td>
+<td></td>
+<td>19</td>
+<td>com.YouMagicPro.LKA_tests.ContractInn6NumbersInTextFieldTest@58d3d0d4</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractInnChooseFormTest.contractInnChooseForm_C15047()'><b>contractInnChooseForm_C15047</b><br>Test class: com.YouMagicPro.LKA_tests.ContractInnChooseFormTest</td>
+<td></td>
+<td>39</td>
+<td>com.YouMagicPro.LKA_tests.ContractInnChooseFormTest@6625abb1</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractInnLettersInTextFieldTest.contractInnLettersInTextFieldTest_C15030()'><b>contractInnLettersInTextFieldTest_C15030</b><br>Test class: com.YouMagicPro.LKA_tests.ContractInnLettersInTextFieldTest</td>
+<td></td>
+<td>22</td>
+<td>com.YouMagicPro.LKA_tests.ContractInnLettersInTextFieldTest@6be05ef2</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractInnSymbolsInTextFieldTest.contractInnLettersInTextFieldTest_C15030()'><b>contractInnLettersInTextFieldTest_C15030</b><br>Test class: com.YouMagicPro.LKA_tests.ContractInnSymbolsInTextFieldTest</td>
+<td></td>
+<td>22</td>
+<td>com.YouMagicPro.LKA_tests.ContractInnSymbolsInTextFieldTest@444c742</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractInnOneInTextFieldTest.contractInnOneInTextFieldTest_C15028()'><b>contractInnOneInTextFieldTest_C15028</b><br>Test class: com.YouMagicPro.LKA_tests.ContractInnOneInTextFieldTest</td>
+<td></td>
+<td>24</td>
+<td>com.YouMagicPro.LKA_tests.ContractInnOneInTextFieldTest@3f8a0ef0</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractKpp6NumbersInTextFieldTest.contractKppTest_C15049()'><b>contractKppTest_C15049</b><br>Test class: com.YouMagicPro.LKA_tests.ContractKpp6NumbersInTextFieldTest</td>
+<td></td>
+<td>22</td>
+<td>com.YouMagicPro.LKA_tests.ContractKpp6NumbersInTextFieldTest@7dbe9f07</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractKppLettersTest.contractKppTest_C15050()'><b>contractKppTest_C15050</b><br>Test class: com.YouMagicPro.LKA_tests.ContractKppLettersTest</td>
+<td></td>
+<td>21</td>
+<td>com.YouMagicPro.LKA_tests.ContractKppLettersTest@2c96d430</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractKppSymbolsTest.contractKppTest_C15051()'><b>contractKppTest_C15051</b><br>Test class: com.YouMagicPro.LKA_tests.ContractKppSymbolsTest</td>
+<td></td>
+<td>21</td>
+<td>com.YouMagicPro.LKA_tests.ContractKppSymbolsTest@ffeaa19</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractKppLettersAndNumbersTest.contractKppTest_C15054()'><b>contractKppTest_C15054</b><br>Test class: com.YouMagicPro.LKA_tests.ContractKppLettersAndNumbersTest</td>
+<td></td>
+<td>21</td>
+<td>com.YouMagicPro.LKA_tests.ContractKppLettersAndNumbersTest@310c247a</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractOgrn6NumbersInTextFieldTest.contractOgrn6NumbersInTextFieldTest_C15055()'><b>contractOgrn6NumbersInTextFieldTest_C15055</b><br>Test class: com.YouMagicPro.LKA_tests.ContractOgrn6NumbersInTextFieldTest</td>
+<td></td>
+<td>22</td>
+<td>com.YouMagicPro.LKA_tests.ContractOgrn6NumbersInTextFieldTest@23cf68e9</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractOgrnLettersAndNumbersInTextFieldTest.contractOgrnLettersAndNumbersInTextFieldTest_C15057()'><b>contractOgrnLettersAndNumbersInTextFieldTest_C15057</b><br>Test class: com.YouMagicPro.LKA_tests.ContractOgrnLettersAndNumbersInTextFieldTest</td>
+<td></td>
+<td>22</td>
+<td>com.YouMagicPro.LKA_tests.ContractOgrnLettersAndNumbersInTextFieldTest@216f1cbc</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractOgrnLettersInTextFieldTest.contractOgrnLettersInTextFieldTest_C15056()'><b>contractOgrnLettersInTextFieldTest_C15056</b><br>Test class: com.YouMagicPro.LKA_tests.ContractOgrnLettersInTextFieldTest</td>
+<td></td>
+<td>25</td>
+<td>com.YouMagicPro.LKA_tests.ContractOgrnLettersInTextFieldTest@4ba046fe</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractOgrnOneNumberInTextFieldTest.contractOgrnOneNumberInTextFieldTest_C15053()'><b>contractOgrnOneNumberInTextFieldTest_C15053</b><br>Test class: com.YouMagicPro.LKA_tests.ContractOgrnOneNumberInTextFieldTest</td>
+<td></td>
+<td>20</td>
+<td>com.YouMagicPro.LKA_tests.ContractOgrnOneNumberInTextFieldTest@5c78bca</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.EmployeesCheckInfoTest.employeesCheckInfoTest_C15252()'><b>employeesCheckInfoTest_C15252</b><br>Test class: com.YouMagicPro.LKA_tests.EmployeesCheckInfoTest</td>
+<td></td>
+<td>14</td>
+<td>com.YouMagicPro.LKA_tests.EmployeesCheckInfoTest@96a0733</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.EmployeesEditProfile3SymbolsInTextFieldTest.employeesEditProfile3SymbolsInTextFieldTest_C15256()'><b>employeesEditProfile3SymbolsInTextFieldTest_C15256</b><br>Test class: com.YouMagicPro.LKA_tests.EmployeesEditProfile3SymbolsInTextFieldTest</td>
+<td></td>
+<td>19</td>
+<td>com.YouMagicPro.LKA_tests.EmployeesEditProfile3SymbolsInTextFieldTest@555aad0c</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.EmployeesAddEmployeeTest.employeesEditProfileTest_C15253()'><b>employeesEditProfileTest_C15253</b><br>Test class: com.YouMagicPro.LKA_tests.EmployeesAddEmployeeTest</td>
+<td></td>
+<td>21</td>
+<td>com.YouMagicPro.LKA_tests.EmployeesAddEmployeeTest@4dff4999</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.EmployeesEditProfile2SymbolsInTextFieldTest.employeesEditProfileTest_C15253()'><b>employeesEditProfileTest_C15253</b><br>Test class: com.YouMagicPro.LKA_tests.EmployeesEditProfile2SymbolsInTextFieldTest</td>
+<td></td>
+<td>19</td>
+<td>com.YouMagicPro.LKA_tests.EmployeesEditProfile2SymbolsInTextFieldTest@7d16a957</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.EmployeesEditProfileFillInDataTest.employeesEditProfileTest_C15253()'><b>employeesEditProfileTest_C15253</b><br>Test class: com.YouMagicPro.LKA_tests.EmployeesEditProfileFillInDataTest</td>
+<td></td>
+<td>20</td>
+<td>com.YouMagicPro.LKA_tests.EmployeesEditProfileFillInDataTest@3a333bdb</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.EmployeesEditProfileTest.employeesEditProfileTest_C15253()'><b>employeesEditProfileTest_C15253</b><br>Test class: com.YouMagicPro.LKA_tests.EmployeesEditProfileTest</td>
+<td></td>
+<td>17</td>
+<td>com.YouMagicPro.LKA_tests.EmployeesEditProfileTest@52c22530</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ExpenseStructureAdditionalNumbersFeeTest.expenseStructureAdditionalNumbersFeeTest_C15096()'><b>expenseStructureAdditionalNumbersFeeTest_C15096</b><br>Test class: com.YouMagicPro.LKA_tests.ExpenseStructureAdditionalNumbersFeeTest</td>
+<td></td>
+<td>8</td>
+<td>com.YouMagicPro.LKA_tests.ExpenseStructureAdditionalNumbersFeeTest@572bd15e</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ExpenseStructureChooseAdditionalNumbersTest.expenseStructureChooseAdditionalNumbersTest_C15100()'><b>expenseStructureChooseAdditionalNumbersTest_C15100</b><br>Test class: com.YouMagicPro.LKA_tests.ExpenseStructureChooseAdditionalNumbersTest</td>
+<td></td>
+<td>11</td>
+<td>com.YouMagicPro.LKA_tests.ExpenseStructureChooseAdditionalNumbersTest@3458fd2</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ExpenseStructureChooseIntNumbersPageTest.expenseStructureChooseIntNumbersPageTest_C15102()'><b>expenseStructureChooseIntNumbersPageTest_C15102</b><br>Test class: com.YouMagicPro.LKA_tests.ExpenseStructureChooseIntNumbersPageTest</td>
+<td></td>
+<td>15</td>
+<td>com.YouMagicPro.LKA_tests.ExpenseStructureChooseIntNumbersPageTest@799ec4b6</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ExpenseStructureInternalNumbersFeeTest.expenseStructureInternalNumbersFeeTest_C15101()'><b>expenseStructureInternalNumbersFeeTest_C15101</b><br>Test class: com.YouMagicPro.LKA_tests.ExpenseStructureInternalNumbersFeeTest</td>
+<td></td>
+<td>8</td>
+<td>com.YouMagicPro.LKA_tests.ExpenseStructureInternalNumbersFeeTest@3f75c03e</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.DiscSpaceTest.expenseStructureTest()'><b>expenseStructureTest</b><br>Test class: com.YouMagicPro.LKA_tests.DiscSpaceTest</td>
+<td></td>
+<td>8</td>
+<td>com.YouMagicPro.LKA_tests.DiscSpaceTest@6244b22e</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.OrderDeliveryOfContractCancelButtonTest.expenseStructureTest()'><b>expenseStructureTest</b><br>Test class: com.YouMagicPro.LKA_tests.OrderDeliveryOfContractCancelButtonTest</td>
+<td></td>
+<td>17</td>
+<td>com.YouMagicPro.LKA_tests.OrderDeliveryOfContractCancelButtonTest@17e4be04</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.OrderDeliveryOfContractDropdownListTest.expenseStructureTest()'><b>expenseStructureTest</b><br>Test class: com.YouMagicPro.LKA_tests.OrderDeliveryOfContractDropdownListTest</td>
+<td></td>
+<td>17</td>
+<td>com.YouMagicPro.LKA_tests.OrderDeliveryOfContractDropdownListTest@34171a9b</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.ContractFillInDataTest.fillInContractDataTest()'><b>fillInContractDataTest</b><br>Test class: com.YouMagicPro.LKA_tests.ContractFillInDataTest</td>
+<td></td>
+<td>29</td>
+<td>com.YouMagicPro.LKA_tests.ContractFillInDataTest@4c418cf</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.NotificationsCheckFieldsTest.orderByEmailCancelButtonTest_C15141()'><b>orderByEmailCancelButtonTest_C15141</b><br>Test class: com.YouMagicPro.LKA_tests.NotificationsCheckFieldsTest</td>
+<td></td>
+<td>33</td>
+<td>com.YouMagicPro.LKA_tests.NotificationsCheckFieldsTest@2457256f</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.OrderByEmailCancelButtonTest.orderByEmailCancelButtonTest_C15141()'><b>orderByEmailCancelButtonTest_C15141</b><br>Test class: com.YouMagicPro.LKA_tests.OrderByEmailCancelButtonTest</td>
+<td></td>
+<td>17</td>
+<td>com.YouMagicPro.LKA_tests.OrderByEmailCancelButtonTest@c0e1c69</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.OrderByEmailChangeEmailTest.orderByEmailChangeEmailTest_C25653()'><b>orderByEmailChangeEmailTest_C25653</b><br>Test class: com.YouMagicPro.LKA_tests.OrderByEmailChangeEmailTest</td>
+<td></td>
+<td>18</td>
+<td>com.YouMagicPro.LKA_tests.OrderByEmailChangeEmailTest@794f47c</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.OrderByEmailChangeNameTest.orderByEmailChangeNameTest_C25671()'><b>orderByEmailChangeNameTest_C25671</b><br>Test class: com.YouMagicPro.LKA_tests.OrderByEmailChangeNameTest</td>
+<td></td>
+<td>18</td>
+<td>com.YouMagicPro.LKA_tests.OrderByEmailChangeNameTest@6b6622e6</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.OrderByEmailOrderWithoutDocTypeCheckedTest.orderByEmailOrderWithoutDocTypeCheckedTest_C25656()'><b>orderByEmailOrderWithoutDocTypeCheckedTest_C25656</b><br>Test class: com.YouMagicPro.LKA_tests.OrderByEmailOrderWithoutDocTypeCheckedTest</td>
+<td></td>
+<td>19</td>
+<td>com.YouMagicPro.LKA_tests.OrderByEmailOrderWithoutDocTypeCheckedTest@18515783</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.OrderByPickUpCancelButtonTest.orderByPickUpCancelButtonTest_C25664()'><b>orderByPickUpCancelButtonTest_C25664</b><br>Test class: com.YouMagicPro.LKA_tests.OrderByPickUpCancelButtonTest</td>
+<td></td>
+<td>17</td>
+<td>com.YouMagicPro.LKA_tests.OrderByPickUpCancelButtonTest@2a7704dd</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.OrderByPickUpChangeNameTest.orderByPickUpChangeNameTest_C25668()'><b>orderByPickUpChangeNameTest_C25668</b><br>Test class: com.YouMagicPro.LKA_tests.OrderByPickUpChangeNameTest</td>
+<td></td>
+<td>16</td>
+<td>com.YouMagicPro.LKA_tests.OrderByPickUpChangeNameTest@6b3782c3</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.OrderByPickUpOrderWithoutDocTypeCheckedTest.orderByPickUpOrderWithoutDocTypeCheckedTest_C25663()'><b>orderByPickUpOrderWithoutDocTypeCheckedTest_C25663</b><br>Test class: com.YouMagicPro.LKA_tests.OrderByPickUpOrderWithoutDocTypeCheckedTest</td>
+<td></td>
+<td>21</td>
+<td>com.YouMagicPro.LKA_tests.OrderByPickUpOrderWithoutDocTypeCheckedTest@63292d35</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.OrderToAdressCancelButtonClickTest.orderToAdressCancelButtonClickTest_C25675()'><b>orderToAdressCancelButtonClickTest_C25675</b><br>Test class: com.YouMagicPro.LKA_tests.OrderToAdressCancelButtonClickTest</td>
+<td></td>
+<td>17</td>
+<td>com.YouMagicPro.LKA_tests.OrderToAdressCancelButtonClickTest@44865ee</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.VoiceMenuChooseSoundTest.voiceMailChooseSoundTest_C15294()'><b>voiceMailChooseSoundTest_C15294</b><br>Test class: com.YouMagicPro.LKA_tests.VoiceMenuChooseSoundTest</td>
+<td></td>
+<td>23</td>
+<td>com.YouMagicPro.LKA_tests.VoiceMenuChooseSoundTest@6faa7dbc</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.VoiceMenuEmptyNameTextFieldTest.voiceMailEmptyNameTextFieldTest_C19851()'><b>voiceMailEmptyNameTextFieldTest_C19851</b><br>Test class: com.YouMagicPro.LKA_tests.VoiceMenuEmptyNameTextFieldTest</td>
+<td></td>
+<td>20</td>
+<td>com.YouMagicPro.LKA_tests.VoiceMenuEmptyNameTextFieldTest@599a4de1</td></tr>
+<tr>
+<td title='com.YouMagicPro.LKA_tests.VoiceMenuAddTest.voiceMenuAddTest_C15292()'><b>voiceMenuAddTest_C15292</b><br>Test class: com.YouMagicPro.LKA_tests.VoiceMenuAddTest</td>
+<td></td>
+<td>20</td>
+<td>com.YouMagicPro.LKA_tests.VoiceMenuAddTest@3929d28</td></tr>
+</table><p>
+</body>
+</html>

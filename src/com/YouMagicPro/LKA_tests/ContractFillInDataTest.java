@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class ContractFillInDataTest  extends TestBase{
 
     	@Test
-    	public void fillInContractDataTest() {  		
+    	public void fillInContractDataTest_C14998() {  		
     		waitContractPageToLoad();
     		
     		driver.findElement(By.id("edit-buisness-form-company")).sendKeys("1234");//заполнение данными

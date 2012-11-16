@@ -1,13 +1,18 @@
 package com.YouMagicPro.LKS_tests;
 
+import java.io.IOException;
+
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 
+import com.registration.tests.TestBaseReg;
+import com.thoughtworks.selenium.Selenium;
 
 
-public class AddAndDeleteContactTest   extends TestBase{
+public class AddAndDeleteContactTest extends TestBaseReg{
 	@Test
-	public void addAndDeleteContactTest () throws Exception {	 
+	public void addAndDeleteContactTest () throws Exception {	
+    	
 		selenium.open("http://umagicpro-pp.rnd.mtt/"); //Вход на сайт http://umagicpro-pp/
 		selenium.waitForPageToLoad("30000");
 		selenium.click("link=Сотрудник");

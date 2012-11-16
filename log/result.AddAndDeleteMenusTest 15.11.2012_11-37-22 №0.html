@@ -1,0 +1,94 @@
+<html>
+<head><meta content="text/html; charset=UTF-8" http-equiv="content-type"><meta content="cache-control" http-equiv="no-cache"><meta content="pragma" http-equiv="no-cache"><style type="text/css">
+body, table {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    font-style: italic;
+}
+
+.selected {
+    background-color: #ffffcc;
+}
+
+.status_done {
+    background-color: #eeffee;
+}
+
+.status_passed {
+    background-color: #ccffcc;
+}
+
+.status_failed {
+    background-color: #ffcccc;
+}
+
+.status_maybefailed {
+    background-color: #ffffcc;
+}
+
+.breakpoint {
+    background-color: #cccccc;
+    border: 1px solid black;
+}
+</style>
+<title>Test results</title></head>
+<body>
+ <span style="font-size:9px;font-family:arial,verdana,sans-serif;">HTML Logging of Junit driven Selenium-RC Tests. Contributed by Robert Zimmermann (unitedinternet.com)</span><h1>Test results </h1>
+<table>
+<tr><td>user-agent:</td><td>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0</td></tr>
+<tr><td>selenium-rc:</td><td> vUNKNOWN [UNKNOWN]</td></tr>
+<tr><td>selenium-core:</td><td> vUNKNOWN [UNKNOWN]</td></tr>
+<tr><td>LoggingSelenium:</td><td> revision [96]</td></tr>
+<tr><td>test-started:</td><td>11:37:28 15-11-2012</td></tr>
+<tr><td>test-finished:</td><td>11:37:55 15-11-2012</td></tr>
+<tr><td>test-duration [ms]:</td><td>26 488</td></tr>
+<tr><td>commands processed:</td><td>20</td></tr>
+<tr><td>verifications processed:</td><td>0</td></tr>
+<tr class="status_failed"><td>failed commands:</td><td>1</td></tr>
+<tr class="status_failed"><td>last failed message:</td><td>ERROR: Element css=span.bSongFiles_AddFileText not found</td></tr>
+
+<tr><td>commands not logged:</td><td>{getHtmlSource}</td></tr>
+</table>
+<table border="1"><tbody><tr><td><b>Selenium-Command</b></td><td><b>Parameter-1</b></td><td><b>Parameter-2</b></td><td><b>Res.RC</b></td><td><b>Res.Selenium</b></td><td><b>Time [ms]</b></td><td><b>Calling-Class with Linenumber</b></td></tr>
+<tr class="title"><td colspan="7">executing createNewLoggingSelenium()<span style="font-size:9px;font-family:arial,verdana,sans-serif;"></span></td></tr>
+<tr class="status_done" title="" alt=""><td>windowFocus</td><td>&nbsp;</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">31</td><td>com.example.tests.SeleniumHelper#69</td></tr>
+<tr class="status_done" title="" alt=""><td>windowMaximize</td><td>&nbsp;</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">16</td><td>com.example.tests.SeleniumHelper#70</td></tr>
+<tr class="title"><td colspan="7">executing getSelenium()<span style="font-size:9px;font-family:arial,verdana,sans-serif;"></span></td></tr>
+<tr class="status_passed" title="" alt=""><td>getLocation</td><td>&nbsp;</td><td>&nbsp;</td><td>OK</td><td>http://localhost:4444/selenium-server/core/Blank.html?start=true</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">31</td><td>com.example.tests.SeleniumHelper#30</td></tr>
+<tr class="title"><td colspan="7">executing addAndDeleteMenusTest()<span style="font-size:9px;font-family:arial,verdana,sans-serif;"></span></td></tr>
+<tr class="status_done" title="" alt=""><td>open</td><td>http://umagicpro-pp.rnd.mtt/</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">4586</td><td>com.LKA_Tests.AddAndDeleteMenusTest#11</td></tr>
+<tr class="status_done" title="" alt=""><td>waitForPageToLoad</td><td>30000</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">0</td><td>com.LKA_Tests.AddAndDeleteMenusTest#12</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>link=Администратор</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">63</td><td>com.LKA_Tests.AddAndDeleteMenusTest#13</td></tr>
+<tr class="status_done" title="" alt=""><td>waitForPageToLoad</td><td>90000</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">2761</td><td>com.LKA_Tests.AddAndDeleteMenusTest#14</td></tr>
+<tr class="status_done" title="" alt=""><td>type</td><td>id=edit-name-1</td><td>100126</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">374</td><td>com.LKA_Tests.AddAndDeleteMenusTest#15</td></tr>
+<tr class="status_done" title="" alt=""><td>type</td><td>id=edit-pass-1</td><td>1234</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">16</td><td>com.LKA_Tests.AddAndDeleteMenusTest#16</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>id=edit-submit-1</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">78</td><td>com.LKA_Tests.AddAndDeleteMenusTest#17</td></tr>
+<tr class="status_done" title="" alt=""><td>waitForPageToLoad</td><td>60000</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">12807</td><td>com.LKA_Tests.AddAndDeleteMenusTest#18</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>css=a.bPopup__eClose.instructions-close</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">16</td><td>com.LKA_Tests.AddAndDeleteMenusTest#19</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>css=span.modal_cansel_button_text</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">31</td><td>com.LKA_Tests.AddAndDeleteMenusTest#20</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>link=Настройки</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">62</td><td>com.LKA_Tests.AddAndDeleteMenusTest#22</td></tr>
+<tr class="status_done" title="" alt=""><td>waitForPageToLoad</td><td>60000</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">2340</td><td>com.LKA_Tests.AddAndDeleteMenusTest#23</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>//div[4]/a/div</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">63</td><td>com.LKA_Tests.AddAndDeleteMenusTest#24</td></tr>
+<tr class="status_done" title="" alt=""><td>waitForPageToLoad</td><td>30000</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">1731</td><td>com.LKA_Tests.AddAndDeleteMenusTest#25</td></tr>
+<tr class="status_done"><td colspan="5" valign="center" align="center" halign="center"><a href="automaticErrorScreenshot2012-11-15_11-37.png"><img src="automaticErrorScreenshot2012-11-15_11-37.png" width="200" height="200" alt="Selenium Screenshot" title="Selenium Screenshot"/><br/>automaticErrorScreenshot2012-11-15_11-37.png</a></td><td>1 357</td><td>com.LKA_Tests.AddAndDeleteMenusTest#26</td></tr>
+<tr class="status_failed" title="" alt=""><td>click</td><td>css=span.bSongFiles_AddFileText</td><td>&nbsp;</td><td>ERROR</td><td> com.thoughtworks.selenium.SeleniumException - ERROR: Element css=span.bSongFiles_AddFileText not found</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">1357</td><td>com.LKA_Tests.AddAndDeleteMenusTest#26</td></tr>
+<tr class="title"><td colspan="7">executing dismissSelenium()<span style="font-size:9px;font-family:arial,verdana,sans-serif;"></span></td></tr>
+<tr class="status_done" title="" alt=""><td>close</td><td>&nbsp;</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">31</td><td>com.example.tests.SeleniumHelper#79</td></tr>
+</tbody></table></body></html>
