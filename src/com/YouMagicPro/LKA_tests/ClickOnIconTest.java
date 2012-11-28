@@ -19,7 +19,7 @@ public void clickOnIconTest () throws Exception {
 		selenium.click("css=a.bPopup__eClose.instructions-close");//закрытие всплывающих окон
 		selenium.click("css=span.modal_cansel_button_text");
 		
-		selenium.click("//div[4]/a");
+		//selenium.click("//div[4]/a");
 		
 		selenium.click("css=a.bHeader__eLogo"); // Ќажатие на логотипе 
 		selenium.waitForPageToLoad("30000");

@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class OrderDeliveryOfContractCancelButtonTest  extends TestBase{
 	@Test
-	public void expenseStructureTest() {
+	public void orderDeliveryOfContractCancelButtonTest() {
 		waitAdminPageToLoadSecondAccount();
 		
 		driver.findElement(By.xpath("//div[6]/div[2]/span/a")).click();

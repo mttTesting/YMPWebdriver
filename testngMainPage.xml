@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="com.LKA_tests">
- <test verbose="2" name="com.LKA_tests">
+<suite name="com.YouMagicPro.mainPageTests">
+ <test verbose="2" name="com.YouMagicPro.mainPageTests">
     <packages>
-     <package name="com.YouMagicPro.LKS_tests"/>
+     <package name="com.YouMagicPro.mainPageTests"/>
     </packages>
  </test>
 </suite>

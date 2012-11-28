@@ -19,8 +19,8 @@ public void clickOnExitTest () throws Exception {
 		selenium.click("css=a.bPopup__eClose.instructions-close");//закрытие всплывающих окон
 		selenium.click("css=span.modal_cansel_button_text");
 		
-		selenium.click("//td[2]/div/span"); 
-		selenium.click("//div[4]/a");
+		//selenium.click("//td[2]/div/span"); 
+		//selenium.click("//div[4]/a");
 		
 		selenium.click("css=span.logout_user > a"); //Клик по кнопке "Выйти"
 		selenium.waitForPageToLoad("30000");

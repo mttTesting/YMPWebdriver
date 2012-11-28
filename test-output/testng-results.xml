@@ -2,24 +2,29 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6128" started-at="2012-11-16T12:06:28Z" finished-at="2012-11-16T12:06:34Z">
+  <suite name="Default suite" duration-ms="12936" started-at="2012-11-26T08:58:15Z" finished-at="2012-11-26T08:58:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6128" started-at="2012-11-16T12:06:28Z" finished-at="2012-11-16T12:06:34Z">
-      <class name="com.YouMagicPro.authorization.AuthorizationAdminNoFieldsFilledTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.authorization.AuthorizationAdminNoFieldsFilledTest@152b4053]" name="startWebDriver" is-config="true" duration-ms="1572" started-at="2012-11-16T16:06:28Z" finished-at="2012-11-16T16:06:30Z">
+    <test name="Default test" duration-ms="12936" started-at="2012-11-26T08:58:15Z" finished-at="2012-11-26T08:58:28Z">
+      <class name="com.YouMagicPro.mainPageTests.CheckForAvaliabilityYourVoiceMenuPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.YouMagicPro.mainPageTests.CheckForAvaliabilityYourVoiceMenuPageTest@66c540d0]" name="setUp" is-config="true" duration-ms="7320" started-at="2012-11-26T12:58:15Z" finished-at="2012-11-26T12:58:22Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="authorizationNoLoginTest()[pri:0, instance:com.YouMagicPro.authorization.AuthorizationAdminNoFieldsFilledTest@152b4053]" name="authorizationNoLoginTest" duration-ms="4550" started-at="2012-11-16T16:06:30Z" finished-at="2012-11-16T16:06:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkForAvaliabilityYourVoiceMenuPageTest()[pri:0, instance:com.YouMagicPro.mainPageTests.CheckForAvaliabilityYourVoiceMenuPageTest@66c540d0]" name="checkForAvaliabilityYourVoiceMenuPageTest" duration-ms="5257" started-at="2012-11-26T12:58:22Z" finished-at="2012-11-26T12:58:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- authorizationNoLoginTest -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.authorization.AuthorizationAdminNoFieldsFilledTest@152b4053]" name="closeSession" is-config="true" duration-ms="2" started-at="2012-11-16T16:06:34Z" finished-at="2012-11-16T16:06:34Z">
+        </test-method> <!-- checkForAvaliabilityYourVoiceMenuPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.YouMagicPro.mainPageTests.CheckForAvaliabilityYourVoiceMenuPageTest@66c540d0]" name="tearDown" is-config="true" duration-ms="359" started-at="2012-11-26T12:58:28Z" finished-at="2012-11-26T12:58:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.authorization.AuthorizationAdminNoFieldsFilledTest -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.YouMagicPro.mainPageTests.CheckForAvaliabilityYourVoiceMenuPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

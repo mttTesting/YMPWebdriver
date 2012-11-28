@@ -21,6 +21,9 @@
           <configuration>
             <suiteXmlFiles>
               <suiteXmlFile>testngLKA.xml</suiteXmlFile>
+              <suiteXmlFile>testngAuthorization.xml</suiteXmlFile>
+              <suiteXmlFile>testngRegistration.xml</suiteXmlFile>
+              <suiteXmlFile>testngMainPage.xml</suiteXmlFile>
             </suiteXmlFiles>
           </configuration>
         </plugin>

@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class DiscSpaceTest  extends TestBase{
 	@Test
-	public void expenseStructureTest() {
+	public void discSpaceTest() {
 		waitAdminPageToLoad();
 		
 		driver.findElement(By.id("free_space_all")).isDisplayed();//проверка наличия виджета с отображением свободного места

@@ -22,7 +22,7 @@ public class DetalizationPageTest  extends TestBaseReg{
 		selenium.click("link=Платежи");
 		Thread.sleep(3000);
 		
-		selenium.click("//div[2]/a/div");
+		//selenium.click("//div[2]/a/div");
 		selenium.waitForPageToLoad("30000");
 		AssertJUnit.assertTrue(selenium.isElementPresent("id=edit-from-date-datepicker-popup-0"));
 		AssertJUnit.assertTrue(selenium.isElementPresent("id=edit-to-date-datepicker-popup-0"));

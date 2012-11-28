@@ -115,7 +115,7 @@ import org.testng.annotations.BeforeTest;
 	    	driver.get("http://umagicpro-pp.rnd.mtt/");//открытие портала
 	    	driver.findElement(By.xpath("//span")).click();//нажатие на кнопку "Вход"
 	    	driver.switchTo().frame("iframe_autor");
-	    	driver.findElement(By.id("edit-name-1")).sendKeys("100177");//ввод логина пароля
+	    	driver.findElement(By.id("edit-name-1")).sendKeys("100192");//ввод логина пароля
 	    	driver.findElement(By.id("edit-pass-1")).sendKeys("1234");		
 	    	driver.findElement(By.id("edit-submit-1")).click();//нажатие на кнопку "Вход"
 	    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
@@ -134,7 +134,7 @@ import org.testng.annotations.BeforeTest;
 	    	
 	    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
 	    	
-	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
+	    	driver.findElement(By.xpath("//div[4]/a")).click();
 	    	driver.findElement(By.xpath("//td[2]/div/span")).click();
 	    	
 	    	driver.findElement(By.xpath("//div[5]/div[2]/span/a")).click(); //Нажатие "Оформить"

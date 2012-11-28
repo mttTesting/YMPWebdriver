@@ -23,7 +23,7 @@ public class AddAndDeleteMenusTest extends TestBaseReg{
 		selenium.waitForPageToLoad("60000");
 		selenium.click("//div[4]/a/div");
 		selenium.waitForPageToLoad("30000");
-		selenium.click("//div[3]/div[2]/a/span"); //Клик по ссылке "Добавить меню"
+		selenium.click("css=span.bSongFiles_AddFileText"); //Клик по ссылке "Добавить меню"
 		Thread.sleep(17000);
 		
 		

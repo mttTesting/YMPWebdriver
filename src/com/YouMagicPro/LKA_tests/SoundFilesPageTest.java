@@ -19,8 +19,8 @@ public class SoundFilesPageTest extends TestBaseReg{
 		selenium.click("css=a.bPopup__eClose.instructions-close");//закрытие всплывающих окон
 		selenium.click("css=span.modal_cansel_button_text");
 		
-		selenium.click("//td[2]/div/span");
-		selenium.click("//div[4]/a");
+		//selenium.click("//td[2]/div/span");
+		//selenium.click("//div[4]/a");
 		selenium.click("//div/span[3]/a"); // Переход в меню "Файлы"->"Звуковые файлы"
 		selenium.waitForPageToLoad("30000");
 		selenium.click("//div[2]/a/div");
